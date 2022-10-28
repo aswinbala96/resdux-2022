@@ -4,8 +4,16 @@ import Navbar from '../components/Navbar'
 import TitleSpaceProject from '../components/TitleSpacePages/index_project'
 import TitleSpaceResources from '../components/TitleSpacePages/index_resources'
 import "./logistic.css"
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-247449191-1');
 
 const ResourcesPage = () => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+  
+  
   return (
     <>
         <Navbar/>

@@ -4,8 +4,16 @@ import Navbar from '../components/Navbar'
 import Hexagon from 'react-hexagon'
 import TitleSpaceProject from '../components/TitleSpacePages/index_project'
 import "./project.css"
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-247449191-1');
 
 const ProjectPage = () => {
+  
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+  
   return (
     <>
         <Navbar/>

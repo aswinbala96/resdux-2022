@@ -6,16 +6,16 @@ import ProjectPage from './pages/project';
 import CalendarPage from './pages/calendar';
 import DeliverablesPage from './pages/deliverables';
 import ResourcesPage from './pages/resources';
+import React from 'react';
 import ReactGA from 'react-ga';
-import React, { useEffect } from 'react';
 
-function initializeReactGA() {
-  ReactGA.initialize('UA-247467738-1');
-  ReactGA.pageview('/resdux-2022');
-}
+ReactGA.initialize('UA-247449191-1');
 
 function App() {
-  initializeReactGA();
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+  
   return (
     <Router basename='/resdux-2022'>
       <Routes>

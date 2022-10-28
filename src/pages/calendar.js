@@ -3,9 +3,17 @@ import Content from '../components/Content'
 import Navbar from '../components/Navbar'
 import TitleSpaceCalendar from '../components/TitleSpacePages/index_calendar'
 import "./calendar.css"
+import ReactGA from 'react-ga';
 
+ReactGA.initialize('UA-247449191-1');
 
 const CalendarPage = () => {
+  
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
+
   return (
     <>
         <Navbar/>

@@ -3,8 +3,16 @@ import Content from '../components/Content'
 import Navbar from '../components/Navbar'
 import TitleSpaceDeliverables from '../components/TitleSpacePages/index_deliverables'
 import "./deliverables.css"
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-247449191-1');
 
 const DeliverablesPage = () => {
+  
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+  
   return (
     <>
         <Navbar/>

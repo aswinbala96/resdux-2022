@@ -14,8 +14,16 @@ import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material/Button";
 // ****************************************
 import "./logistic.css"
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-247449191-1');
 
 const LogisticPage = () => {
+  
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+  
   return (
     <>
         <Navbar/>
