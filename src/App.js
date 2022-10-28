@@ -14,7 +14,7 @@ function App() {
   useEffect(() =>{
     ReactGa.initialize('UA-247467738-1')
 
-    ReactGa.pageview('/resdux-2022')
+    ReactGa.pageview('/')
   }, [])  
 
   return (
