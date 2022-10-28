@@ -9,14 +9,12 @@ import ResourcesPage from './pages/resources';
 import ReactGa from 'react-ga';
 import React, { useEffect } from 'react';
 
+function initializeReactGA() {
+  ReactGA.initialize('UA-123791717-1');
+  ReactGA.pageview('/homepage');
+}
+
 function App() {
-
-  useEffect(() => {
-    ReactGa.initialize('UA-247467738-1')
-
-    ReactGa.pageview('/')
-  }, [])  
-
   return (
     <Router basename='/resdux-2022'>
       <Routes>
