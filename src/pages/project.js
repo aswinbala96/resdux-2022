@@ -1,6 +1,7 @@
 import React from 'react'
 import Content from '../components/Content'
 import Navbar from '../components/Navbar'
+import Hexagon from 'react-hexagon'
 import TitleSpaceProject from '../components/TitleSpacePages/index_project'
 import "./project.css"
 
@@ -26,59 +27,6 @@ const ProjectPage = () => {
                 <div className='content'>
                   <h3>Phase 1</h3>
                   <div className='bodytext'>
-                    <div style={{width:"fit-content", height: "10vh"}}>
-                      <div class="hex2-row">
-                        <div class="hex2">
-                          <div class="left">Hello</div>
-                          <div class="middle"></div>
-                          <div class="right"></div>
-                        </div>
-                        <div class="hex2 even">
-                          <div class="left">Hello</div>
-                          <div class="middle"></div>
-                          <div class="right"></div>
-                        </div>
-                        <div class="hex2">
-                          <div class="left"></div>
-                          <div class="middle"></div>
-                          <div class="right"></div>
-                        </div>
-                      </div>
-                      <div class="hex2-row">
-                        <div class="hex2">
-                          <div class="left"></div>
-                          <div class="middle"></div>
-                          <div class="right"></div>
-                        </div>
-                        <div class="hex2 even">
-                          <div class="left"></div>
-                          <div class="middle"></div>
-                          <div class="right"></div>
-                        </div>
-                        <div class="hex2">
-                          <div class="left"></div>
-                          <div class="middle"></div>
-                          <div class="right"></div>
-                        </div>
-                      </div>
-                      <div class="hex2-row">
-                      <div class="hex2">
-                          <div class="left"></div>
-                          <div class="middle"></div>
-                          <div class="right"></div>
-                        </div>
-                        <div class="hex2 even">
-                          <div class="left"></div>
-                          <div class="middle"></div>
-                          <div class="right"></div>
-                        </div>
-                        <div class="hex2">
-                          <div class="left"></div>
-                          <div class="middle"></div>
-                          <div class="right"></div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                   <h3>Section 2</h3>
                   <div className='bodytext'>
