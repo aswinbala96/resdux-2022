@@ -10,7 +10,7 @@ import ReactGa from 'react-ga';
 import React, { useEffect } from 'react';
 
 function initializeReactGA() {
-  ReactGa.initialize('UA-123791717-1');
+  ReactGa.initialize('UA-247467738-1');
   ReactGa.pageview('/homepage');
 }
 
