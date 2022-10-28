@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Content from '../components/Content'
 import Navbar from '../components/Navbar'
 import TitleSpaceLogistics from '../components/TitleSpacePages'

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Content from '../components/Content'
 import Navbar from '../components/Navbar'
 import TitleSpaceDeliverables from '../components/TitleSpacePages/index_deliverables'
@@ -12,7 +12,7 @@ const DeliverablesPage = () => {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname);
   }, []);
-  
+
   return (
     <>
         <Navbar/>

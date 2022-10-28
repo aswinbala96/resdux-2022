@@ -6,7 +6,7 @@ import ProjectPage from './pages/project';
 import CalendarPage from './pages/calendar';
 import DeliverablesPage from './pages/deliverables';
 import ResourcesPage from './pages/resources';
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
 
 ReactGA.initialize('UA-247449191-1');
