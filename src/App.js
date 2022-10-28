@@ -9,7 +9,7 @@ import ResourcesPage from './pages/resources';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/resdux-2022'>
       <Routes>
         <Route exact path ="/" element={<Home/>} />
         <Route exact path ="/project" element={<ProjectPage/>} />
