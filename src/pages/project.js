@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import Content from '../components/Content'
 import Navbar from '../components/Navbar'
-import Hexagon from 'react-hexagon'
 import TitleSpaceProject from '../components/TitleSpacePages/index_project'
 import "./project.css"
 import ReactGA from 'react-ga';
+import Hexagon1 from '../components/Hexagon1';
 
 ReactGA.initialize('UA-247449191-1');
 
@@ -35,6 +35,7 @@ const ProjectPage = () => {
                 <div className='content'>
                   <h3>Phase 1</h3>
                   <div className='bodytext'>
+                    <Hexagon1/>
                   </div>
                   <h3>Section 2</h3>
                   <div className='bodytext'>
