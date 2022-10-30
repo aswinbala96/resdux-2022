@@ -37,12 +37,13 @@ export const TitleH2 = styled(TypeAnimation)`
     }
 
     @media screen and (max-width: 850px) {
-        font-size: 16px;
+        font-size: 16px;        
     }
 
-    /* @media screen and (max-width: 730px) {
-        transform: rotate(-90deg);
-    } */
+    @media screen and (max-width: 800px) {
+        font-size: 14px !important;
+        margin-top: 0px;
+    }
 
 `
 
@@ -59,9 +60,9 @@ export const TitleH1 = styled.h1`
         font-size: 28px;
     }
 
-    /* @media screen and (max-width: 730px) {
-        transform: rotate(-90deg);
-    } */
+    @media screen and (max-width: 800px) {
+        font-size: 24px;
+    }
 `
 
 

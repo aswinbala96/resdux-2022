@@ -43,7 +43,7 @@
     font-family: 'Space Mono', monospace;
 }
 
-.ul-style{
+.ul-style-con{
     font-size: 15px;
     line-height: 1.6;
     margin-left: 20px;
@@ -169,29 +169,81 @@
     cursor: pointer;
 }
 
-
 .mainPageContent{
     display: none;
 }
 
 @media screen and (max-width: 1065px) {
-    .side-header{font-size: 18px;}
-    .ul-style{font-size: 14px;}
+    .side-header{font-size: 18px !important;}
+    .ul-style-con{font-size: 14px; margin-left: 15px !important;}
+    .title-con{font-size: 16px !important;}
+    .phasetextt{font-size: 18px !important}
+    .phasetext{font-size: 18px !important}
+    .phase-1{font-size: 18px !important;}
+    .phase-2{font-size: 18px !important;}
+    .phase-3{font-size: 18px !important;}
+    .phase-4{font-size: 18px !important;}
 }
 
 @media screen and (max-width: 993px) {
-    .side-header{font-size: 16px;}
-    .ul-style{font-size: 12px;}
+    .side-header{font-size: 16px !important;}
+    .ul-style-con{font-size: 12px; margin-left: 15px !important;}
+    .title-con{font-size: 14px !important;}
+    .phasetextt{font-size: 16px !important}
+    .phasetext{font-size: 16px !important}
+    .phase-1{font-size: 16px !important;}
+    .phase-2{font-size: 16px !important;}
+    .phase-3{font-size: 16px !important;}
+    .phase-4{font-size: 16px !important;}
 }
 
-@media screen and (max-width: 768px) {
-    .side-header{font-size: 14px;}
-    .ul-style{font-size: 10px;}
+@media screen and (max-width: 800px) {
+    .side-header{font-size: 14px !important;}
+    .ul-style-con{font-size: 10px; margin-left: 15px !important;}
+    .title-con{font-size: 12px !important;}
+    .phasetextt{font-size: 14px !important}
+    .phasetext{font-size: 14px !important}
+    .phase-1{font-size: 14px !important;}
+    .phase-2{font-size: 14px !important;}
+    .phase-3{font-size: 14px !important;}
+    .phase-4{font-size: 14px !important;}
+}
+
+
+@media screen and (max-width: 750px) {
+    .side-header{font-size: 12px !important;}
+    .ul-style-con{font-size: 8px !important; margin-left: 15px !important;}
+    .title-con{font-size: 10px !important;}
+    .phasetextt{font-size: 12px !important}
+    .phasetext{font-size: 12px !important}
+    .phase-1{font-size: 12px !important;}
+    .phase-2{font-size: 12px !important;}
+    .phase-3{font-size: 12px !important;}
+    .phase-4:hover{font-size: 12px !important;}
+}
+
+@media screen and (max-width: 500px) {
+    .side-header{font-size: 10px !important;}
+    .ul-style-con{font-size: 6px !important;}
+    .title-con{font-size: 9px !important;}
+    .phasetextt{font-size: 10px !important}
+    .phasetext{font-size: 10px !important}
+    .phase-1{font-size: 10px !important;}
+    .phase-2{font-size: 10px !important;}
+    .phase-3{font-size: 10px !important;}
+    .phase-4{font-size: 10px !important;}
 }
 
 @media screen and (max-width: 480px) {
-    .side-header{font-size: 12px;}
-    .ul-style{font-size: 8px; }
+    .side-header{font-size: 8px !important;}
+    .ul-style-con{font-size: 4px; }
+    .title-con{font-size: 8px !important;}
+    .phasetextt{font-size: 8px !important}
+    .phasetext{font-size: 8px !important}
+    .phase-1{font-size: 8px !important;}
+    .phase-2{font-size: 8px !important;}
+    .phase-3{font-size: 8px !important;}
+    .phase-4{font-size: 8px !important;}
 }
 
 

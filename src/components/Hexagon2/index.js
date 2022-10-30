@@ -1,43 +1,47 @@
 import React from 'react'
 import { GridGenerator, HexGrid, Layout, Path, Hexagon, Text, Pattern, Hex } from 'react-hexgrid';
-import "./hexagon1.css"
+import "./hexagon2.css"
 
-const Hexagon1 = () => {
+const Hexagon2 = () => {
     const hexagonSize = { x: 20, y: 20 };
-    const hexagons = GridGenerator.parallelogram(-2, 3, -2, 1);
-    const moreHexas = GridGenerator.parallelogram(-2, 2, -2, 2);
     return (
     <>
-        <HexGrid className="hexGrid" width={520} height={210} viewBox="-25 -40 100 65">
+        <HexGrid className="hexGrid" width={900} height={290} viewBox="-10 -40 100 85">
           {/* Main grid with bit hexagons, all manual */}
-          <Layout className="hexLayout" size={hexagonSize} flat={true} spacing={1.1} origin={{ x: 0, y: 0 }}>
-            <Hexagon q={-1} r={0} s={1} className="hexagons1-emphatize">
+          <Layout className="hexLayout" size={hexagonSize} flat={true} spacing={1.1} origin={{ x: -37, y: 0 }}>
+            <Hexagon q={-1} r={0} s={1} className="hexagons2-emphatize">
                 <Text>Emphatize</Text>
             </Hexagon>
-            <Hexagon q={0} r={-1} s={1} className="hexagons1">
-                <Text x={-3} y={10} >Context Analysis</Text>
+            <Hexagon q={0} r={-1} s={1} className="hexagons2">
+                <Text x={-10} y={5}><tspan dy="1.2em" x="-6">Observations</tspan><tspan dy="1.2em" x="-9" dx="1em">Interviews</tspan></Text>
             </Hexagon>
             {/* <Hexagon q={-1} r={1} s={0} className="hexagons">
               <Text>-1, 1, 0, Theorize</Text>
             </Hexagon> */}
-            <Hexagon q={0} r={0} s={0} className="hexagons1-define"> 
+            <Hexagon q={0} r={0} s={0} className="hexagons2-define"> 
                 <Text>Define</Text>
             </Hexagon>
-            <Hexagon q={1} r={0} s={-1} className="hexagons1">
-                <Text x={-8} y={-8} >Challenge</Text>
+            <Hexagon q={1} r={0} s={-1} className="hexagons2">
+                <Text x={-1} y={-8}>Updated Challenge</Text>
             </Hexagon>
-            <Hexagon q={1} r={-1} s={0} className="hexagons1-ideate">
+            <Hexagon q={1} r={-1} s={0} className="hexagons2-ideate">
               <Text>Ideate</Text>
             </Hexagon>
-            <Hexagon q={2} r={-2} s={0} className="hexagons1">
-                <Text x={-3} y={10} >Product Concept</Text>
+            <Hexagon q={2} r={-2} s={0} className="hexagons2">
+                <Text x={4} y={10}>Refined Product Concept</Text>
             </Hexagon>
-            {/* <Hexagon q={2} r={-1} s={-1} className="hexagons">
-              <Text>2, -1, -1, Prototype</Text>
+            <Hexagon q={2} r={-1} s={-1} className="hexagons2-prototype">
+              <Text>Prototype</Text>
             </Hexagon>
-            <Hexagon q={3} r={-1} s={-2} className="hexagons">
-              <Text>-1, 1, 0, Test</Text>
-            </Hexagon> */}
+            <Hexagon q={3} r={-2} s={-1} className="hexagons2">
+                <Text x={13} y={10}>Lo-Fi Prototype of Key Interactions</Text>
+            </Hexagon>
+            <Hexagon q={3} r={-1} s={-2} className="hexagons2-test">
+              <Text>Test</Text>
+            </Hexagon>
+            <Hexagon q={4} r={-2} s={-2} className="hexagons2">
+              <Text x={-10} y={5}><tspan dy="1.2em" x="0">User Confrontations</tspan><tspan dy="1.2em" x="-1" dx="1em">Formulative Testing</tspan></Text>
+            </Hexagon>
             {/* Using pattern (defined below) to fill the hexagon */}
             {/* <Hexagon q={0} r={-1} s={1} fill="pat-1">
                 <Text>0,-1,1</Text>
@@ -65,4 +69,4 @@ const Hexagon1 = () => {
   )
 }
 
-export default Hexagon1
+export default Hexagon2

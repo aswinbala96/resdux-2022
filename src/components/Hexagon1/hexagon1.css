@@ -9,34 +9,109 @@ Russian blue pattern:
 #133b43
 #03090a
 */
-svg g {
-  fill: #4499a9;
+.hexagons1{
+  fill: transparent;
+  stroke: none;
+}
+
+.hexagons1 text {
+  font-size: 0.2em;
+  fill: black;
+  font-weight: 550;
+  padding-bottom: -10;
+}
+
+
+.hexagons1-emphatize {
+  fill: transparent;
   fill-opacity: 0.6;
+  cursor: pointer;
 }
-svg g:hover {
+
+.hexagons1-emphatize:hover {
   fill: #7be3f6;
-  fill-opacity: 0.7;
+  fill-opacity: 0.1;
 }
-svg g:hover text {
+
+.hexagons1-emphatize:hover text {
   fill-opacity: 1;
 }
 
-svg g polygon {
-  stroke: #7be3f6;
-  stroke-width: 0.2;
-  transition: fill-opacity .5s;
+.hexagons1-emphatize polygon {
+  stroke: #63B1E5;
+  stroke-width: 1;
+  /* transition: fill-opacity .5s; */
 }
-svg g text {
-  font-size: 0.22em;
-  fill: white;
+
+.hexagons1-emphatize text {
+  font-size: 0.3em;
+  fill: black;
+  font-weight: bold;
   fill-opacity: 0.7;
   transition: fill-opacity .5s;
 }
-svg path {
-  fill: none;
-  stroke: #7be3f6;
-  stroke-width: 0.2em;
-  stroke-opacity: 0.7;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+
+
+.hexagons1-define {
+  fill: transparent;
+  fill-opacity: 0.6;
+  cursor: pointer;
 }
+
+.hexagons1-define:hover {
+  fill: #64a464;
+  fill-opacity: 0.1;
+}
+
+.hexagons1-define:hover text {
+  fill-opacity: 1;
+}
+
+.hexagons1-define polygon {
+  stroke: #34B234; 
+  stroke-width: 1;
+  /* transition: fill-opacity .5s; */
+}
+
+.hexagons1-define text {
+  font-size: 0.3em;
+  fill: black;
+  font-weight: bold;
+  fill-opacity: 0.7;
+  transition: fill-opacity .5s;
+}
+
+
+.hexagons1-ideate {
+  fill: transparent;
+  fill-opacity: 0.6;
+  cursor: pointer;
+}
+
+.hexagons1-ideate:hover {
+  fill: #be4f8c;
+  fill-opacity: 0.1;
+}
+
+.hexagons1-ideate:hover text {
+  fill-opacity: 1;
+}
+
+.hexagons1-ideate polygon {
+  stroke: #CF0071;
+  stroke-width: 1;
+  /* transition: fill-opacity .5s; */
+}
+
+.hexagons1-ideate text {
+  font-size: 0.3em;
+  font-weight: bold;
+  fill: black;
+  fill-opacity: 0.7;
+  transition: fill-opacity .5s;
+}
+
+
+.hexGrid{}
+
+.hexLayout{}

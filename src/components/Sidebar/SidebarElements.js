@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { AiOutlineClose } from "react-icons/ai";
-import {Link as LinkS} from "react-scroll";
+// import CloseIcon from '@mui/icons-material/Close';
+import {Link as LinkS} from "react-router-dom";
 
 
 export const SidebarContainer = styled.aside`
@@ -20,10 +21,9 @@ export const SidebarContainer = styled.aside`
 
 export const CloseIcon = styled(AiOutlineClose)`
     color: black;
-
     :hover{
         color: hotpink;
-        transition: 0.3s ease-in-out;
+        transition: 0.1s ease-in-out;
     }
 
 `

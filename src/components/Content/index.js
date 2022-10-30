@@ -16,17 +16,15 @@ function Content() {
             <ContentCointainer>
                 <SidePanel>
                     <h2 class= 'side-header'>Important Dates</h2>
-                    <ul class= 'ul-style'>
+                    <ul class= 'ul-style-con'>
                         <li style={{fontFamily: "Inconsolata, monospace"}}>
                             <span class = 'highlight'>[14/11]</span>: Deliverable 1
                         </li>
-
                         <li style={{fontFamily: "Inconsolata, monospace"}}>
                             <span class = 'highlight'>
                                 [14/11]
                             </span>: Deliverable 2
                         </li>
-
                         <li style={{fontFamily: "Inconsolata, monospace"}}>
                             <span class = 'highlight'>
                                 [14/11]
@@ -34,7 +32,7 @@ function Content() {
                         </li>
                     </ul>
                     <h2 class= 'side-header'>Staff Info</h2>
-                    <ul class= 'ul-style'>
+                    <ul class= 'ul-style-con'>
                         <li ><span class = 'highlight'>Dees Postma</span></li>
                         <li><span class = 'highlight'>Champika Ranasinghe</span></li>
                         <li><span class = 'highlight'>Aswin B</span></li>
@@ -50,7 +48,7 @@ function Content() {
                 </SidePanel>
                 <MainPanel>
                     <div style={{display: "flex", flexDirection: 'column', width: "100%", height: "98%"}}>
-                        <div style={{display: isShown ? 'block' : 'none'}}>
+                        <div style={{display: isShown ? 'none' : 'block'}}>
                             <div class = 'phase-bar' style={{height: "10vh"}}>
                                 <div onClick={handleClick} class = 'phase-1'>
                                     Phase 1
@@ -66,11 +64,11 @@ function Content() {
                                 </div>
                             </div>
                         </div>
-                        <div style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown ? 'none' : 'block'}}>
+                        <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown ? 'block' : 'none'}}>
                             Project Phase Timeline Overview (Click on Various Elements!)
                         </div>
                         {/* alignItems: "center", justifyContent: "center" */}
-                        <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown ? 'none' : 'flex'}}>
+                        <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown ? 'flex' : 'none'}}>
                             <div style={{display: "flex", flexDirection: "column", width: "100%", height: "80%"}}>
                                 <div className= "TTextContainer" style={{flex: 1, display: "flex", backgroundColor: "white", width: "100%", height: "100%", marginRight: "15px", paddingTop: "5px"}}>
                                     <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
@@ -190,7 +188,6 @@ function Content() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </MainPanel>
             </ContentCointainer>

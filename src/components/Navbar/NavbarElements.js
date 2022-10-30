@@ -57,7 +57,11 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: black
+        color: black;
+        :hover{
+            transition: 0.1s ease-in-out;
+            color: hotpink;
+        }
     }
 `
 export const NavMenu = styled.ul`

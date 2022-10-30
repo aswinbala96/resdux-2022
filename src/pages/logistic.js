@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Content from '../components/Content'
 import Navbar from '../components/Navbar'
+import Sidebar from '../components/Sidebar'
 import TitleSpaceLogistics from '../components/TitleSpacePages'
 
 // **********************************
@@ -19,6 +20,11 @@ import ReactGA from 'react-ga';
 ReactGA.initialize('UA-247449191-1');
 
 const LogisticPage = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
   
   useEffect(() => {
     ReactGA.pageview(window.location.pathname);
@@ -26,7 +32,8 @@ const LogisticPage = () => {
   
   return (
     <>
-        <Navbar/>
+        <Sidebar isOpen = {isOpen} toggle = {toggle}/>
+        <Navbar toggle = {toggle}/>
         <div className='infoSpace'>
           <div className='infoContainer'>
             <div className='infoLeft'>

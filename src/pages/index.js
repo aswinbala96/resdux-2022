@@ -21,10 +21,10 @@ const Home = () => {
 
   return (
     <>
-        <Sidebar isOpen = {isOpen} toggle = {toggle}/>
-        <Navbar toggle = {toggle}/>
-        <TitleSpace/>
-        <Content/>
+      <Sidebar isOpen = {isOpen} toggle = {toggle}/>
+      <Navbar toggle = {toggle}/>
+      <TitleSpace/>
+      <Content/>
     </>
   )
 }
