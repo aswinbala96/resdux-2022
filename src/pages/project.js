@@ -43,31 +43,31 @@ const ProjectPage = () => {
                 </div>
                 <div className='pro-content'>
                   <h3>Phase 1</h3>
-                  <div className='bodytext'>
+                  <div className='pro-bodytext'>
                     <Hexagon1/>
                   </div>
                   <h3>Phase 2</h3>
-                  <div className='bodytext'>
+                  <div className='pro-bodytext'>
                     <Hexagon2/>
                   </div>
                   <h3>Section 3</h3>
-                  <div className='bodytext'>
+                  <div className='pro-bodytext'>
                     <Hexagon3/>
                   </div>
                   <h3>Section 3</h3>
-                  <div className='bodytext'>
+                  <div className='pro-bodytext'>
                     Each assignment will be graded indvidually
                   </div>
                   <h3>Section 3</h3>
-                  <div className='bodytext'>
+                  <div className='pro-bodytext'>
                     Each assignment will be graded indvidually
                   </div>
                   <h3>Section 3</h3>
-                  <div className='bodytext'>
+                  <div className='pro-bodytext'>
                     Each assignment will be graded indvidually
                   </div>
                   <h3>Section 3</h3>
-                  <div className='bodytext'>
+                  <div className='pro-bodytext'>
                     Each assignment will be graded indvidually
                   </div>
                   <div>

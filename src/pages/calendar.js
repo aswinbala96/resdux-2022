@@ -24,13 +24,13 @@ const CalendarPage = () => {
     <>
         <Sidebar isOpen = {isOpen} toggle = {toggle}/>
         <Navbar toggle = {toggle}/>
-        <div className='infoSpace'>
-          <div className='infoContainer'>
-            <div className='infoLeft'>
+        <div className='calSpace'>
+          <div className='calContainer'>
+            <div className='calLeft'>
               <TitleSpaceCalendar/>
             </div>
-            <div className='infoRight'>
-              <div className='infoWindow'>
+            <div className='calRight'>
+              <div className='calWindow'>
                 <div className='titlebar'>
                   <div className='buttons'>
                     <div className='close'/>
@@ -39,7 +39,7 @@ const CalendarPage = () => {
                   </div>
                   Calendar
                 </div>
-                <div className='content'>
+                <div className='cal-content'>
                   <div className='calendarBox'>
                     <div className='calendarBody'>
                       <table className='calendarTable'>

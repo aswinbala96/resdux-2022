@@ -23,13 +23,13 @@ const DeliverablesPage = () => {
     <>
         <Sidebar isOpen = {isOpen} toggle = {toggle}/>
         <Navbar toggle = {toggle}/>
-        <div className='infoSpace'>
-          <div className='infoContainer'>
-            <div className='infoLeft'>
+        <div className='delSpace'>
+          <div className='delContainer'>
+            <div className='delLeft'>
               <TitleSpaceDeliverables/>
             </div>
-            <div className='infoRight'>
-              <div className='infoWindow'>
+            <div className='delRight'>
+              <div className='delWindow'>
                 <div className='titlebar'>
                   <div className='buttons'>
                     <div className='close'/>
@@ -38,14 +38,14 @@ const DeliverablesPage = () => {
                   </div>
                   Deliverables
                 </div>
-                <div className='content'>
+                <div className='del-content'>
                   <h3>Deliverables</h3>
-                  <div className='bodytext'>
+                  <div className='del-bodytext'>
                     Listed below are the released deliverable for RESDUX 2022. More will be posted here as the quarter progresses. Go to home page for new announcements.
                   </div>
 
                   <h3>Final Deliverables</h3>
-                  <div className='bodytext'>
+                  <div className='del-bodytext'>
                     <ul class= 'ul-style'>
                         <li style={{fontFamily: "Inconsolata, monospace"}}>
                             <span class = 'highlight'>Due Date</span>: Friday, December 13, 20221 @23:59
@@ -69,7 +69,7 @@ const DeliverablesPage = () => {
                   </div>
 
                   <h3>Deliverable 3</h3>
-                  <div className='bodytext'>
+                  <div className='del-bodytext'>
                     <ul class= 'ul-style'>
                         <li style={{fontFamily: "Inconsolata, monospace"}}>
                             <span class = 'highlight'>Due Date</span>: Friday, December 13, 20221 @23:59
@@ -91,7 +91,6 @@ const DeliverablesPage = () => {
                         </li>
                     </ul>
                   </div>
-                  
                 </div>
               </div>
             </div>

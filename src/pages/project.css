@@ -155,12 +155,46 @@ h3 {
     margin-left: 10px;
 }
 
-.bodytext{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.3rem;
+.pro-bodytext{    
+    overflow-wrap: anywhere;
+    max-width: 100%;
+    font-family: 'Inconsolota', monospace;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.hex2 {
+@media screen and (max-width: 1113px) {
+    .pro-bodytext{transform: scale(0.85);margin-left: -20px !important; width: 98vh;}
+    .pro-content h3{font-size: 24px;}
+    /* .proLeft{flex: 1;} */
+    /* font-size: 32px; */
+}
+
+@media screen and (max-width: 1085px) {
+    .pro-bodytext{transform: scale(0.8);margin-left: -60px !important;}
+    .pro-content h3{font-size: 22px;}
+    /* .proLeft{flex: 1;} */
+    /* font-size: 32px; */
+}
+
+@media screen and (max-width: 1055px) {
+    .pro-bodytext{transform: scale(0.7); margin-left: -80px !important; width: 90vh; }
+    .pro-content h3{font-size: 20px;}
+    /* .proLeft{flex: 1;} */
+    /* font-size: 32px; */
+}
+
+@media screen and (max-width: 980px) {
+    .pro-bodytext{transform: scale(0.6);margin-left: -80px !important; width: 80vh;}
+}
+
+@media screen and (max-width: 800px) {
+    /* font-size: 24px; */
+}
+
+/* .hex2 {
     float: left;
     margin-right: -26px;
     margin-bottom: -50px;
@@ -190,4 +224,5 @@ h3 {
 }
 .hex2.even {
     margin-top: 53px;
-}
+} */
+

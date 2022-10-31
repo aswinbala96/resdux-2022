@@ -1,5 +1,4 @@
-.calSpace{
-    
+.resSpace{
     background: transparent;
     height: 80vh;
     display: flex;
@@ -14,7 +13,7 @@
     }
 }
 
-.calContainer{
+.resContainer{
     display: flex;
     justify-content: space-between;
     height: 100%;
@@ -26,7 +25,7 @@
     max-width: 98%;
 }
 
-.calLeft{
+.resLeft{
     color: black;
     flex: 1;
     /* background-color: black; */
@@ -45,7 +44,7 @@
     }
 }
 
-.calRight{
+.resRight{
     color: black;
     background-color: #2C001E;
     justify-self: flex-start;
@@ -64,7 +63,7 @@
     height: 100%;
 }
 
-.calWindow{
+.resWindow{
     width: 100%;
     height: 100%;
     /* background-color: #2C001E; */
@@ -131,99 +130,111 @@
     display: inline-block;
 }
 
-.cal-content{
+.res-content{
     padding: 10px;
     /* color: white; */
     color: black;
     font-family: 'Inconsolota', monospace;
     font-weight: 100;
     width: 100%;
-    height: 99%;
+    height: 100%;
     overflow-y: scroll;
+    overflow-wrap: everywhere;
 }
 
 h3 {
     margin-top: 0px;
+    margin-left: 10px;
     font-weight: 1500;
+    font-size: 25px;
     font-family: 'Inconsolota', monospace;
 }
 
-.bodytext{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.3rem;
+.res-bodytext{
+    font-family: 'Inconsolota', monospace;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.calendarBox{
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+.highlight{
+    background-color: rgba(254, 105, 147, 0.1);
+    border-radius: 3px;
+    color: #fe6993;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.3em 0;
+    line-height: 1em;
+    margin: 0;
+    font-size: 80%;
+    font-family: 'Inconsolata', monospace;
 }
 
-.calendarBody{
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 1%;
-    padding: 32px;
+.highlight:before, .highlight:after {
+    content: '\00a0';
 }
 
-.calendarTable{
-    border-collapse: collapse;
-    width: 100%;
+.highlight-ta{
+    background-color: rgba(254, 177, 105, 0.1);
+    border-radius: 3px;
+    color: #feb169;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.3em 0;
+    line-height: 1em;
+    margin: 0;
+    font-size: 80%;
+    font-family: 'Inconsolata', monospace;
 }
 
-th{
-    text-align: left;
-    line-height: 1.5;
-    padding-bottom: 0.75rem
+.highlight-ta:before, .highlight-ta:after {
+    content: '\00a0';
 }
 
-tr{
-    border-bottom: 2pt solid lightgrey;
+.ul-style{
+    /* font-size: 1rem; */
+    line-height: 1.6;
+    list-style: circle;
+    font-family: 'Inconsolata', monospace; 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
-td{
-    text-align: left;
-    padding: 0.75rem;
-    padding-left: 0px;
-    padding-right: 22px;
-    /* padding-top:20px;
-    padding-bottom:20px; */
-    font-size: 16px;
-    vertical-align: top;
+.ul-style-2{
+    /* font-size: 1rem; */
+    line-height: 1.6;
+    list-style: circle;
+    font-family: 'Inconsolata', monospace; 
+    /* margin-left: 25px; */
 }
 
-a{
-    text-decoration: none;
-    cursor: pointer;
-    color: lightblue;
+.textHover:hover{
+    color: #fe6993 !important;
+    text-decoration: underline 1pt #fe6993;
+    text-underline-offset: 5px;
+    transition: 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 1113px) {
-    .calendarTable th{font-size: 20px;}
-    .calendarTable td{font-size: 15px;}
-}
-
-@media screen and (max-width: 1085px) {
-    .calendarTable th{font-size: 18px;}
-    .calendarTable td{font-size: 13px;}
+    .res-content h3{font-size: 24px;}
+    .res-bodytext{font-size: 15px;}
 }
 
 @media screen and (max-width: 1055px) {
-    .calendarTable th{font-size: 17px;}
-    .calendarTable td{font-size: 12px;}
-}
-
-@media screen and (max-width: 980px) {
-    .calendarTable th{font-size: 15px;}
-    .calendarTable td{font-size: 10px;}
+    .res-content h3{font-size: 22px;}
+    .res-bodytext{font-size: 13px;}
 }
 
 @media screen and (max-width: 800px) {
-    .calendarTable th{font-size: 13px;}
-    .calendarTable td{font-size: 8px;}
+    .res-content h3{font-size: 20px;}
+    .res-bodytext{font-size: 11px;}
 }
 
 @media screen and (max-width: 620px) {
-    .calendarTable th{font-size: 11px;}
-    .calendarTable td{font-size: 6px;}
+    .res-content h3{font-size: 18px;}
+    .res-bodytext{font-size: 10px;}
 }

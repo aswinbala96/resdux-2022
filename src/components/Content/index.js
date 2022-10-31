@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import { ContentSpace, MainPanel, ContentCointainer, SidePanel } from './ContentElements'
+import { IoIosArrowRoundBack } from "react-icons/io";
 import './content.css';
 
 function Content() {
-    const [isShown, setIsShown] = useState(true)
+    const [isShown1, setIsShown1] = useState(true)
 
-    const handleClick = event => {
+    const handleClick1 = event => {
         // 👇️ toggle visibility
-        setIsShown(current => !current);
+        setIsShown1(current => !current);
     };
 
   return (
@@ -48,27 +49,33 @@ function Content() {
                 </SidePanel>
                 <MainPanel>
                     <div style={{display: "flex", flexDirection: 'column', width: "100%", height: "98%"}}>
-                        <div style={{display: isShown ? 'none' : 'block'}}>
-                            <div class = 'phase-bar' style={{height: "10vh"}}>
-                                <div onClick={handleClick} class = 'phase-1'>
-                                    Phase 1
-                                </div>
-                                <div class = 'phase-2'>
-                                    Phase 2
-                                </div>
-                                <div class = 'phase-3'>
-                                    Phase 3
-                                </div>
-                                <div class = 'phase-4' >
-                                    Phase 4
+                        <div style={{display: isShown1 ? 'none' : 'flex', flexDirection: 'column'}}>
+                            <div onClick={handleClick1} style={{cursor: "pointer"}}> 
+                                <IoIosArrowRoundBack/>
+                            </div>
+                            <div style={{display: "block"}}>
+                                <div class = 'phase-bar' style={{height: "10vh"}}>
+                                    <div  class = 'phase-1'>
+                                        Phase 1
+                                    </div>
+                                    <div class = 'phase-2'>
+                                        Phase 2
+                                    </div>
+                                    <div class = 'phase-3'>
+                                        Phase 3
+                                    </div>
+                                    <div class = 'phase-4' >
+                                        Phase 4
+                                    </div>
                                 </div>
                             </div>
+                            
                         </div>
-                        <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown ? 'block' : 'none'}}>
+                        <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown1 ? 'block' : 'none'}}>
                             Project Phase Timeline Overview (Click on Various Elements!)
                         </div>
                         {/* alignItems: "center", justifyContent: "center" */}
-                        <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown ? 'flex' : 'none'}}>
+                        <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown1 ? 'flex' : 'none'}}>
                             <div style={{display: "flex", flexDirection: "column", width: "100%", height: "80%"}}>
                                 <div className= "TTextContainer" style={{flex: 1, display: "flex", backgroundColor: "white", width: "100%", height: "100%", marginRight: "15px", paddingTop: "5px"}}>
                                     <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
@@ -125,7 +132,7 @@ function Content() {
                                     <div class="boxesr" style={{border: 'none', color: "white"}}>.</div>
                                 </div>
                                 <div class = 'phase-bar'>
-                                    <div onClick={handleClick} class = 'phase-1'>
+                                    <div onClick={handleClick1} class = 'phase-1'>
                                         Phase 1
                                     </div>
                                     <div class = 'phase-2'>

@@ -1,4 +1,4 @@
-.infoSpace{
+.logSpace{
     background: transparent;
     height: 80vh;
     display: flex;
@@ -13,7 +13,7 @@
     }
 }
 
-.infoContainer{
+.logContainer{
     display: flex;
     justify-content: space-between;
     height: 100%;
@@ -25,7 +25,7 @@
     max-width: 98%;
 }
 
-.infoLeft{
+.logLeft{
     color: black;
     flex: 1;
     /* background-color: black; */
@@ -44,7 +44,7 @@
     }
 }
 
-.infoRight{
+.logRight{
     color: black;
     background-color: #2C001E;
     justify-self: flex-start;
@@ -63,7 +63,7 @@
     height: 100%;
 }
 
-.infoWindow{
+.logWindow{
     width: 100%;
     height: 100%;
     /* background-color: #2C001E; */
@@ -130,7 +130,7 @@
     display: inline-block;
 }
 
-.content{
+.log-content{
     padding: 10px;
     /* color: white; */
     color: black;
@@ -148,7 +148,129 @@ h3 {
     margin-left: 10px;
 }
 
-.bodytext{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.3rem;
+.log-bodytext{
+    font-family: 'Inconsolota', monospace;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.log-cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.cards_item {
+    display: flex;
+    padding: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+  
+.card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_content_ta {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, rgb(182, 244, 146) 20%, rgb(51, 139, 147) 100%);
+}
+
+.card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+}
+  
+.card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;        
+    font-weight: 400;
+}
+
+
+img {
+    height: auto;
+    max-width: 100%;
+  /*   vertical-align: middle; */
+  }
+  
+  .btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+  }
+  
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  
+@media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+}
+  
+@media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+}
+
+@media screen and (max-width: 1188px) {
+    .card_title{font-size: 1rem;}
+    .card_text{font-size: 0.8rem;}
+    .btn{font-size: 13px;}
+}    
+@media screen and (max-width: 1100px) {
+    .log-content h3{font-size: 24px;}
+    .log-bodytext{font-size: 15px;}
+    .card_title{font-size: 0.9rem;}
+    .card_text{font-size: 0.7rem;}
+    .btn{font-size: 13px;}
+}
+
+@media screen and (max-width: 1050px) {
+    .log-content h3{font-size: 22px;}
+    .log-bodytext{font-size: 13px;}
+    .card_title{font-size: 0.8rem;}
+    .card_text{font-size: 0.65rem;}
+    .btn{font-size: 12px;}
+}
+
+@media screen and (max-width: 970px) {
+    .log-content h3{font-size: 20px;}
+    .log-bodytext{font-size: 11px;}
+    .card_title{font-size: 0.7rem;}
+    .card_text{font-size: 0.6rem;}
+    .btn{font-size: 10px;}
+}
+
+@media screen and (max-width: 620px) {
+    .log-content h3{font-size: 18px;}
+    .log-bodytext{font-size: 10px;}
 }
