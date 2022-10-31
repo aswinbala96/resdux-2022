@@ -3,6 +3,10 @@ import { ContentSpace, MainPanel, ContentCointainer, SidePanel } from './Content
 import { IoIosArrowRoundBack } from "react-icons/io";
 import './content.css';
 
+import Hexagon2 from '../Hexagon2';
+import Hexagon3 from '../Hexagon3';
+import Hexagon1 from '../Hexagon1';
+
 function Content() {
     const [isShown1, setIsShown1] = useState(true)
 
@@ -49,12 +53,14 @@ function Content() {
                 </SidePanel>
                 <MainPanel>
                     <div style={{display: "flex", flexDirection: 'column', width: "100%", height: "98%"}}>
-                        <div style={{display: isShown1 ? 'none' : 'flex', flexDirection: 'column'}}>
+                        <div style={{display: isShown1 ? 'none' : 'block', flexDirection: 'column', height: "90%" }}>
+                            <div>
+                            </div>
                             <div onClick={handleClick1} style={{cursor: "pointer"}}> 
                                 <IoIosArrowRoundBack/>
                             </div>
                             <div style={{display: "block"}}>
-                                <div class = 'phase-bar' style={{height: "10vh"}}>
+                                <div class = 'phase-bar' style={{height: "5vh"}}>
                                     <div  class = 'phase-1'>
                                         Phase 1
                                     </div>
@@ -69,7 +75,49 @@ function Content() {
                                     </div>
                                 </div>
                             </div>
-                            
+                            <div className='proWindow'>
+                                <div className='titlebar'>
+                                <div className='buttons'>
+                                    <div className='close'/>
+                                    <div className='minimize'/>
+                                    <div className='maximize'/>
+                                </div>
+                                Project
+                                </div>
+                                <div className='pro-content'>
+                                    <h3>Phase 1</h3>
+                                    <div className='pro-bodytext'>
+                                        <Hexagon1/>
+                                    </div>
+                                    <h3>Phase 2</h3>
+                                    <div className='pro-bodytext'>
+                                        <Hexagon2/>
+                                    </div>
+                                    <h3>Section 3</h3>
+                                    <div className='pro-bodytext'>
+                                        <Hexagon3/>
+                                    </div>
+                                    <h3>Section 3</h3>
+                                    <div className='pro-bodytext'>
+                                        Each assignment will be graded indvidually
+                                    </div>
+                                    <h3>Section 3</h3>
+                                    <div className='pro-bodytext'>
+                                        Each assignment will be graded indvidually
+                                    </div>
+                                    <h3>Section 3</h3>
+                                    <div className='pro-bodytext'>
+                                        Each assignment will be graded indvidually
+                                    </div>
+                                    <h3>Section 3</h3>
+                                    <div className='pro-bodytext'>
+                                        Each assignment will be graded indvidually
+                                    </div>
+                                    <div>
+                                        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23e1dfe1&ctz=Europe%2FAmsterdam&showTitle=1&showNav=1&showPrint=1&showDate=1&showTz=1&showCalendars=0&src=ZW4uZHV0Y2gjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285F4" style={{width:"600px", height:"600px", scrolling:"no"}}></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown1 ? 'block' : 'none'}}>
                             Project Phase Timeline Overview (Click on Various Elements!)
