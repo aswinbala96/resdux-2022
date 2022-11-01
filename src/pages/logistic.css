@@ -1,8 +1,8 @@
 .logSpace{
     background: transparent;
-    height: 80vh;
+    height: 90vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     /* align-items: center; */
     font-size: 1rem; 
     top: 0;
@@ -252,6 +252,7 @@ img {
     .card_title{font-size: 0.9rem;}
     .card_text{font-size: 0.7rem;}
     .btn{font-size: 13px;}
+    .log-calendar{height: 550px !important; width: 550px !important} 
 }
 
 @media screen and (max-width: 1050px) {
@@ -260,6 +261,7 @@ img {
     .card_title{font-size: 0.8rem;}
     .card_text{font-size: 0.65rem;}
     .btn{font-size: 12px;}
+    .log-calendar{height: 500px !important; width: 500px !important} 
 }
 
 @media screen and (max-width: 970px) {
@@ -268,9 +270,11 @@ img {
     .card_title{font-size: 0.7rem;}
     .card_text{font-size: 0.6rem;}
     .btn{font-size: 10px;}
+    .log-calendar{height: 450px !important; width: 450px !important} 
 }
 
 @media screen and (max-width: 620px) {
     .log-content h3{font-size: 18px;}
     .log-bodytext{font-size: 10px;}
+    .log-calendar{height: 400px !important; width: 400px !important} 
 }

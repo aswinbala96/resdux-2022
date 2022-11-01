@@ -1,6 +1,6 @@
 .proSpace{
     background: transparent;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -148,11 +148,23 @@
     overflow-y: scroll;
 }
 
-h3 {
+h3, h4 {
     margin-top: 0px;
     font-weight: 1500;
     font-family: 'Inconsolota', monospace;
     margin-left: 10px;
+    position: relative;
+    z-index : 1;
+}
+
+h3:before{
+    content : "";
+    position: absolute;
+    left    : 0;
+    bottom  : 0;
+    height  : 1px;
+    width   : 60%;  /* or 100px */
+    border-bottom: 2px solid darkgrey;
 }
 
 .pro-bodytext{    
@@ -165,64 +177,312 @@ h3 {
     margin-bottom: 10px;
 }
 
+.pro-bodytext-hex{    
+    overflow-wrap: anywhere;
+    max-width: 100%;
+    font-family: 'Inconsolota', monospace;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1113px) {
-    .pro-bodytext{transform: scale(0.85);margin-left: -20px !important; width: 98vh;}
+    .pro-bodytext-hex{transform: scale(0.85);margin-left: -10px !important; width: 50vh;}
     .pro-content h3{font-size: 24px;}
+    .pro-bodytext{font-size: 22px;}
     /* .proLeft{flex: 1;} */
     /* font-size: 32px; */
 }
 
 @media screen and (max-width: 1085px) {
-    .pro-bodytext{transform: scale(0.8);margin-left: -60px !important;}
+    .pro-bodytext-hex{transform: scale(0.8);margin-left: -10px !important; width: 50vh;}
     .pro-content h3{font-size: 22px;}
+    .pro-bodytext{font-size: 20px;}
     /* .proLeft{flex: 1;} */
     /* font-size: 32px; */
 }
 
 @media screen and (max-width: 1055px) {
-    .pro-bodytext{transform: scale(0.7); margin-left: -80px !important; width: 90vh; }
+    .pro-bodytext-hex{transform: scale(0.7); margin-top: -20px !important; margin-bottom: -30px !important; }
     .pro-content h3{font-size: 20px;}
+    .pro-bodytext{font-size: 18px;}
     /* .proLeft{flex: 1;} */
     /* font-size: 32px; */
 }
 
 @media screen and (max-width: 980px) {
-    .pro-bodytext{transform: scale(0.6);margin-left: -80px !important; width: 80vh;}
+    .pro-bodytext-hex{transform: scale(0.6); }
+    .pro-bodytext{font-size: 16px;}
+}
+
+@media screen and (max-width: 850px) {
+    .pro-bodytext-hex{transform: scale(0.6);}
+}
+
+
+@media screen and (max-width: 1065px) {
+    .side-header{font-size: 18px !important;}
+    .ul-style-con{font-size: 14px; margin-left: 15px !important;}
+    .title-con{font-size: 16px !important;}
+    .phasetextt{font-size: 18px !important}
+    .phasetext{font-size: 18px !important}
+    .phase-1{font-size: 18px !important;}
+    .phase-2{font-size: 18px !important;}
+    .phase-3{font-size: 18px !important;}
+    .phase-4{font-size: 18px !important;}
+}
+
+@media screen and (max-width: 993px) {
+    .side-header{font-size: 16px !important;}
+    .ul-style-con{font-size: 12px; margin-left: 15px !important;}
+    .title-con{font-size: 14px !important;}
+    .phasetextt{font-size: 16px !important}
+    .phasetext{font-size: 16px !important}
+    .phase-1{font-size: 16px !important;}
+    .phase-2{font-size: 16px !important;}
+    .phase-3{font-size: 16px !important;}
+    .phase-4{font-size: 16px !important;}
 }
 
 @media screen and (max-width: 800px) {
-    /* font-size: 24px; */
+    .side-header{font-size: 14px !important;}
+    .ul-style-con{font-size: 10px; margin-left: 15px !important;}
+    .title-con{font-size: 12px !important;}
+    .phasetextt{font-size: 14px !important}
+    .phasetext{font-size: 14px !important}
+    .phase-1{font-size: 14px !important;}
+    .phase-2{font-size: 14px !important;}
+    .phase-3{font-size: 14px !important;}
+    .phase-4{font-size: 14px !important;}
 }
 
-/* .hex2 {
-    float: left;
-    margin-right: -26px;
-    margin-bottom: -50px;
-}
-.hex2 .left {
-    float: left;
-    width: 0;
-    border-right: 30px solid #6C6;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-}
-.hex2 .middle {
-    float: left;
-    width: 60px;
-    height: 104px;
-    background: #6C6;
-}
-.hex2 .right {
-    float: left;
-    width: 0;
-    border-left: 30px solid #6C6;
-    border-top: 52px solid transparent;
-    border-bottom: 52px solid transparent;
-}
-.hex2-row {
-    clear: left;
-}
-.hex2.even {
-    margin-top: 53px;
-} */
 
+@media screen and (max-width: 750px) {
+    .side-header{font-size: 12px !important;}
+    .ul-style-con{font-size: 8px !important; margin-left: 15px !important;}
+    .title-con{font-size: 10px !important;}
+    .phasetextt{font-size: 12px !important}
+    .phasetext{font-size: 12px !important}
+    .phase-1{font-size: 12px !important;}
+    .phase-2{font-size: 12px !important;}
+    .phase-3{font-size: 12px !important;}
+    .phase-4{font-size: 12px !important;}
+}
+
+@media screen and (max-width: 500px) {
+    .side-header{font-size: 10px !important;}
+    .ul-style-con{font-size: 6px !important;}
+    .title-con{font-size: 9px !important;}
+    .phasetextt{font-size: 10px !important}
+    .phasetext{font-size: 10px !important}
+    .phase-1{font-size: 10px !important;}
+    .phase-2{font-size: 10px !important;}
+    .phase-3{font-size: 10px !important;}
+    .phase-4{font-size: 10px !important;}
+}
+
+@media screen and (max-width: 480px) {
+    .side-header{font-size: 8px !important;}
+    .ul-style-con{font-size: 4px; }
+    .title-con{font-size: 8px !important;}
+    .phasetextt{font-size: 8px !important}
+    .phasetext{font-size: 8px !important}
+    .phase-1{font-size: 8px !important;}
+    .phase-2{font-size: 8px !important;}
+    .phase-3{font-size: 8px !important;}
+    .phase-4{font-size: 8px !important;}
+}
+
+
+
+.phase-bar{
+    flex: 0.2;
+    background-color: #E1DFE1;
+    width: 100%;
+    justify-content: left;
+    align-items: center;	
+    display: flex;
+}
+
+.sticky-bar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.phase-1{
+    flex: 1;
+    background-color: rgba(127, 220, 127, 0.37);
+    color: rgb(7, 100, 44);
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: 'Space Mono', monospace ;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.phase-1:hover, .phase-2:hover, .phase-4:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+
+.phase-3:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+}
+
+.phase-2{
+    flex: 1;
+    background-color: rgba(19, 162, 202, 0.37);
+    color: rgb(7, 46, 100);
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: 'Space Mono', monospace;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.phase-3{
+    flex: 2;
+    background-color: rgba(254, 105, 147, 0.1);
+    color: #fe6993;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: 'Space Mono', monospace;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.phase-4{
+    flex: 1;
+    background-color: rgba(127, 50, 215, 0.249);
+    color: #302aa2;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: 'Space Mono', monospace;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.sub-header{
+    width: 100%;
+    position: relative;
+    z-index : 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sub-header:before {
+    content : "";
+    position: absolute;
+    left    : 0;
+    top  : 0;
+    height  : 0px;
+    width   : 80%;  /* or 100px */
+    border-top: 2px solid darkgrey;
+}
+
+.sub-header:after {
+    content : "";
+    position: absolute;
+    left    : 0;
+    bottom  : 0;
+    height  : 0px;
+    width   : 17%;  /* or 100px */
+    border-top: 2px solid darkgrey;
+  }
+
+.check-box{
+    padding-left: 25px;
+    padding-top: 10px;
+}
+  /* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: hotpink;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

@@ -1,0 +1,153 @@
+
+
+.hexagons4-emphatize {
+  fill: #175E8D;
+  fill-opacity: 1;
+  cursor: pointer;
+}
+
+.hexagons4-emphatize:hover {
+  fill: #175E8D;
+  fill-opacity: 0.7;
+}
+
+.hexagons4-emphatize:hover text {
+  fill-opacity: 1;
+}
+
+.hexagons4-emphatize polygon {
+  stroke: #63B1E5;
+  stroke-width: 1;
+  /* transition: fill-opacity .5s; */
+}
+
+.hexagons4-emphatize text {
+  font-size: 0.3em;
+  fill: white;
+  font-weight: bold;
+  fill-opacity: 1;
+  transition: fill-opacity .5s;
+}
+
+
+.hexagons4-define {
+  fill: #1A591A;
+  fill-opacity: 1;
+  cursor: pointer;
+}
+
+.hexagons4-define:hover {
+  fill: #1A591A;
+  fill-opacity: 0.7;
+}
+
+.hexagons4-define:hover text {
+  fill-opacity: 1;
+}
+
+.hexagons4-define polygon {
+  stroke: #34B234; 
+  stroke-width: 1;
+  /* transition: fill-opacity .5s; */
+}
+
+.hexagons4-define text {
+  font-size: 0.3em;
+  fill: white;
+  font-weight: bold;
+  fill-opacity: 1;
+  transition: fill-opacity .5s;
+}
+
+
+.hexagons4-ideate {
+  fill: #680039;
+  fill-opacity: 1;
+  cursor: pointer;
+}
+
+.hexagons4-ideate:hover {
+  fill: #680039;
+  fill-opacity: 0.7;
+}
+
+.hexagons4-ideate:hover text {
+  fill-opacity: 1;
+}
+
+.hexagons4-ideate polygon {
+  stroke: #CF0071;
+  stroke-width: 1;
+  /* transition: fill-opacity .5s; */
+}
+
+.hexagons4-ideate text {
+  font-size: 0.3em;
+  font-weight: bold;
+  fill: white;
+  fill-opacity: 1;
+  transition: fill-opacity .5s;
+}
+
+.hexagons4-prototype {
+  fill: #7F6800;
+  fill-opacity: 1;
+  cursor: pointer;
+}
+
+.hexagons4-prototype:hover {
+  fill: #7F6800;
+  fill-opacity: 0.7;
+}
+
+.hexagons4-prototype:hover text {
+  fill-opacity: 1;
+}
+
+.hexagons4-prototype polygon {
+  stroke: #FED100;
+  stroke-width: 1;
+  /* transition: fill-opacity .5s; */
+}
+
+.hexagons4-prototype text {
+  font-size: 0.3em;
+  font-weight: bold;
+  fill: white;
+  fill-opacity: 1;
+  transition: fill-opacity .5s;
+}
+
+
+.hexagons4-test {
+  fill: #763C04;
+  fill-opacity: 1;
+  cursor: pointer;
+}
+
+.hexagons4-test:hover {
+  fill: #763C04;
+  fill-opacity: 0.7;
+}
+
+.hexagons4-test:hover text {
+  fill-opacity: 1;
+}
+
+.hexagons4-test polygon {
+  stroke: #EC7907;
+  stroke-width: 1;
+  /* transition: fill-opacity .5s; */
+}
+
+.hexagons4-test text {
+  font-size: 0.3em;
+  font-weight: bold;
+  fill: white;
+  fill-opacity: 1;
+  transition: fill-opacity .5s;
+}
+
+.hexGrid{}
+
+.hexLayout{}

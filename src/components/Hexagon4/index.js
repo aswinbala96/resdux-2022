@@ -1,40 +1,36 @@
 import React from 'react'
 import { GridGenerator, HexGrid, Layout, Path, Hexagon, Text, Pattern, Hex } from 'react-hexgrid';
-import "./hexagon3.css"
+import "./hexagon4.css"
 
-const Hexagon3 = () => {
+const Hexagon4 = () => {
     const hexagonSize = { x: 20, y: 20 };
     return (
     <>
         <HexGrid className="hexGrid" width={900} height={290} viewBox="-10 -40 100 85">
           {/* Main grid with bit hexagons, all manual */}
           <Layout className="hexLayout" size={hexagonSize} flat={true} spacing={1.1} origin={{ x: -37, y: 0 }}>
-            <Hexagon q={-1} r={0} s={1} className="hexagons3-emphatize">
+            <Hexagon q={-1} r={0} s={1} className="hexagons4-emphatize">
                 <Text>Emphatize</Text>
             </Hexagon>
             {/* <Hexagon q={-1} r={1} s={0} className="hexagons">
               <Text>-1, 1, 0, Theorize</Text>
             </Hexagon> */}
-            <Hexagon q={0} r={0} s={0} className="hexagons3-define"> 
+            <Hexagon q={0} r={0} s={0} className="hexagons4-define"> 
                 <Text>Define</Text>
             </Hexagon>
-
-            <Hexagon q={1} r={-1} s={0} className="hexagons3-ideate">
+            
+            <Hexagon q={1} r={-1} s={0} className="hexagons4-ideate">
               <Text>Ideate</Text>
             </Hexagon>
-
-            <Hexagon q={2} r={-1} s={-1} className="hexagons3-prototype">
+            
+            <Hexagon q={2} r={-1} s={-1} className="hexagons4-prototype">
               <Text>Prototype</Text>
             </Hexagon>
-            <Hexagon q={3} r={-2} s={-1} className="hexagons3">
-                <Text x={-2} y={10}>Hi-Fi Prototyping</Text>
-            </Hexagon>
-            <Hexagon q={3} r={-1} s={-2} className="hexagons3-test">
+            
+            <Hexagon q={3} r={-1} s={-2} className="hexagons4-test">
               <Text>Test</Text>
             </Hexagon>
-            <Hexagon q={4} r={-2} s={-2} className="hexagons3">
-                <Text x={-10} y={5}><tspan dy="1.2em" x="0">Experimental Testing</tspan><tspan dy="1.2em" x="-1" dx="1em">User Confrontations</tspan></Text>
-            </Hexagon>
+            
             
             {/* Using pattern (defined below) to fill the hexagon */}
             {/* <Hexagon q={0} r={-1} s={1} fill="pat-1">
@@ -63,4 +59,4 @@ const Hexagon3 = () => {
   )
 }
 
-export default Hexagon3
+export default Hexagon4

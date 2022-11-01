@@ -1,17 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState , useRef}from 'react'
 import { GridGenerator, HexGrid, Layout, Path, Hexagon, Text, Pattern, Hex } from 'react-hexgrid';
 import "./hexagon1.css"
 
-const Hexagon1 = () => {
+const Hexagon1 = ({clickValue}) => {
     const hexagonSize = { x: 20, y: 20 };
     const hexagons = GridGenerator.parallelogram(-2, 3, -2, 1);
     const moreHexas = GridGenerator.parallelogram(-2, 2, -2, 2);
+
+    const checkValue = () => {
+        
+    };
+
     return (
     <>
         <HexGrid className="hexGrid" width={520} height={210} viewBox="-25 -40 100 65">
           {/* Main grid with bit hexagons, all manual */}
           <Layout className="hexLayout" size={hexagonSize} flat={true} spacing={1.1} origin={{ x: 0, y: 0 }}>
-            <Hexagon q={-1} r={0} s={1} className="hexagons1-emphatize">
+            <Hexagon  q={-1} r={0} s={1} className="hexagons1-emphatize">
                 <Text>Emphatize</Text>
             </Hexagon>
             <Hexagon q={0} r={-1} s={1} className="hexagons1">

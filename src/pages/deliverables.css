@@ -1,8 +1,8 @@
 .delSpace{
     background: transparent;
-    height: 80vh;
+    height: 90vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     /* align-items: center; */
     font-size: 1rem; 
     top: 0;
