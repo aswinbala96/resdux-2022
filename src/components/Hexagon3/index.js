@@ -2,8 +2,16 @@ import React from 'react'
 import { GridGenerator, HexGrid, Layout, Path, Hexagon, Text, Pattern, Hex } from 'react-hexgrid';
 import "./hexagon3.css"
 
-const Hexagon3 = () => {
+const Hexagon3 = (props) => {
     const hexagonSize = { x: 20, y: 20 };
+
+    const scrollTo = (event, location) =>{
+      // console.log(event);
+      // console.log(location);
+      props.scrollPosition(location);
+    }
+
+
     return (
     <>
         <HexGrid className="hexGrid" width={900} height={290} viewBox="-10 -40 100 85">
@@ -23,17 +31,17 @@ const Hexagon3 = () => {
               <Text>Ideate</Text>
             </Hexagon>
 
-            <Hexagon q={2} r={-1} s={-1} className="hexagons3-prototype">
+            <Hexagon onClick={event => scrollTo(event, "protophase3")} q={2} r={-1} s={-1} className="hexagons3-prototype">
               <Text>Prototype</Text>
             </Hexagon>
             <Hexagon q={3} r={-2} s={-1} className="hexagons3">
-                <Text x={-2} y={10}>Hi-Fi Prototyping</Text>
+                <Text style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "protophase3")} x={-2} y={10}>Hi-Fi Prototyping</Text>
             </Hexagon>
-            <Hexagon q={3} r={-1} s={-2} className="hexagons3-test">
+            <Hexagon onClick={event => scrollTo(event, "testphase3")} q={3} r={-1} s={-2} className="hexagons3-test">
               <Text>Test</Text>
             </Hexagon>
             <Hexagon q={4} r={-2} s={-2} className="hexagons3">
-                <Text x={-10} y={5}><tspan dy="1.2em" x="0">Experimental Testing</tspan><tspan dy="1.2em" x="-1" dx="1em">User Confrontations</tspan></Text>
+                <Text x={-10} y={5}><tspan style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "testphase3")} dy="1.2em" x="0">Experimental Testing</tspan><tspan style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "test2phase3")} dy="1.2em" x="-1" dx="1em">User Confrontations</tspan></Text>
             </Hexagon>
             
             {/* Using pattern (defined below) to fill the hexagon */}

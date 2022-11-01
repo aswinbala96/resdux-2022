@@ -298,7 +298,7 @@ h3:before{
 
 .phase-bar{
     flex: 0.2;
-    background-color: #E1DFE1;
+    /* background-color: #E1DFE1; */
     width: 100%;
     justify-content: left;
     align-items: center;	

@@ -9,6 +9,7 @@ import Hexagon1 from '../components/Hexagon1';
 import Hexagon2 from '../components/Hexagon2';
 import Hexagon3 from '../components/Hexagon3';
 import Hexagon4 from '../components/Hexagon4';
+import { Co2Sharp } from '@mui/icons-material';
 
 ReactGA.initialize('UA-247449191-1');
 
@@ -16,36 +17,19 @@ const ProjectPage = () => {
   const [isOpen, setIsOpen] = useState(false)
   
   const phase1 = useRef(null);
-  const empphase1 = useRef(null);
-  const defphase1 = useRef(null);
-  const ideaphase1 = useRef(null);
   const phase2 = useRef(null);
-  const empphase2 = useRef(null);
-  const defphase2 = useRef(null);
-  const ideaphase2 = useRef(null);
-  const protophase2 = useRef(null);
-  const testphase2 = useRef(null);
   const phase3 = useRef(null);
-  const protophase3 = useRef(null);
-  const testphase3 = useRef(null);
   const phase4 = useRef(null);
-  const empphase4 = useRef(null);
-  const defphase4 = useRef(null);
-  const ideaphase4 = useRef(null);
-  const protophase4 = useRef(null);
-  const testphase4 = useRef(null);
+
+  const goTo = (pos) => {
+    // const section = document.querySelector(pos)
+    // console.log(pos);
+    const element = document.getElementById(pos);
+    element.scrollIntoView({behavior: 'smooth'});
+  }
 
   const clickPhase1 = () => {
     phase1.current?.scrollIntoView({behavior: 'smooth'});
-  };
-
-  
-
-  const clickDefPhase1 = () => {
-    defphase1.current?.scrollIntoView({behavior: 'smooth'});
-  };
-  const clickIdeaPhase1 = () => {
-    ideaphase1.current?.scrollIntoView({behavior: 'smooth'});
   };
 
   const clickPhase2 = () => {
@@ -70,7 +54,7 @@ const ProjectPage = () => {
   
   return (
     <>
-        <Sidebar isOpen = {isOpen} toggle = {toggle}/>
+        <Sidebar id = "home" isOpen = {isOpen} toggle = {toggle}/>
         <Navbar toggle = {toggle}/>
         <div className='proSpace'>
           <div className='proContainer'>
@@ -106,11 +90,90 @@ const ProjectPage = () => {
                   </div>
                   <div style={{height: "100%", display:"flex", overflowY: "scroll", flexDirection: "column", paddingTop: "1%"}}>
                     <h3 ref={phase1}>PHASE 1: <br/> CONTEXT ANALYSIS, PRELIMINARY ANALYSIS & IDEATION</h3>
-                    <div className='pro-bodytext-hex'>
-                      <Hexagon1 parentCallback={this.handleCallback}/>
+                    <div className='pro-bodytext-hex' >
+                      <Hexagon1 scrollPosition={goTo} />
+                      {/* <h4 value = {word} style={{display: "block"}}>{word}</h4> */}
                     </div>
                     <div className='pro-bodytext'>
-                      <h4 ref={empphase1} className='sub-header'>Emphatize: Context Analysis</h4>
+                      <h4 id="empphase1" className='sub-header'>Emphatize: Context Analysis</h4>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
+                          <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                            </ul>
+                        </div>
+                        <div style={{paddingLeft: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
+                          <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
+                          <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
+                            </ul>
+                        </div>
+                        <div style={{paddingLeft: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
+                          <ul class= 'ul-style'>
+                              <li>
+                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
+                              </li>
+                              <li>
+                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
+                              </li>
+                              <li>
+                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
+                              </li>
+                              <li>
+                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h4  style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <u>Examples</u> <br/>
+                        <u>Helpful Resources</u>
+                      </div>
+
+                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <u>Examples</u> <br/>
+                        <u>Helpful Resources</u>
+                      </div>
+
+                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <u>Examples</u> <br/>
+                        <u>Helpful Resources</u>
+                      </div>
+
+                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <u>Examples</u> <br/>
+                        <u>Helpful Resources</u>
+                      </div>
+                    </div>
+
+                    <div className='pro-bodytext'>
+                      <h4 id="defphase1" className='sub-header'>Define: Challenge</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -188,85 +251,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Define: Challenge</h4>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
-                        </div>
-                      </div>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
-                            </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
-                          <ul class= 'ul-style'>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
-                              </li>
-                            </ul>
-                        </div>
-                      </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-                    </div>
-
-                    <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Ideate: Product Concept</h4>
+                      <h4 id="ideaphase1" className='sub-header'>Ideate: Product Concept</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -374,10 +359,10 @@ const ProjectPage = () => {
                       <p style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "70%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 2. If not please talk/contact the lecturers/TA</p>
                     </div>
                     <div className='pro-bodytext-hex'>
-                      <Hexagon2/>
+                      <Hexagon2 scrollPosition={goTo} />
                     </div>
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Emphatize: Observations</h4>
+                      <h4 id= "empphase2" className='sub-header'>Emphatize: Observations</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -455,7 +440,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Emphatize: Interviews</h4>
+                      <h4 id="emp2phase2" className='sub-header'>Emphatize: Interviews</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -533,7 +518,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Define: Updated Challenge</h4>
+                      <h4 id="defphase2" className='sub-header'>Define: Updated Challenge</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -611,7 +596,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Ideate: Refined Product Concept</h4>
+                      <h4 id="ideaphase2" className='sub-header'>Ideate: Refined Product Concept</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -689,7 +674,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Prototype: Lo-Fi Prototype of Key Interactions</h4>
+                      <h4 id="protophase2"  className='sub-header'>Prototype: Lo-Fi Prototype of Key Interactions</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -767,7 +752,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Test: User Confrontations</h4>
+                      <h4 id="testphase2" className='sub-header'>Test: User Confrontations</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -845,7 +830,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Test: Formulative Testing</h4>
+                      <h4  id="test2phase2" className='sub-header'>Test: Formulative Testing</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -953,10 +938,10 @@ const ProjectPage = () => {
                       <p style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "70%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 3. If not please talk/contact the lecturers/TA</p>
                     </div>
                     <div className='pro-bodytext-hex'>
-                      <Hexagon3/>
+                      <Hexagon3 scrollPosition={goTo}/>
                     </div>
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Prototype: Hi-Fi Prototype</h4>
+                      <h4 id = "protophase3" className='sub-header'>Prototype: Hi-Fi Prototype</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -1034,7 +1019,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Test: Experimental Testing</h4>
+                      <h4 id = "testphase3" className='sub-header'>Test: Experimental Testing</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -1112,7 +1097,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Test: User Confrontations</h4>
+                      <h4 id = "test2phase3"  className='sub-header'>Test: User Confrontations</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -1221,10 +1206,10 @@ const ProjectPage = () => {
                       <p style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "70%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 4. If not please talk/contact the lecturers/TA</p>
                     </div>
                     <div className='pro-bodytext-hex'>
-                      <Hexagon4/>
+                      <Hexagon4 scrollPosition={goTo}/>
                     </div>
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Emphatize</h4>
+                      <h4 id = "empphase4"className='sub-header'>Emphatize</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -1302,7 +1287,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Define</h4>
+                      <h4 id = "defphase4" className='sub-header'>Define</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -1380,7 +1365,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Ideate</h4>
+                      <h4 id = "ideaphase4" className='sub-header'>Ideate</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -1458,7 +1443,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Prototype</h4>
+                      <h4 id = "protophase4" className='sub-header'>Prototype</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -1536,7 +1521,7 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 className='sub-header'>Test</h4>
+                      <h4 id = "testphase4" className='sub-header'>Test</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>

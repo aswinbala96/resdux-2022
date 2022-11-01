@@ -2,32 +2,39 @@ import React from 'react'
 import { GridGenerator, HexGrid, Layout, Path, Hexagon, Text, Pattern, Hex } from 'react-hexgrid';
 import "./hexagon4.css"
 
-const Hexagon4 = () => {
+const Hexagon4 = (props) => {
     const hexagonSize = { x: 20, y: 20 };
+
+    const scrollTo = (event, location) =>{
+      // console.log(event);
+      // console.log(location);
+      props.scrollPosition(location);
+    }
+
     return (
     <>
         <HexGrid className="hexGrid" width={900} height={290} viewBox="-10 -40 100 85">
           {/* Main grid with bit hexagons, all manual */}
           <Layout className="hexLayout" size={hexagonSize} flat={true} spacing={1.1} origin={{ x: -37, y: 0 }}>
-            <Hexagon q={-1} r={0} s={1} className="hexagons4-emphatize">
+            <Hexagon onClick={event => scrollTo(event, "empphase4")} q={-1} r={0} s={1} className="hexagons4-emphatize">
                 <Text>Emphatize</Text>
             </Hexagon>
             {/* <Hexagon q={-1} r={1} s={0} className="hexagons">
               <Text>-1, 1, 0, Theorize</Text>
             </Hexagon> */}
-            <Hexagon q={0} r={0} s={0} className="hexagons4-define"> 
+            <Hexagon onClick={event => scrollTo(event, "defphase4")} q={0} r={0} s={0} className="hexagons4-define"> 
                 <Text>Define</Text>
             </Hexagon>
             
-            <Hexagon q={1} r={-1} s={0} className="hexagons4-ideate">
+            <Hexagon onClick={event => scrollTo(event, "ideaphase4")} q={1} r={-1} s={0} className="hexagons4-ideate">
               <Text>Ideate</Text>
             </Hexagon>
             
-            <Hexagon q={2} r={-1} s={-1} className="hexagons4-prototype">
+            <Hexagon onClick={event => scrollTo(event, "protophase4")} q={2} r={-1} s={-1} className="hexagons4-prototype">
               <Text>Prototype</Text>
             </Hexagon>
             
-            <Hexagon q={3} r={-1} s={-2} className="hexagons4-test">
+            <Hexagon onClick={event => scrollTo(event, "testphase4")} q={3} r={-1} s={-2} className="hexagons4-test">
               <Text>Test</Text>
             </Hexagon>
             
