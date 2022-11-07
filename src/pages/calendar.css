@@ -196,9 +196,13 @@ td{
 a{
     text-decoration: none;
     cursor: pointer;
-    color: lightblue;
+    color: rgb(46, 177, 221);
 }
 
+a:hover{
+    color: hotpink;
+    text-decoration: underline;
+}
 @media screen and (max-width: 1113px) {
     .calendarTable th{font-size: 20px;}
     .calendarTable td{font-size: 15px;}
