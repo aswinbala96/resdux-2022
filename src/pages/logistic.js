@@ -137,8 +137,9 @@ const LogisticPage = () => {
                           <div class="card_content">
                             <h2 class="card_title">Dees Postma</h2>
                             <p class="card_text" style={{fontWeight:"bold"}}>Lecturer</p>
-                            <p class="card_text" style={{marginBottom: "1.25rem"}}>postma@utwente.nl</p>
-                            <button class="btn card_btn">More Info</button>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>d.b.w.postma@utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Lo-Fi Prototyping</p>
                           </div>
                         </div>
                       </li>
@@ -148,8 +149,9 @@ const LogisticPage = () => {
                           <div class="card_content">
                             <h2 class="card_title">Champika Ranasinghe</h2>
                             <p class="card_text" style={{fontWeight:"bold"}}>Lecturer</p>
-                            <p class="card_text" style={{marginBottom: "1.25rem"}}>champika@utwente.nl</p>
-                            <button class="btn card_btn">More Info</button>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>c.m.eparanasinghe@utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Software Integration</p>
                           </div>
                         </div>
                       </li>
@@ -159,8 +161,9 @@ const LogisticPage = () => {
                           <div class="card_content">
                             <h2 class="card_title">Aswin Balasubramaniam</h2>
                             <p class="card_text" style={{fontWeight:"bold"}}>Lecturer</p>
-                            <p class="card_text" style={{marginBottom: "1.25rem"}}>aswin@utwente.nl</p>
-                            <button class="btn card_btn">More Info</button>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>a.balasubramaniam@utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Software & Hardware Integration</p>
                           </div>
                         </div>
                       </li>
@@ -168,10 +171,11 @@ const LogisticPage = () => {
                         <div class="card">
                           <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"/></div>
                           <div class="card_content_ta">
-                            <h2 class="card_title">Teaching Assitant 1</h2>
-                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant 1</p>
-                            <p class="card_text" style={{marginBottom: "1.25rem"}}>postma@utwente.nl</p>
-                            <button class="btn card_btn">More Info</button>
+                            <h2 class="card_title">Sander Dullaert</h2>
+                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>s.a.dullaert@student.utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Software & Hardware Integration</p>
                           </div>
                         </div>
                       </li>
@@ -179,10 +183,11 @@ const LogisticPage = () => {
                         <div class="card">
                           <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"/></div>
                           <div class="card_content_ta">
-                            <h2 class="card_title">Teaching Assitant 1</h2>
-                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant 1</p>
-                            <p class="card_text" style={{marginBottom: "1.25rem"}}>postma@utwente.nl</p>
-                            <button class="btn card_btn">More Info</button>
+                            <h2 class="card_title">Gergana Dzhondzhorova</h2>
+                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>g.dzhondzhorova@student.utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Software & Hardware Integration</p>
                           </div>
                         </div>
                       </li>
@@ -190,10 +195,11 @@ const LogisticPage = () => {
                         <div class="card">
                           <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"/></div>
                           <div class="card_content_ta">
-                            <h2 class="card_title">Teaching Assitant 1</h2>
-                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant 1</p>
-                            <p class="card_text" style={{marginBottom: "1.25rem"}}>postma@utwente.nl</p>
-                            <button class="btn card_btn">More Info</button>
+                            <h2 class="card_title">Eva Lahuis</h2>
+                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>e.j.lahuis@student.utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Software & Hardware Integration</p>
                           </div>
                         </div>
                       </li>
@@ -201,10 +207,11 @@ const LogisticPage = () => {
                         <div class="card">
                           <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"/></div>
                           <div class="card_content_ta">
-                            <h2 class="card_title">Teaching Assitant 1</h2>
-                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant 1</p>
-                            <p class="card_text" style={{marginBottom: "1.25rem"}}>postma@utwente.nl</p>
-                            <button class="btn card_btn">More Info</button>
+                            <h2 class="card_title">Vanessa Markos</h2>
+                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>v.markos@student.utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Software & Hardware Integration</p>
                           </div>
                         </div>
                       </li>
@@ -212,10 +219,47 @@ const LogisticPage = () => {
                         <div class="card">
                           <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"/></div>
                           <div class="card_content_ta">
-                            <h2 class="card_title">Teaching Assitant 1</h2>
-                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant 1</p>
-                            <p class="card_text" style={{marginBottom: "1.25rem"}}>postma@utwente.nl</p>
-                            <button class="btn card_btn">More Info</button>
+                            <h2 class="card_title">Renske Mulder </h2>
+                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>r.mulder-2@student.utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Software & Hardware Integration</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"/></div>
+                          <div class="card_content_ta">
+                            <h2 class="card_title">Stratos Mytaros</h2>
+                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>e.mytaros@student.utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Software & Hardware Integration</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"/></div>
+                          <div class="card_content_ta">
+                            <h2 class="card_title">Hannah Ottenschot</h2>
+                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>h.k.s.ottenschot@student.utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Software & Hardware Integration</p>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"/></div>
+                          <div class="card_content_ta">
+                            <h2 class="card_title">Altea Vesta Junio </h2>
+                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>a.v.junio@student.utwente.nl</p>
+                            <h2 class="card_title">Specialities</h2>
+                            <p class="card_text" >Design Methods. User Studies. Software & Hardware Integration</p>
                           </div>
                         </div>
                       </li>
@@ -227,7 +271,7 @@ const LogisticPage = () => {
                     <h3 ref={sec2}>Course Format</h3>
                     <div className='log-bodytext'>
                       Theory is taught through lectures and readings and assessed in written tests. The project applies this knowledge in practice in a full iterative process 
-                      of Research and Design of User Experience (4-5 people per group, form your own group).<b style={{fontFamily: "Inconsolota, monospace"}}>Tutorials</b> are mandatory and have project focused exercises to help 
+                      of Research and Design of User Experience (4-5 people per group, form your own group). <b style={{fontFamily: "Inconsolota, monospace"}}>Tutorials</b> are mandatory and have project focused exercises to help 
                       you get started with applying the theory to your own work.                    
                     </div>
 
@@ -276,7 +320,7 @@ const LogisticPage = () => {
                       <h4>1. Group formation:</h4>
                       <div className='log-bodytext'>
                         After the very first lecture; you are asked to form groups on Canvas. Empty groups, accommodating 4 or 5 people will be 
-                        made available. Your proposed group composition should be final by <b style={{fontFamily: "Inconsolota, monospace"}}>16-11-22 @ 24:00</b>. Teachers may alter the composition of 
+                        made available. Your proposed group composition should be final by <b style={{fontFamily: "Inconsolota, monospace"}}>16-11-22 @ 12:00PM</b>. Teachers may alter the composition of 
                         your group in favor of balancing or other practicalities. Your group composition will be made final before the start of the
                         first tutorial session later that day.
                       </div>

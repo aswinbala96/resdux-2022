@@ -41,31 +41,55 @@ const ResourcesPage = () => {
                   Resources
                 </div>
                 <div className='res-content'>
-                  <h3>Content and Grading</h3>
+                  <h3>Past Project Content</h3>
                   <div className='res-bodytext'>
                     Each assignment will be graded indvidually
                   </div>
-                  <h3>Section 2</h3>
+                  <h3>User Experience Research Resources</h3>
                   <div className='res-bodytext'>
                     Each assignment will be graded indvidually
                   </div>
-                  <h3>Section 3</h3>
+                  <h3>Literature Review Resources</h3>
                   <div className='res-bodytext'>
                     Each assignment will be graded indvidually
                   </div>
-                  <h3>Section 3</h3>
+                  <h3>Web Design Resources</h3>
                   <div className='res-bodytext'>
                     Each assignment will be graded indvidually
                   </div>
-                  <h3>Section 3</h3>
+                  <h3>Mobile Application Design Resources</h3>
                   <div className='res-bodytext'>
                     Each assignment will be graded indvidually
                   </div>
-                  <h3>Section 3</h3>
+                  <h3>Lo-Fi Prototyping Resources</h3>
                   <div className='res-bodytext'>
                     Each assignment will be graded indvidually
                   </div>
-                  <h3>Section 3</h3>
+                  <h3>Hi-Fi Prototyping Resources</h3>
+                  <div className='res-bodytext'>
+                    Each assignment will be graded indvidually
+                  </div>
+                  <h3>Hardware Integration Resources</h3>
+                  <div className='res-bodytext'>
+                    Each assignment will be graded indvidually
+                  </div>
+                  <h3>Version Control Resources</h3>
+                  <div className='res-bodytext'>
+                    Each assignment will be graded indvidually
+                  </div>
+                  <h3>Code Test & Debugging Resources</h3>
+                  <div className='res-bodytext'>
+                    Each assignment will be graded indvidually
+                  </div>
+                  <h3>User Experience Research Resources</h3>
+                  <div className='res-bodytext'>
+                    Each assignment will be graded indvidually
+                  </div>
+                  <h3>Miscellaneous Resources</h3>
+                  <div className='res-bodytext'>
+                    Each assignment will be graded indvidually
+                  </div>
+                  <h3>Course Documents</h3>
                   <div className='res-bodytext'>
                     Each assignment will be graded indvidually
                   </div>

@@ -71,10 +71,14 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Discovery Research/Topic Identification</a>
-                            <div style={{fontSize: '0.95em'}}  className='note'>16th November (Wednesday)</div>
+                            <div style={{fontSize: '0.95em'}}  className='note'>16th (Wed) & 17th November (Thurs)</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Discovery Research/Topic Identification</a>
-                            <div style={{fontSize: '0.95em'}}  className='note'>17th November (Thursday)</div>
+                            <div style={{}}>Objectives</div>
+                            <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
+                              <li style={{cursor: "pointer"}}><a >Description of target user group and domain</a></li>
+                              <li style={{cursor: "pointer"}}><a >Develop Research Questions</a></li>
+                              <li style={{cursor: "pointer"}}><a >Develop Relevant Product Concept and Global Requirements</a></li>
+                            </ul>
                           </td>
                           <td>
                             <div className='note'>None</div>
@@ -99,10 +103,14 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Related Work & Interview Preparation</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>21st November (Monday)</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>21st (Mon) & 24th (Thur) November</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Related Work & Interview Preparation</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>24th November (Thursday)</div>
+                            <div style={{}}>Objectives</div>
+                            <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
+                              <li style={{cursor: "pointer"}}><a >Context Analysis: Literature & Related Work</a></li>
+                              <li style={{cursor: "pointer"}}><a >Motivation for Product Concept</a></li>
+                              <li style={{cursor: "pointer"}}><a >Relevant Approach to Elaborate on Product Concept</a></li>
+                            </ul>
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Deliverable #1</a>
@@ -130,10 +138,14 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Interviews & Lo-Fi Preparation</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>28th November (Monday)</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>28th November (Mon) & 1st December (Thur)</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Interviews & Lo-Fi Preparation</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>1st December (Thursday)</div>
+                            <div style={{}}>Objectives</div>
+                            <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
+                              <li style={{cursor: "pointer"}}><a >Apply Theory to Formulate Interview Questions & Plans to Record Observations</a></li>
+                              <li style={{cursor: "pointer"}}><a >Understand Ethical Considerations for Performing Research</a></li>
+                              <li style={{cursor: "pointer"}}><a >Apply Key Ethical Considerations for Research & Draft Ethical Consent Package</a></li>
+                            </ul>
                           </td>
                           <td>
                             <div className='note'>None</div>
@@ -158,10 +170,15 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Lo-Fi Prototyping & User Confrontations</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>5th December (Monday)</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>5th (Mon) & 8th (Thur) December</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Lo-Fi Prototyping & User Confrontations</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>8th December (Thursday)</div>
+                            <div style={{}}>Objectives</div>
+                            <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
+                              <li style={{cursor: "pointer"}}><a >Apply Theory to Identify Key-Interactions</a></li>
+                              <li style={{cursor: "pointer"}}><a >Apply Theory to Devise Meaningful Lo-Fi Prototypes</a></li>
+                              <li style={{cursor: "pointer"}}><a >Apply Theory to Perform Meaningful Playtesting</a></li>
+                              <li style={{cursor: "pointer"}}><a >Analyse and Evaluate Results from Interviews, Observations, & User Confrontations</a></li>
+                            </ul>
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Deliverable #2</a>
@@ -183,10 +200,15 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>12th December (Monday)</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>12th (Mon) & 15th (Thur) December (Monday)</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>15th December (Thursday)</div>
+                            <div style={{}}>Objectives</div>
+                            <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
+                              <li style={{cursor: "pointer"}}><a >Understand Underlying Principles, Heuristics, & Guidelines</a></li>
+                              <li style={{cursor: "pointer"}}><a >Preliminary Description of Prototype and Interaction</a></li>
+                              <li style={{cursor: "pointer"}}><a >Preliminary Diagrams of the System</a></li>
+                              <li style={{cursor: "pointer"}}><a >Preliminary Content of the Application</a></li>
+                            </ul>
                           </td>
                           <td>
                             <div className='note'>None</div>
@@ -207,10 +229,14 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>19th December (Monday)</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>19th (Mon) & 22nd (Thur) December (Monday)</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>22nd December (Thursday)</div>
+                            <div style={{}}>Objectives</div>
+                            <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
+                              <li style={{cursor: "pointer"}}><a >Updated Description of Prototype and Interaction</a></li>
+                              <li style={{cursor: "pointer"}}><a >Updated Diagrams of the System</a></li>
+                              <li style={{cursor: "pointer"}}><a >Updated Content of the Application</a></li>
+                            </ul>
                           </td>
                           <td>
                             <div className='note'>None</div>
@@ -230,10 +256,13 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Research Designs & Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>9th January (Monday)</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>9th (Mon) & 12th (Thur) January</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Research Designs & Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>12th January (Thursday)</div>
+                            <div style={{}}>Objectives</div>
+                            <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
+                              <li style={{cursor: "pointer"}}><a >Evaluation Plans</a></li>
+                              <li style={{cursor: "pointer"}}><a >Pilot</a></li>
+                            </ul>
                           </td>
                           <td>
                             <div className='note'>None</div>
@@ -257,10 +286,13 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Research Designs & Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>16th January (Monday)</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>16th (Mon) & 19th (Thur) January</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Research Designs & Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>19th January (Thursday)</div>
+                            <div style={{}}>Objectives</div>
+                            <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
+                              <li style={{cursor: "pointer"}}><a >Content for Introduction Section</a></li>
+                              <li style={{cursor: "pointer"}}><a >Content for Discussion Section</a></li>
+                            </ul>
                           </td>
                           <td>
                             <a href={""} target={"_blank"} style={{}}>Deliverable #3</a>

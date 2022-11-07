@@ -113,17 +113,15 @@ const ProjectPage = () => {
                     <div className='pro-bodytext'>
                       <h4 id="empphase1" className='sub-header'>Emphatize: Context Analysis</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Understand the user domain, the activities, problems, & challenges </li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Understand the space of technological approaches that you want to consider (including existing related/similar systems)</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Utilize online resources to conduct literature review</li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+                        <div style={{flex: 1, paddingLeft: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
                           <ul class= 'ul-style'>
                           <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000017"}>Lazar CH 1: Introduction to HCI Research</a></li>
@@ -147,7 +145,7 @@ const ProjectPage = () => {
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+                        <div style={{paddingLeft: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
                           <ul class= 'ul-style'>
                               <li>

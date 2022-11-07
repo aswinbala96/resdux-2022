@@ -185,7 +185,8 @@ h3 {
 
 .card_content_ta {
     padding: 1rem;
-    background: linear-gradient(to bottom left, rgb(182, 244, 146) 20%, rgb(51, 139, 147) 100%);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    /* linear-gradient(to bottom left, rgb(182, 244, 146) 20%, rgb(51, 139, 147) 100%); */
 }
 
 .card_title {

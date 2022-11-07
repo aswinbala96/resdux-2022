@@ -10,6 +10,7 @@
     margin: 0;
     font-size: 80%;
     font-family: 'Inconsolata', monospace;
+    cursor: pointer;
 }
 
 .highlight:before, .highlight:after {
@@ -27,6 +28,7 @@
     margin: 0;
     font-size: 80%;
     font-family: 'Inconsolata', monospace;
+    cursor: pointer;
 }
 
 .highlight-ta:before, .highlight-ta:after {

@@ -23,17 +23,60 @@ function Content() {
                     <h2 class= 'side-header'>Important Dates</h2>
                     <ul class= 'ul-style-con'>
                         <li style={{fontFamily: "Inconsolata, monospace"}}>
-                            <span class = 'highlight'>[14/11]</span>: Deliverable 1
+                            <span class = 'highlight'>[24/11]</span>: Exam 1
+                        </li>
+                        <li style={{fontFamily: "Inconsolata, monospace"}}>
+                            <span class = 'highlight'>[25/11]</span>: Deliverable 1
                         </li>
                         <li style={{fontFamily: "Inconsolata, monospace"}}>
                             <span class = 'highlight'>
-                                [14/11]
+                                [08/12]
+                            </span>: Exam 2
+                        </li>
+                        <li style={{fontFamily: "Inconsolata, monospace"}}>
+                            <span class = 'highlight'>
+                                [09/12]
                             </span>: Deliverable 2
                         </li>
                         <li style={{fontFamily: "Inconsolata, monospace"}}>
                             <span class = 'highlight'>
-                                [14/11]
+                                [17/01]
+                            </span>: Exam 3
+                        </li>
+                        <li style={{fontFamily: "Inconsolata, monospace"}}>
+                            <span class = 'highlight'>
+                                [20/01]
                             </span>: Deliverable 3
+                        </li>
+                        <li style={{fontFamily: "Inconsolata, monospace"}}>
+                            <span class = 'highlight'>
+                                [25/01]
+                            </span>: Oral Reflection
+                        </li>
+                        <li style={{fontFamily: "Inconsolata, monospace"}}>
+                            <span class = 'highlight'>
+                                [26/01]
+                            </span>: Oral Reflection
+                        </li>
+                        <li style={{fontFamily: "Inconsolata, monospace"}}>
+                            <span class = 'highlight'>
+                                [27/01]
+                            </span>: Oral Reflection
+                        </li>
+                        <li style={{fontFamily: "Inconsolata, monospace"}}>
+                            <span class = 'highlight'>
+                                [30/01]
+                            </span>: Oral Reflection
+                        </li>
+                        <li style={{fontFamily: "Inconsolata, monospace"}}>
+                            <span class = 'highlight'>
+                                [02/02]
+                            </span>: Resit
+                        </li>
+                        <li style={{fontFamily: "Inconsolata, monospace"}}>
+                            <span class = 'highlight'>
+                                [03/02]
+                            </span>: Demo Market
                         </li>
                     </ul>
                     <h2 class= 'side-header'>Staff Info</h2>
@@ -41,14 +84,14 @@ function Content() {
                         <li ><span class = 'highlight'>Dees Postma</span></li>
                         <li><span class = 'highlight'>Champika Ranasinghe</span></li>
                         <li><span class = 'highlight'>Aswin B</span></li>
-                        <li><span class = 'highlight-ta'>Teaching Assistant 1</span></li>
-                        <li><span class = 'highlight-ta'>Teaching Assistant 2</span></li>
-                        <li><span class = 'highlight-ta'>Teaching Assistant 3</span></li>
-                        <li><span class = 'highlight-ta'>Teaching Assistant 4</span></li>
-                        <li><span class = 'highlight-ta'>Teaching Assistant 5</span></li>
-                        <li><span class = 'highlight-ta'>Teaching Assistant 6</span></li>
-                        <li><span class = 'highlight-ta'>Teaching Assistant 7</span></li>
-                        <li><span class = 'highlight-ta'>Teaching Assistant 8</span></li>
+                        <li><span class = 'highlight-ta'>Sander Dullaert (TA)</span></li>
+                        <li><span class = 'highlight-ta'>Gergana Dzhondzhorova (TA)</span></li>
+                        <li><span class = 'highlight-ta'>Eva Lahuis (TA)</span></li>
+                        <li><span class = 'highlight-ta'>Vanessa Markos (TA)</span></li>
+                        <li><span class = 'highlight-ta'>Renske Mulder (TA)</span></li>
+                        <li><span class = 'highlight-ta'>Stratos Mytaros (TA)</span></li>
+                        <li><span class = 'highlight-ta'>Hannah Ottenschot (TA)</span></li>
+                        <li><span class = 'highlight-ta'>Altea Vesta Junio (TA)</span></li>
                     </ul>
                 </SidePanel>
                 <MainPanel>
