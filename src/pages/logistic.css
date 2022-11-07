@@ -295,7 +295,7 @@ img {
     width: 100%;
 }
 
-.phase-1{
+.sec-1{
     flex: 1;
     background-color: rgba(127, 220, 127, 0.37);
     color: rgb(7, 100, 44);
@@ -312,17 +312,17 @@ img {
     cursor: pointer;
 }
 
-.phase-1:hover, .phase-2:hover, .phase-4:hover{
+.sec-1:hover, .sec-2:hover, .sec-4:hover{
     transform: scale(1.04);
     transition: 0.2s ease-in-out;
 }
 
-.phase-3:hover{
+.sec-3:hover{
     transform: scale(1.03);
     transition: 0.2s ease-in-out;
 }
 
-.phase-2{
+.sec-2{
     flex: 1;
     background-color: rgba(19, 162, 202, 0.37);
     color: rgb(7, 46, 100);
@@ -338,7 +338,7 @@ img {
     cursor: pointer;
 }
 
-.phase-3{
+.sec-3{
     flex: 1;
     background-color: rgba(254, 105, 147, 0.1);
     color: #fe6993;
@@ -354,7 +354,7 @@ img {
     cursor: pointer;
 }
 
-.phase-4{
+.sec-4{
     flex: 1;
     background-color: rgba(127, 50, 215, 0.249);
     color: #302aa2;
@@ -374,30 +374,30 @@ img {
 @media screen and (max-width: 1065px) {
     .phasetextt{font-size: 14px !important}
     .phasetext{font-size: 14px !important}
-    .phase-1{font-size: 14px !important;}
-    .phase-2{font-size: 14px !important;}
-    .phase-3{font-size: 14px !important;}
-    .phase-4{font-size: 14px !important;}
+    .sec-1{font-size: 14px !important;}
+    .sec-2{font-size: 14px !important;}
+    .sec-3{font-size: 14px !important;}
+    .sec-4{font-size: 14px !important;}
 }
 
 @media screen and (max-width: 993px) {
 
     .phasetextt{font-size: 13px !important}
     .phasetext{font-size: 13px !important}
-    .phase-1{font-size: 13px !important;}
-    .phase-2{font-size: 13px !important;}
-    .phase-3{font-size: 13px !important;}
-    .phase-4{font-size: 13px !important;}
+    .sec-1{font-size: 13px !important;}
+    .sec-2{font-size: 13px !important;}
+    .sec-3{font-size: 13px !important;}
+    .sec-4{font-size: 13px !important;}
 }
 
 @media screen and (max-width: 800px) {
    
     .phasetextt{font-size: 12px !important}
     .phasetext{font-size: 12px !important}
-    .phase-1{font-size: 12px !important;}
-    .phase-2{font-size: 12px !important;}
-    .phase-3{font-size: 12px !important;}
-    .phase-4{font-size: 12px !important;}
+    .sec-1{font-size: 12px !important;}
+    .sec-2{font-size: 12px !important;}
+    .sec-3{font-size: 12px !important;}
+    .sec-4{font-size: 12px !important;}
 }
 
 
@@ -405,28 +405,28 @@ img {
  
     .phasetextt{font-size: 11px !important}
     .phasetext{font-size: 11px !important}
-    .phase-1{font-size: 11px !important;}
-    .phase-2{font-size: 11px !important;}
-    .phase-3{font-size: 11px !important;}
-    .phase-4{font-size: 11px !important;}
+    .sec-1{font-size: 11px !important;}
+    .sec-2{font-size: 11px !important;}
+    .sec-3{font-size: 11px !important;}
+    .sec-4{font-size: 11px !important;}
 }
 
 @media screen and (max-width: 500px) {
 
     .phasetextt{font-size: 10px !important}
     .phasetext{font-size: 10px !important}
-    .phase-1{font-size: 10px !important;}
-    .phase-2{font-size: 10px !important;}
-    .phase-3{font-size: 10px !important;}
-    .phase-4{font-size: 10px !important;}
+    .sec-1{font-size: 10px !important;}
+    .sec-2{font-size: 10px !important;}
+    .sec-3{font-size: 10px !important;}
+    .sec-4{font-size: 10px !important;}
 }
 
 @media screen and (max-width: 480px) {
 
     .phasetextt{font-size: 8px !important}
     .phasetext{font-size: 8px !important}
-    .phase-1{font-size: 8px !important;}
-    .phase-2{font-size: 8px !important;}
-    .phase-3{font-size: 8px !important;}
-    .phase-4{font-size: 8px !important;}
+    .sec-1{font-size: 8px !important;}
+    .sec-2{font-size: 8px !important;}
+    .sec-3{font-size: 8px !important;}
+    .sec-4{font-size: 8px !important;}
 }

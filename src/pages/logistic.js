@@ -98,31 +98,31 @@ const LogisticPage = () => {
                 <div className='log-content'>
                   <div className = "sticky-bar" style={{display: "block"}}>
                     <div class = 'phase-bar' style={{height: "5vh"}}>
-                      <div onClick={clickSec1} class = 'phase-1'>
+                      <div onClick={clickSec1} class = 'sec-1'>
                           Team
                       </div>
-                      <div onClick={clickSec2} class = 'phase-2'>
+                      <div onClick={clickSec2} class = 'sec-2'>
                           Course Format
                       </div>
-                      <div onClick={clickSec3} class = 'phase-3'>
+                      <div onClick={clickSec3} class = 'sec-3'>
                           Learning Objective
                       </div>
-                      <div onClick={clickSec4} class = 'phase-4' >
+                      <div onClick={clickSec4} class = 'sec-4' >
                           Project Work
                       </div>
-                      <div onClick={clickSec5} class = 'phase-1'>
+                      <div onClick={clickSec5} class = 'sec-1'>
                           Grading
                       </div>
-                      <div onClick={clickSec6} class = 'phase-2'>
+                      <div onClick={clickSec6} class = 'sec-2'>
                           Contact
                       </div>
-                      <div onClick={clickSec7} class = 'phase-3'>
+                      <div onClick={clickSec7} class = 'sec-3'>
                           Office Hours
                       </div>
-                      <div onClick={clickSec8} class = 'phase-4'>
+                      <div onClick={clickSec8} class = 'sec-4'>
                           Smart XP
                       </div>
-                      <div onClick={clickSec9} class = 'phase-1'>
+                      <div onClick={clickSec9} class = 'sec-1'>
                           Meeting Time
                       </div>
                     </div>

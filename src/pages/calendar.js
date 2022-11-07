@@ -55,7 +55,7 @@ const CalendarPage = () => {
                           <td>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000017"}>Lazar CH 1: Introduction to HCI Research</a></li>
-                              <li >Reader PT 1: Research and Design of UX</li>
+                              <li>Reader PT 1: Research and Design of UX</li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process"}>Stages in Design Thinking Process</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_73"}>The Art of Game Design CH7: "Ideas"</a></li>
                             </ul>

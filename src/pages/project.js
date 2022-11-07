@@ -89,6 +89,22 @@ const ProjectPage = () => {
                     </div>
                   </div>
                   <div style={{height: "100%", display:"flex", overflowY: "scroll", flexDirection: "column", paddingTop: "1%"}}>
+                    <div className='pro-bodytext' style={{fontSize: "22px",}}>
+                      This section provides an interactive overview of the project phases, summary of deliverables, and useful links and examples that will 
+                      guide you through your project's progress. Each of the deliverables directly contributes to various chapters of the final report. 
+                      However, please note that individual chapters might need updating after receiving feedback or acquiring new insights from your 
+                      research and design work.
+                      <br/>
+                      <br/>
+                      Your project must have at least the following characteristics: 
+                      <ul style={{fontSize: '1em', marginLeft: '1em', listStyle: "circle"}}>
+                        <li style={{fontFamily: "Inconsolota, monospace"}}>The project must be about <u style={{fontFamily: "Inconsolota, monospace"}}>Interactive Technology</u></li>
+                        <li style={{fontFamily: "Inconsolota, monospace"}}>The system should target a <u style={{fontFamily: "Inconsolota, monospace"}}>User Experience</u></li> 
+                        <li style={{fontFamily: "Inconsolota, monospace"}}>The project must be carried out with <u style={{fontFamily: "Inconsolota, monospace"}}>real users</u> from the intended target user group (it must be feasible to find and involve them)</li>
+                        <li style={{fontFamily: "Inconsolota, monospace"}}>The project should be <u style={{fontFamily: "Inconsolota, monospace"}}>feasible</u> to carry out in the 8 weeks reserved for it (especially note the limited time available for hi-fi implementation work)</li> 
+                      </ul>
+                      <br/>
+                    </div>
                     <h3 ref={phase1}>PHASE 1: <br/> CONTEXT ANALYSIS, PRELIMINARY ANALYSIS & IDEATION</h3>
                     <div className='pro-bodytext-hex' >
                       <Hexagon1 scrollPosition={goTo} />
@@ -110,11 +126,13 @@ const ProjectPage = () => {
                         <div style={{paddingLeft: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
                           <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000017"}>Lazar CH 1: Introduction to HCI Research</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Reader PT 1: Research and Design of UX</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process"}>Stages in Design Thinking Process</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_73"}>The Art of Game Design CH7: "Ideas"</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000054"}>Lazar CH 5: Surveys (Articulating Questions)</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B978012805390400008X"}>Lazar CH 8: Interviews & Focus Groups</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.coursera.org/lecture/interaction-design-capstone/participant-observation-uCubp"}>Video: Participant Observation</a></li>
                             </ul>
                         </div>
                       </div>
