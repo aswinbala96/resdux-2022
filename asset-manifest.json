@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/resdux-2022/static/css/main.34c3912a.css",
-    "main.js": "/resdux-2022/static/js/main.29f436df.js",
+    "main.js": "/resdux-2022/static/js/main.ef306259.js",
     "static/media/retro-furnish.png": "/resdux-2022/static/media/retro-furnish.4078a5ddca23e03f294e.png",
     "index.html": "/resdux-2022/index.html",
     "main.34c3912a.css.map": "/resdux-2022/static/css/main.34c3912a.css.map",
-    "main.29f436df.js.map": "/resdux-2022/static/js/main.29f436df.js.map"
+    "main.ef306259.js.map": "/resdux-2022/static/js/main.ef306259.js.map"
   },
   "entrypoints": [
     "static/css/main.34c3912a.css",
-    "static/js/main.29f436df.js"
+    "static/js/main.ef306259.js"
   ]
 }
