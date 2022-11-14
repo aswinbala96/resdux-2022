@@ -41,7 +41,19 @@ const DeliverablesPage = () => {
                 <div className='del-content'>
                   <h3>Deliverables</h3>
                   <div className='del-bodytext'>
-                    Listed below are the released deliverables for RESDUX 2022-23. More will be posted here as the quarter progresses. Visit Cavas for new announcements.
+                    Listed below are the deliverables for RESDUX 2022-23. More will be posted here as the quarter progresses. Visit Cavas for new announcements.
+                    <br/>
+                    <br/>
+                    Each of the deliverables directly contributes to various chapters of the final report. However, please note that individual chapters might need updating after receiving feedback or acquiring new insights from your research and design work.
+                    Upon completion, your project must have at least the following characteristics: 
+                    <ul style={{fontSize: '1em', marginLeft: '1em', listStyle: "circle"}}>
+                      <li style={{fontFamily: "Inconsolota, monospace"}}>The project must be about <u style={{fontFamily: "Inconsolota, monospace"}}>Interactive Technology</u></li>
+                      <li style={{fontFamily: "Inconsolota, monospace"}}>The system should target a <u style={{fontFamily: "Inconsolota, monospace"}}>User Experience</u></li> 
+                      <li style={{fontFamily: "Inconsolota, monospace"}}>The project must be carried out with <u style={{fontFamily: "Inconsolota, monospace"}}>real users</u> from the intended target user group (it must be feasible to find and involve them)</li>
+                      <li style={{fontFamily: "Inconsolota, monospace"}}>The project should be <u style={{fontFamily: "Inconsolota, monospace"}}>feasible</u> to carry out in the 8 weeks reserved for it (especially note the limited time available for hi-fi implementation work)</li> 
+                    </ul>
+                    <br/>
+                    <br/>
                   </div>
 
                   <h3>Final Deliverables</h3>

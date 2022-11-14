@@ -29,7 +29,7 @@ export const ContentCointainer = styled.div`
 
 export const SidePanel = styled.div`
     color: black;
-    flex: 1.5;
+    flex: 1.4;
     /* background-color: black; */
     /* display: flex; */
     /* align-items: center; */
@@ -38,7 +38,8 @@ export const SidePanel = styled.div`
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    max-height: 600px !important;
+    height: 100%;
+    max-height: 100% !important;
     overflow: scroll;    
     @media screen and (max-width: 960px){
         font-size: 10px;

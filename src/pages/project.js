@@ -54,13 +54,13 @@ const ProjectPage = () => {
   
   return (
     <>
-        <Sidebar id = "home" isOpen = {isOpen} toggle = {toggle}/>
-        <Navbar toggle = {toggle}/>
+        {/* <Sidebar id = "home" isOpen = {isOpen} toggle = {toggle}/>
+        <Navbar toggle = {toggle}/> */}
         <div className='proSpace'>
           <div className='proContainer'>
-            <div className='proLeft'>
+            {/* <div className='proLeft'>
               <TitleSpaceProject/>
-            </div>
+            </div> */}
             <div className='proRight'>
               <div className='proWindow'>
                 <div className='titlebar'>
@@ -69,7 +69,7 @@ const ProjectPage = () => {
                     <div className='minimize'/>
                     <div className='maximize'/>
                   </div>
-                  Project
+                  Project Resources
                 </div>
                 <div className='pro-content'>
                   <div className = "sticky-bar" style={{display: "block"}}>
@@ -89,20 +89,9 @@ const ProjectPage = () => {
                     </div>
                   </div>
                   <div style={{height: "100%", display:"flex", overflowY: "scroll", flexDirection: "column", paddingTop: "1%"}}>
-                    <div className='pro-bodytext' style={{fontSize: "22px",}}>
-                      This section provides an interactive overview of the project phases, summary of deliverables, and useful links and examples that will 
-                      guide you through your project's progress. Each of the deliverables directly contributes to various chapters of the final report. 
-                      However, please note that individual chapters might need updating after receiving feedback or acquiring new insights from your 
-                      research and design work.
-                      <br/>
-                      <br/>
-                      Your project must have at least the following characteristics: 
-                      <ul style={{fontSize: '1em', marginLeft: '1em', listStyle: "circle"}}>
-                        <li style={{fontFamily: "Inconsolota, monospace"}}>The project must be about <u style={{fontFamily: "Inconsolota, monospace"}}>Interactive Technology</u></li>
-                        <li style={{fontFamily: "Inconsolota, monospace"}}>The system should target a <u style={{fontFamily: "Inconsolota, monospace"}}>User Experience</u></li> 
-                        <li style={{fontFamily: "Inconsolota, monospace"}}>The project must be carried out with <u style={{fontFamily: "Inconsolota, monospace"}}>real users</u> from the intended target user group (it must be feasible to find and involve them)</li>
-                        <li style={{fontFamily: "Inconsolota, monospace"}}>The project should be <u style={{fontFamily: "Inconsolota, monospace"}}>feasible</u> to carry out in the 8 weeks reserved for it (especially note the limited time available for hi-fi implementation work)</li> 
-                      </ul>
+                    <div className='pro-bodytext' >
+                      This section provides an overview of the objectives that must be met during the various phases of the project. 
+                      This is also coupled with some guiding examples and links to resources that will contribute to the progress of your report. 
                       <br/>
                     </div>
                     <h3 ref={phase1}>PHASE 1: <br/> CONTEXT ANALYSIS, PRELIMINARY ANALYSIS & IDEATION</h3>
@@ -128,9 +117,7 @@ const ProjectPage = () => {
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Reader PT 1: Research and Design of UX</li>
                               <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process"}>Stages in Design Thinking Process</a></li>
                               <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_73"}>The Art of Game Design CH7: "Ideas"</a></li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000054"}>Lazar CH 5: Surveys (Articulating Questions)</a></li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B978012805390400008X"}>Lazar CH 8: Interviews & Focus Groups</a></li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.coursera.org/lecture/interaction-design-capstone/participant-observation-uCubp"}>Video: Participant Observation</a></li>
+                              
                             </ul>
                         </div>
                       </div>
@@ -146,42 +133,45 @@ const ProjectPage = () => {
                             </ul>
                         </div>
                         <div style={{paddingLeft: "0vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
+                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Identify List of User Domains</a>
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
+                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Identify List of Technology Domains</a>
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
+                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Conduct literature Review</a>
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
+                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Develop the Matrix</a>
                               </li>
                             </ul>
                         </div>
                       </div>
-                      <h4  style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
+                      <h4  style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Identify List of User Domains</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <u>Examples</u> <br/>
                         <u>Helpful Resources</u>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
+                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Identify List of Technology Domains</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
+                        <u>Examples</u>
+                        <br/>
                         <u>Helpful Resources</u>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
+                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Conduct literature Review</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
+                        <u>Examples</u> 
+                        <br/>
                         <u>Helpful Resources</u>
+
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
+                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Develop the Matrix</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <u>Examples</u> <br/>
                         <u>Helpful Resources</u>
@@ -204,12 +194,10 @@ const ProjectPage = () => {
                         <div style={{paddingLeft: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
                           <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000054"}>Lazar CH 5: Surveys (Articulating Questions)</a></li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B978012805390400008X"}>Lazar CH 8: Interviews & Focus Groups</a></li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.coursera.org/lecture/interaction-design-capstone/participant-observation-uCubp"}>Video: Participant Observation</a></li>
+                          </ul>
                         </div>
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
@@ -370,9 +358,9 @@ const ProjectPage = () => {
                     </div>
 
                     <h3 ref={phase2}>PHASE 2: <br/> LO-FI PROTOTYPING & USER CONFRONTATIONS</h3>
-                    <div style={{padding: "100px 25px 100px 25px"}} className='pro-bodytext'>
-                      <em><strong><u style={{color: "red", fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>STOP!</u></strong></em> <u style={{fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>Deliverable Check</u><br/>
-                      <p style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "70%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 2. If not please talk/contact the lecturers/TA</p>
+                    <div style={{padding: "100px 25px 25px 25px"}} className='pro-bodytext'>
+                      <em><strong><u className = "stopText" style={{color: "red", fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>STOP!</u></strong></em> <u className = "deliverText" style={{fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>Deliverable Check</u><br/>
+                      <p className = "deliverText2" style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "85%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 2. If not please talk/contact the lecturers/TA</p>
                     </div>
                     <div className='pro-bodytext-hex'>
                       <Hexagon2 scrollPosition={goTo} />
@@ -949,9 +937,9 @@ const ProjectPage = () => {
                     </div>
                     
                     <h3 ref={phase3}>PHASE 3: <br/> HI-FI PROTOTYPING & PREPARATION OF RESEARCH STUDY</h3>
-                    <div style={{padding: "100px 25px 100px 25px"}} className='pro-bodytext'>
-                      <em><strong><u style={{color: "red", fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>STOP!</u></strong></em> <u style={{fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>Deliverable Check</u><br/>
-                      <p style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "70%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 3. If not please talk/contact the lecturers/TA</p>
+                    <div style={{padding: "100px 25px 25px 25px"}} className='pro-bodytext'>
+                      <em><strong><u className = "stopText" style={{color: "red", fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>STOP!</u></strong></em> <u className = "deliverText" style={{fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>Deliverable Check</u><br/>
+                      <p className = "deliverText2" style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "85%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 3. If not please talk/contact the lecturers/TA</p>
                     </div>
                     <div className='pro-bodytext-hex'>
                       <Hexagon3 scrollPosition={goTo}/>
@@ -1217,9 +1205,9 @@ const ProjectPage = () => {
 
 
                     <h3 ref={phase4}>PHASE 4: <br/> FINAL DELIVERABLES & ORAL ASSESSMENT MEETING</h3>
-                    <div style={{padding: "100px 25px 100px 25px"}} className='pro-bodytext'>
-                      <em><strong><u style={{color: "red", fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>STOP!</u></strong></em> <u style={{fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>Deliverable Check</u><br/>
-                      <p style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "70%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 4. If not please talk/contact the lecturers/TA</p>
+                    <div style={{padding: "100px 25px 25px 25px"}} className='pro-bodytext'>
+                      <em><strong><u className = "stopText"  style={{color: "red", fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>STOP!</u></strong></em> <u className = "deliverText" style={{fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>Deliverable Check</u><br/>
+                      <p className = "deliverText2" style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "85%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 4. If not please talk/contact the lecturers/TA</p>
                     </div>
                     <div className='pro-bodytext-hex'>
                       <Hexagon4 scrollPosition={goTo}/>

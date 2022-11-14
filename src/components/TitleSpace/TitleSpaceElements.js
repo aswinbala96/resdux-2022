@@ -8,7 +8,7 @@ export const TitleContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 200px; 
+    height: 150px; 
     position: relative;
     z-index: 1;
     background-image: url(${background});
@@ -53,7 +53,6 @@ export const TitleH1 = styled.h1`
         font-size: 32px;
     }
 `
-
 
 export const TitleContent = styled.div`
     z-index: 3;

@@ -13,7 +13,7 @@ const Hexagon1 = (props) => {
     
     return (
     <>
-        <HexGrid className="hexGrid" width={520} height={210} viewBox="-25 -40 100 65">
+        <HexGrid className="hexGrid" width={425} height={210} viewBox="-38 -40 100 65">
           {/* Main grid with bit hexagons, all manual */}
           <Layout className="hexLayout" size={hexagonSize} flat={true} spacing={1.1} origin={{ x: 0, y: 0 }}>
             <Hexagon onClick={event => scrollTo(event, "empphase1")} q={-1} r={0} s={1} className="hexagons1-emphatize">

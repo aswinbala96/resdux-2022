@@ -1,0 +1,7 @@
+.mobilePage{
+    display: none;
+}
+@media screen and (max-width: 450px) {
+    .mobilePage{display: flex; height: 100vh; background-color: gray; color: blueviolet; align-items: center; justify-content: center;}
+    .desktopPage{display: none;}
+}

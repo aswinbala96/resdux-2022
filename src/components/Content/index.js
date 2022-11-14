@@ -6,6 +6,7 @@ import './content.css';
 import Hexagon2 from '../Hexagon2';
 import Hexagon3 from '../Hexagon3';
 import Hexagon1 from '../Hexagon1';
+import ProjectPage from '../../pages/project';
 
 function Content() {
     const [isShown1, setIsShown1] = useState(true)
@@ -97,28 +98,29 @@ function Content() {
                 <MainPanel>
                     <div style={{display: "flex", flexDirection: 'column', width: "100%", height: "98%"}}>
                         <div style={{display: isShown1 ? 'none' : 'block', flexDirection: 'column', height: "90%" }}>
-                            <div>
-                            </div>
-                            <div onClick={handleClick1} style={{cursor: "pointer"}}> 
-                                <IoIosArrowRoundBack/>
-                            </div>
-                            <div style={{display: "block"}}>
-                                <div class = 'phase-bar' style={{height: "5vh"}}>
-                                    <div  class = 'phase-1'>
-                                        Phase 1
-                                    </div>
-                                    <div class = 'phase-2'>
-                                        Phase 2
-                                    </div>
-                                    <div class = 'phase-3'>
-                                        Phase 3
-                                    </div>
-                                    <div class = 'phase-4' >
-                                        Phase 4
-                                    </div>
+                            <div style={{display: "flex"}}>
+                                <div onClick={handleClick1} style={{cursor: "pointer", flex: 1}}> 
+                                    <IoIosArrowRoundBack/>
                                 </div>
+                                {/* <div style={{display: "block", flex: 27}}>
+                                    <div class = 'phase-bar' style={{height: "5vh"}}>
+                                        <div  class = 'phase-1'>
+                                            Phase 1
+                                        </div>
+                                        <div class = 'phase-2'>
+                                            Phase 2
+                                        </div>
+                                        <div class = 'phase-3'>
+                                            Phase 3
+                                        </div>
+                                        <div class = 'phase-4' >
+                                            Phase 4
+                                        </div>
+                                    </div>
+                                </div> */}
                             </div>
-                            <div className='proWindow'>
+                            <ProjectPage/>
+                            {/* <div className='proWindow'>
                                 <div className='titlebar'>
                                 <div className='buttons'>
                                     <div className='close'/>
@@ -160,7 +162,7 @@ function Content() {
                                         <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23e1dfe1&ctz=Europe%2FAmsterdam&showTitle=1&showNav=1&showPrint=1&showDate=1&showTz=1&showCalendars=0&src=ZW4uZHV0Y2gjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285F4" style={{width:"600px", height:"600px", scrolling:"no"}}></iframe>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown1 ? 'block' : 'none'}}>
                             Project Phase Timeline Overview (Click on Various Elements!)

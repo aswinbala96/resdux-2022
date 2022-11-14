@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import TitleSpace from '../components/TitleSpace'
 import ReactGA from 'react-ga';
+import "./mainpage.css"
 
 ReactGA.initialize('UA-247449191-1');
 
@@ -21,10 +22,15 @@ const Home = () => {
 
   return (
     <>
-      <Sidebar isOpen = {isOpen} toggle = {toggle}/>
-      <Navbar toggle = {toggle}/>
-      <TitleSpace/>
-      <Content/>
+      <div className='desktopPage'>
+        <Sidebar isOpen = {isOpen} toggle = {toggle}/>
+        <Navbar toggle = {toggle}/>
+        <TitleSpace/>
+        <Content/>
+      </div>
+      <div className='mobilePage'>
+        <h4 style={{}}>Please open this page on a desktop or on a device with a larger screen</h4>
+      </div>
     </>
   )
 }
