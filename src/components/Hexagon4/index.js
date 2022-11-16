@@ -33,11 +33,15 @@ const Hexagon4 = (props) => {
             <Hexagon onClick={event => scrollTo(event, "protophase4")} q={2} r={-1} s={-1} className="hexagons4-prototype">
               <Text>Prototype</Text>
             </Hexagon>
-            
+            <Hexagon q={3} r={-2} s={-1} className="hexagons3">
+                <Text style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "protophase4")} x={-2} y={10}>Oral Reflection</Text>
+            </Hexagon>
             <Hexagon onClick={event => scrollTo(event, "testphase4")} q={3} r={-1} s={-2} className="hexagons4-test">
               <Text>Test</Text>
             </Hexagon>
-            
+            <Hexagon q={4} r={-2} s={-2} className="hexagons3">
+                <Text x={-10} y={5}><tspan style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "testphase4")} dy="1.2em" x="-1">Demo Market</tspan><tspan style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "test2phase4")} dy="1.2em" x="-1" dx="1em">Final Submission</tspan></Text>
+            </Hexagon>
             
             {/* Using pattern (defined below) to fill the hexagon */}
             {/* <Hexagon q={0} r={-1} s={1} fill="pat-1">

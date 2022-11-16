@@ -111,7 +111,6 @@
     margin-left: 5px;
     border-radius: 5px;
     cursor: pointer;
-    text-decoration: none !important;
 }
 
 .phase-1:hover, .phase-2:hover, .phase-4:hover{
@@ -138,7 +137,6 @@
     margin-right: 5px;
     border-radius: 5px;
     cursor: pointer;
-    text-decoration: none !important;
 }
 
 .phase-3{
@@ -155,7 +153,6 @@
     margin-right: 5px;
     border-radius: 5px;
     cursor: pointer;
-    text-decoration: none !important;
 }
 
 .phase-4{
@@ -172,7 +169,6 @@
     margin-right: 5px;
     border-radius: 5px;
     cursor: pointer;
-    text-decoration: none !important;
 }
 
 .mainPageContent{
@@ -359,16 +355,3 @@
   }
 
 
-  .linkunder{
-    text-decoration: none !important;
-    width: 100%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 19px;
-    font-family: 'Space Mono', monospace ;
-    margin-right: 5px;
-    margin-left: 5px;
-    text-decoration: none !important;
-  }

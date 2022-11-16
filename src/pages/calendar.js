@@ -1,15 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useNavigate } from 'react';
 import Content from '../components/Content'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import TitleSpaceCalendar from '../components/TitleSpacePages/index_calendar'
 import "./calendar.css"
+import { Link } from "react-router-dom";
+import { HashLink as Link1 } from 'react-router-hash-link';
 import ReactGA from 'react-ga';
 
 ReactGA.initialize('UA-247449191-1');
 
 const CalendarPage = () => {
   const [isOpen, setIsOpen] = useState(false)
+
+  // const navigate = useNavigate();
+
+  // const navigateToEmpPhase1 = () => {
+  //   // 👇️ navigate to /contacts
+  //   navigate('/resdux-2022');
+  // };
 
   const toggle = () => {
     setIsOpen(!isOpen)
@@ -55,7 +64,7 @@ const CalendarPage = () => {
                           <td>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000017"}>Lazar CH 1: Introduction to HCI Research</a></li>
-                              <li>Reader PT 1: Research and Design of UX</li>
+                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 1: Research and Design of UX</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process"}>Stages in Design Thinking Process</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_73"}>The Art of Game Design CH7: "Ideas"</a></li>
                             </ul>
@@ -63,21 +72,23 @@ const CalendarPage = () => {
                             <div className='note'>due next week blah blah</div> */}
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>RESDUX:Introduciton Slides</a>
+                            {/* Add href={""} */}
+                            <a href={"https://canvas.utwente.nl/courses/11018/files/3332163?module_item_id=366812"} target={"_blank"} style={{}}>RESDUX:Introduciton Slides</a> 
                             <div style={{fontSize: '0.95em'}} className='note'>15th November (Tuesday)</div>
                             {/* <br/> */}
                             {/* <a href={""} target={"_blank"} style={{}}>A1 Needfinding (group)</a>
                             <div className='note'>due next week blah blah</div> */}
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Discovery Research/Topic Identification</a>
-                            <div style={{fontSize: '0.95em'}}  className='note'>16th (Wed) & 17th November (Thurs)</div>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Discovery Research/Topic Identification</a>
+                            <div style={{fontSize: '0.95em'}}  className='note'>16th (Wed) & 17th (Thurs) November </div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li style={{cursor: "pointer"}}><a >Description of target user group and domain</a></li>
-                              <li style={{cursor: "pointer"}}><a >Develop Research Questions</a></li>
-                              <li style={{cursor: "pointer"}}><a >Develop Relevant Product Concept and Global Requirements</a></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#empphase1"><a >Description of target user group and domain</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#defphase1"><a >Develop Research Questions</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#ideaphase1"><a >Develop Relevant Product Concept and Global Requirements</a></Link1></li>
                             </ul>
                           </td>
                           <td>
@@ -85,7 +96,7 @@ const CalendarPage = () => {
                           </td>
                         </tr>
                         <tr>
-                          <td style={{fontWeight: 'bold'}}>W2: Nov 21-25</td>
+                          <td id = "exam1" style={{fontWeight: 'bold'}}>W2: Nov 21-25</td>
                           <td>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000054"}>Lazar CH 5: Surveys (Articulating Questions)</a></li>
@@ -94,16 +105,19 @@ const CalendarPage = () => {
                             </ul>
                           </td>
                           <td>
-                          <a href={""} target={"_blank"} style={{}}>Surveys, Interviews, Focus Groups, & Observations</a>
+                          {/* Add href={""} */}
+                          <a target={"_blank"} style={{}}>Surveys, Interviews, Focus Groups, & Observations</a>
                             <div style={{fontSize: '0.95em'}} className='note'>21st November (Monday)</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Exam 1</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Exam 1</a>
                             <div style={{fontSize: '0.95em'}} className='note'>24th November (Thursday)</div>
                             <div style={{fontSize: '0.95em'}} className='note'>Them 1 & Them 2 </div>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Related Work & Interview Preparation</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>21st (Mon) & 24th (Thur) November</div>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Related Work & Interview Preparation</a>
+                            <div style={{fontSize: '0.95em'}} className='note'>21st (Mon) & 24th (Thurs) November</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
@@ -113,7 +127,8 @@ const CalendarPage = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Deliverable #1</a>
+                            {/* Add href={""} to Canvas Page*/}
+                            <a href={"https://canvas.utwente.nl/courses/11018/assignments/94188?module_item_id=366704"} target={"_blank"} style={{}}>Deliverable #1</a>
                             <div style={{fontSize: '0.95em'}} className='note'>25th November (Friday)</div>
                             <br/>
                           </td>
@@ -123,22 +138,24 @@ const CalendarPage = () => {
                           <td>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000157"}>Lazar CH 15: Working with Human Subjects</a></li>
-                              <li>Reader PT 2: Illustration & User Confrontation</li>
+                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 2: Illustration & User Confrontation</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_479"}>The Art of Game Design CH 28: Playtesting</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.coursera.org/lecture/human-computer-interaction/storyboards-paper-prototypes-and-mockups-78yeB"}>Video: Storyboards, Paper Prototypes & Mockups </a></li>
                               <li>Ethics Guidelines EEMCS</li>
                             </ul>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Working with Human Subjects</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Working with Human Subjects</a>
                             <div style={{fontSize: '0.95em'}} className='note'>28th November (Monday)</div>
                             {/* <br/>
                             <a href={""} target={"_blank"} style={{}}>A1 Needfinding (group)</a>
                             <div className='note'>due next week blah blah</div> */}
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Interviews & Lo-Fi Preparation</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>28th November (Mon) & 1st December (Thur)</div>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Interviews & Lo-Fi Preparation</a>
+                            <div style={{fontSize: '0.95em'}} className='note'>28th November (Mon) & 1st December (Thurs)</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
@@ -152,7 +169,7 @@ const CalendarPage = () => {
                           </td>
                         </tr>
                         <tr>
-                          <td style={{fontWeight: 'bold'}}>W4: Dec 5-9</td>
+                          <td id = "exam2" style={{fontWeight: 'bold'}}>W4: Dec 5-9</td>
                           <td>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000108"}>Lazar CH 10: Usability Testing</a></li>
@@ -161,16 +178,19 @@ const CalendarPage = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Analyzing Qualitative Data & Usability Testing</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Analyzing Qualitative Data & Usability Testing</a>
                             <div style={{fontSize: '0.95em'}} className='note'>5th December (Monday)</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Exam 2</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Exam 2</a>
                             <div style={{fontSize: '0.95em'}} className='note'>8th December (Thursday)</div>
                             <div style={{fontSize: '0.95em'}} className='note'>Them 1 & Them 2 </div>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Lo-Fi Prototyping & User Confrontations</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>5th (Mon) & 8th (Thur) December</div>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Lo-Fi Prototyping & User Confrontations</a>
+                            <div style={{fontSize: '0.95em'}} className='note'>5th (Mon) & 8th (Thurs) December</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
@@ -181,7 +201,8 @@ const CalendarPage = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Deliverable #2</a>
+                            {/* Add to Canvas*/}
+                            <a href={"https://canvas.utwente.nl/courses/11018/assignments/94189?module_item_id=366705"} target={"_blank"} style={{}}>Deliverable #2</a>
                             <div style={{fontSize: '0.95em'}} className='note'>9th December (Friday)</div>
                           </td>
                         </tr>
@@ -190,16 +211,18 @@ const CalendarPage = () => {
                           <td>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000029"}>Lazar CH2: Experimental Research</a></li>
-                              <li>Reader PT 3: Making Research</li>
+                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 3: Making Research</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_549"}>The Art of Game Design CH33: Games Transform their Players</a></li>
                             </ul>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Experimental Research & Making Research</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Experimental Research & Making Research</a>
                             <div style={{fontSize: '0.95em'}} className='note'>12th December (Monday)</div>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
                             <div style={{fontSize: '0.95em'}} className='note'>12th (Mon) & 15th (Thur) December (Monday)</div>
                             <br/>
                             <div style={{}}>Objectives</div>
@@ -218,17 +241,19 @@ const CalendarPage = () => {
                           <td style={{fontWeight: 'bold'}}>W6: Dec 19-23</td>
                           <td>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li>Something on Hi-Fi Prototyping?</li>
-                              <li>Diagramming?</li>
-                              <li>System Architecture?</li>
+                              <li>Hi-Fi Prototyping</li>
+                              <li>Diagramming</li>
+                              <li>System Architecture</li>
                             </ul>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
                             <div style={{fontSize: '0.95em'}} className='note'>19th December (Monday)</div>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
                             <div style={{fontSize: '0.95em'}} className='note'>19th (Mon) & 22nd (Thur) December (Monday)</div>
                             <br/>
                             <div style={{}}>Objectives</div>
@@ -251,11 +276,13 @@ const CalendarPage = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Experimental Design & Statistical Analysis</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Experimental Design & Statistical Analysis</a>
                             <div style={{fontSize: '0.95em'}} className='note'>9th January (Monday)</div>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Research Designs & Hi-Fi Prototyping</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Research Designs & Hi-Fi Prototyping</a>
                             <div style={{fontSize: '0.95em'}} className='note'>9th (Mon) & 12th (Thur) January</div>
                             <br/>
                             <div style={{}}>Objectives</div>
@@ -269,7 +296,7 @@ const CalendarPage = () => {
                           </td>
                         </tr>
                         <tr>
-                          <td style={{fontWeight: 'bold'}}>W8: Jan 16-20</td>
+                          <td id = "exam3" style={{fontWeight: 'bold'}}>W8: Jan 16-20</td>
                           <td>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://faculty.washington.edu/wobbrock/pubs/Wobbrock-2012.pdf"}>Seven Research Contributions in HCI</a></li>
@@ -277,15 +304,18 @@ const CalendarPage = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Scientific Writing & Reporting</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Scientific Writing & Reporting</a>
                             <div style={{fontSize: '0.95em'}} className='note'>16th January (Monday)</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Exam 2</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Exam 3</a>
                             <div style={{fontSize: '0.95em'}} className='note'>8th December (Thursday)</div>
                             <div style={{fontSize: '0.95em'}} className='note'>Them 1 & Them 2 </div>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Research Designs & Hi-Fi Prototyping</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Research Designs & Hi-Fi Prototyping</a>
                             <div style={{fontSize: '0.95em'}} className='note'>16th (Mon) & 19th (Thur) January</div>
                             <br/>
                             <div style={{}}>Objectives</div>
@@ -295,12 +325,13 @@ const CalendarPage = () => {
                             </ul>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Deliverable #3</a>
+                            {/* Add  */}
+                            <a href={"https://canvas.utwente.nl/courses/11018/assignments/94192?module_item_id=366706"} target={"_blank"} style={{}}>Deliverable #3</a>
                             <div style={{fontSize: '0.95em'}} className='note'>20th December (Friday)</div>
                           </td>
                         </tr>
                         <tr>
-                          <td style={{fontWeight: 'bold'}}>W9: Jan 23-27</td>
+                          <td id = "exam4" style={{fontWeight: 'bold'}}>W9: Jan 23-27</td>
                           <td>
                             <div className='note'>None</div>
                           </td>
@@ -308,15 +339,20 @@ const CalendarPage = () => {
                             <div className='note'>None</div>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Oral Reflection Meetings</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Oral Reflection Meetings</a>
                             <div style={{fontSize: '0.95em'}} className='note'>25th January (Wednesday)</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Oral Reflection Meetings</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Oral Reflection Meetings</a>
                             <div style={{fontSize: '0.95em'}} className='note'>26th January (Thursday)</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Oral Reflection Meetings</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Oral Reflection Meetings</a>
                             <div style={{fontSize: '0.95em'}} className='note'>27th January (Friday)</div>
-                            <a href={""} target={"_blank"} style={{}}>Oral Reflection Meetings</a>
+                            <br/>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Oral Reflection Meetings</a>
                             <div style={{fontSize: '0.95em'}} className='note'>30th January (Monday)</div>
                           </td>
                           <td>
@@ -324,23 +360,27 @@ const CalendarPage = () => {
                           </td>
                         </tr>
                         <tr>
-                          <td style={{fontWeight: 'bold'}}>W10: Jan 30-Feb 3</td>
+                          <td id = "exam5" style={{fontWeight: 'bold'}}>W10: Jan 30-Feb 3</td>
                           <td>
                             <div className='note'>None</div>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Resit Exam</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Resit Exam</a>
                             <div style={{fontSize: '0.95em'}} className='note'>2nd February (Thursday)</div>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Demo Market</a>
+                            {/* Add href={""} */}
+                            <a target={"_blank"} style={{}}>Demo Market</a>
                             <div style={{fontSize: '0.95em'}} className='note'>3rd February (Friday)</div>
                           </td>
                           <td>
-                            <a href={""} target={"_blank"} style={{}}>Final Project Report</a>
+                            {/* Add  */}
+                            <a href={"https://canvas.utwente.nl/courses/11018/assignments/94194?module_item_id=366707"} target={"_blank"} style={{}}>Final Project Report</a>
                             <div style={{fontSize: '0.95em'}} className='note'>3rd February (Friday)</div>
                             <br/>
-                            <a href={""} target={"_blank"} style={{}}>Final Project Video</a>
+                            {/* Add  */}
+                            <a href={"https://canvas.utwente.nl/courses/11018/assignments/94195?module_item_id=366708"} target={"_blank"} style={{}}>Final Project Video</a>
                             <div style={{fontSize: '0.95em'}} className='note'>3rd February (Friday)</div>
                           </td>
                         </tr>

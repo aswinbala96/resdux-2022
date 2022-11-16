@@ -29,7 +29,7 @@ const Hexagon1 = (props) => {
                 <Text>Define</Text>
             </Hexagon>
             <Hexagon onClick={event => scrollTo(event, "defphase1")}  q={1} r={0} s={-1} className="hexagons1">
-                <Text style={{cursor: 'pointer'}} x={-8} y={-8} >Challenge</Text>
+                <Text style={{cursor: 'pointer'}} x={-1} y={-8} >Problem Definition</Text>
             </Hexagon>
             <Hexagon onClick={event => scrollTo(event, "ideaphase1")} q={1} r={-1} s={0} className="hexagons1-ideate">
               <Text>Ideate</Text>

@@ -1,16 +1,22 @@
-import React, { useState } from 'react'
+import React, {  useEffect, useState } from 'react'
+// import Navbar from '../components/Navbar'
+// import Sidebar from '../components/Sidebar'
 import { ContentSpace, MainPanel, ContentCointainer, SidePanel } from './ContentElements'
 import { IoIosArrowRoundBack } from "react-icons/io";
 import './content.css';
-
+import ReactGA from 'react-ga';
 import Hexagon2 from '../Hexagon2';
 import Hexagon3 from '../Hexagon3';
 import Hexagon1 from '../Hexagon1';
 import ProjectPage from '../../pages/project';
+import Sidebar from '../Sidebar';
+import Navbar from '../Navbar';
+import TitleSpace from '../TitleSpace';
 import { HashLink as Link1 } from 'react-router-hash-link';
 
+ReactGA.initialize('UA-247449191-1');
 
-function Content() {
+function MainDuplicate() {
     const [isShown1, setIsShown1] = useState(true)
 
     const handleClick1 = event => {
@@ -18,12 +24,24 @@ function Content() {
         setIsShown1(current => !current);
     };
 
+    const [isOpen, setIsOpen] = useState(false)
+    const toggle = () => {
+        setIsOpen(!isOpen)
+      }
+    
+      useEffect(() => {
+        ReactGA.pageview(window.location.pathname);
+      }, []);
   return (
     <>
+        <div className='desktopPage'>
+        <Sidebar isOpen = {isOpen} toggle = {toggle}/>
+        <Navbar toggle = {toggle}/>
+        <TitleSpace/>
         <ContentSpace>
             <ContentCointainer>
                 <SidePanel>
-                    <h2 class= 'side-header'>Important Dates</h2>
+                <h2 class= 'side-header'>Important Dates</h2>
                     <ul class= 'ul-style-con'>
                         <li style={{fontFamily: "Inconsolata, monospace"}}>
                             <Link1 smooth to="/calendar#exam1"><span class = 'highlight'>[24/11]</span></Link1>: Exam 1
@@ -99,7 +117,7 @@ function Content() {
                 </SidePanel>
                 <MainPanel>
                     <div style={{display: "flex", flexDirection: 'column', width: "100%", height: "98%"}}>
-                        <div style={{display: isShown1 ? 'none' : 'block', flexDirection: 'column', height: "90%" }}>
+                        <div style={{display: isShown1 ? 'block' : 'none', flexDirection: 'column', height: "90%" }}>
                             <div style={{display: "flex"}}>
                                 <div onClick={handleClick1} style={{cursor: "pointer", flex: 1}}> 
                                     <IoIosArrowRoundBack/>
@@ -107,11 +125,11 @@ function Content() {
                             </div>
                             <ProjectPage/>
                         </div>
-                        <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown1 ? 'block' : 'none'}}>
+                        <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown1 ? 'none' : 'block'}}>
                             Project Phase Timeline Overview (Click on Various Elements!)
                         </div>
                         {/* alignItems: "center", justifyContent: "center" */}
-                        <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown1 ? 'flex' : 'none'}}>
+                        <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown1 ? 'none' : 'flex'}}>
                             <div style={{display: "flex", flexDirection: "column", width: "100%", height: "80%"}}>
                                 <div className= "TTextContainer" style={{flex: 1, display: "flex", backgroundColor: "white", width: "99%", height: "100%", marginRight: "20px", paddingTop: "5px"}}>
                                     <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
@@ -157,7 +175,7 @@ function Content() {
                                 </div>
                                 <div className= "TlineContainer" style={{flex: 0.2, display: "flex", backgroundColor: "white", width: "99%", height: "100%", marginRight: "20px", paddingTop: "5px"}}>
                                     <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor:'rgba(127, 220, 127, 0.37)'}}></div>
-                                    <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor:'rgba(127, 220, 127, 0.37)'}}></div>
+                                    <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor:'rgba(127, 220, 127, 0.37)'}}></div>
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{borderBottom: 'none', borderTop: 'none', borderColor: "rgba(19, 162, 202, 0.37)"}}></div>
@@ -259,8 +277,12 @@ function Content() {
                 </MainPanel>
             </ContentCointainer>
         </ContentSpace>
+        <div className='mobilePage'>
+            <h4 style={{}}>Please open this page on a desktop or on a device with a larger screen</h4>
+        </div>
+        </div>
     </>
   )
 }
 
-export default Content
+export default MainDuplicate

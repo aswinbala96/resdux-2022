@@ -8,6 +8,7 @@ import DeliverablesPage from './pages/deliverables';
 import ResourcesPage from './pages/resources';
 import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
+import MainDuplicate from './components/ContentDuplicate';
 
 ReactGA.initialize('UA-247449191-1');
 
@@ -25,6 +26,7 @@ function App() {
         <Route exact path ="/deliverables" element={<DeliverablesPage/>} />
         <Route exact path ="/logistic" element={<LogisticPage/>} />
         <Route exact path ="/resources" element={<ResourcesPage/>} />
+        <Route exact path ="/home" element={<MainDuplicate/>} />
       </Routes>
     </Router>
   );
