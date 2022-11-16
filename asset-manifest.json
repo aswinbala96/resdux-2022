@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resdux-2022/static/css/main.7f453976.css",
-    "main.js": "/resdux-2022/static/js/main.2a80754c.js",
+    "main.css": "/resdux-2022/static/css/main.e44cad71.css",
+    "main.js": "/resdux-2022/static/js/main.be5a6fb2.js",
     "static/media/techdomimg.PNG": "/resdux-2022/static/media/techdomimg.9db6b598cd05d751165c.PNG",
     "static/media/userdomimg.PNG": "/resdux-2022/static/media/userdomimg.8d65211a242e9d86a2bf.PNG",
     "static/media/tech_domain.pdf": "/resdux-2022/static/media/tech_domain.dfeacdd44fc8f3c8e515.pdf",
@@ -11,11 +11,11 @@
     "static/media/day_map.PNG": "/resdux-2022/static/media/day_map.863794515c0ef086c4f6.PNG",
     "static/media/res_col.PNG": "/resdux-2022/static/media/res_col.fc94dc5dd7467b6e3193.PNG",
     "index.html": "/resdux-2022/index.html",
-    "main.7f453976.css.map": "/resdux-2022/static/css/main.7f453976.css.map",
-    "main.2a80754c.js.map": "/resdux-2022/static/js/main.2a80754c.js.map"
+    "main.e44cad71.css.map": "/resdux-2022/static/css/main.e44cad71.css.map",
+    "main.be5a6fb2.js.map": "/resdux-2022/static/js/main.be5a6fb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f453976.css",
-    "static/js/main.2a80754c.js"
+    "static/css/main.e44cad71.css",
+    "static/js/main.be5a6fb2.js"
   ]
 }
