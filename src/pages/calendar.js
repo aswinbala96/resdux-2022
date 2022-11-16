@@ -82,7 +82,7 @@ const CalendarPage = () => {
                           <td>
                             {/* Add href={""} */}
                             <a target={"_blank"} style={{}}>Discovery Research/Topic Identification</a>
-                            <div style={{fontSize: '0.95em'}}  className='note'>16th (Wed) & 17th (Thurs) November </div>
+                            <div style={{fontSize: '0.95em'}}  className='note'>16th (<a href={"https://canvas.utwente.nl/courses/11018/files/3334366?module_item_id=367411"} target={"_blank"} style={{}}>Wed</a>) & 17th (Thurs) November </div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
