@@ -15,7 +15,7 @@ const Navbar = ({toggle}) => {
     <>
         <Nav>
             <NavbarCointainer>
-                <NavLogo to='/'>m6:resdux.</NavLogo>
+                <NavLogo to='/'>m6:resdesux.</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />    
                 </MobileIcon>
