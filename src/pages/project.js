@@ -482,25 +482,25 @@ const ProjectPage = () => {
                           <span class="checkmark"></span>
                         </label>
 
-                        <label class="container">Section 2.1 Research Questions
+                        <label class="container">Section 2.1: Research Questions
                           <input type="checkbox"/>
                           <span class="checkmark"></span>
                         </label>
 
-                        <label class="container">Section 2.2 Approach
+                        <label class="container">Section 2.2: Approach
                           <input type="checkbox"/>
                           <span class="checkmark"></span>
                         </label>
 
-                        <label class="container">Section 2.3 Context Analysis: Literature and Related Work
+                        <label class="container">Section 2.3: Context Analysis: Literature and Related Work
                           <input type="checkbox"/>
                           <span class="checkmark"></span>
                         </label>
-                        <label class="container">Section 2.5 Description of Target User Group and Domain
+                        <label class="container">Section 2.5: Description of Target User Group and Domain
                           <input type="checkbox"/>
                           <span class="checkmark"></span>
                         </label>
-                        <label class="container">Section 2.6 Product Concept and Global Requirements
+                        <label class="container">Section 2.6: Product Concept and Global Requirements
                           <input type="checkbox"/>
                           <span class="checkmark"></span>
                         </label>
