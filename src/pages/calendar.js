@@ -110,7 +110,7 @@ const CalendarPage = () => {
                             <div style={{fontSize: '0.95em'}} className='note'>21st November (Monday)</div>
                             <br/>
                             {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Exam 1</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target={"_blank"} style={{}}>Exam 1</a>
                             <div style={{fontSize: '0.95em'}} className='note'>24th November (Thursday)</div>
                             <div style={{fontSize: '0.95em'}} className='note'>Them 1 & Them 2 </div>
                           </td>
@@ -183,7 +183,7 @@ const CalendarPage = () => {
                             <div style={{fontSize: '0.95em'}} className='note'>5th December (Monday)</div>
                             <br/>
                             {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Exam 2</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target={"_blank"} style={{}}>Exam 2</a>
                             <div style={{fontSize: '0.95em'}} className='note'>8th December (Thursday)</div>
                             <div style={{fontSize: '0.95em'}} className='note'>Them 1 & Them 2 </div>
                           </td>
@@ -309,7 +309,7 @@ const CalendarPage = () => {
                             <div style={{fontSize: '0.95em'}} className='note'>16th January (Monday)</div>
                             <br/>
                             {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Exam 3</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target={"_blank"} style={{}}>Exam 3</a>
                             <div style={{fontSize: '0.95em'}} className='note'>8th December (Thursday)</div>
                             <div style={{fontSize: '0.95em'}} className='note'>Them 1 & Them 2 </div>
                           </td>
@@ -366,7 +366,7 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Resit Exam</a>
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target={"_blank"} style={{}}>Resit Exam</a>
                             <div style={{fontSize: '0.95em'}} className='note'>2nd February (Thursday)</div>
                           </td>
                           <td>

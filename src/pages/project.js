@@ -161,8 +161,8 @@ const ProjectPage = () => {
                           <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, as a group, you will look up a list of user domains for whom you would design an interactive user experience. <br/>
                                                                               When coming up with the user domains try to be specific enough that would enable you to come up with enough diverse ideas. Below we provide a chart that exemplifies the idea of a specific user domain. <br/>
                                                                               Moreover it might help to select an user domain within your field of expertise.</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>In order to facilitate this activity you can use either the <a href="https://toolkits.dss.cloud/design/method-card/lotus-blossom-2/" style={{fontFamily: "Inconsolata, monospace"}}>Lotus Blossom</a> or the <a style={{fontFamily: "Inconsolata, monospace"}} href= "https://toolkits.dss.cloud/design/method-card/the-kj-method-2/">KJ Method</a> design methods to create a list of user domains. <br/>
-                                                                             You will then utilize the <a style={{fontFamily: "Inconsolata, monospace"}} href = "https://toolkits.dss.cloud/design/method-card/dot-voting/">Dot Voting </a> method to select the top five domains.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In order to facilitate this activity you can use either the <a target="_blank" href="https://toolkits.dss.cloud/design/method-card/lotus-blossom-2/" style={{fontFamily: "Inconsolata, monospace"}}>Lotus Blossom</a> or the <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href= "https://toolkits.dss.cloud/design/method-card/the-kj-method-2/">KJ Method</a> design methods to create a list of user domains. <br/>
+                                                                             You will then utilize the <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href = "https://toolkits.dss.cloud/design/method-card/dot-voting/">Dot Voting </a> method to select the top five domains.</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>When in doubt approach the teaching staff with any questions you may have</li>                                                                             
                         </ul>
                         <u>Examples</u> 
@@ -174,18 +174,18 @@ const ProjectPage = () => {
                           <a href={userDomainPDF} target="_blank"><img src={userDomain} /></a>
                         </div>
                         <br/>
-                        In this example the user domain focusses on the <u>diagnostic safety</u> in the combat <em>sport</em> of <b>boxing</b>.
+                        <b>In this example the user domain focusses on the <u>diagnostic safety</u> in the combat <em>sport</em> of <u>boxing</u></b>.
                         <br/>
                         <br/>
                         <u>Helpful Resources</u>
                         <br/>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>List of Sports: <a style={{fontFamily: "Inconsolata, monospace"}} href='https://en.wikipedia.org/wiki/List_of_sports'>Link</a> (Reference: Wikipedia)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>List of Paralympics Sports: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://en.wikipedia.org/wiki/Paralympic_sports#Summer_Paralympics">Link</a> (Reference: Wikipedia)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing the Lotus Blossom Method: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://thoughtegg.com/lotus-blossom-creative-technique/">Link</a> (Reference: Thought Egg)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing the Lotus Blossom Method: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://www.lucidmeetings.com/glossary/lotus-blossom-technique">Link</a> (Reference: Lucid Meetings)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing the KJ Method: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://sixsigmastudyguide.com/affinity-diagram/">Link</a> (Reference: Six Sigma Study Guide)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Dot Voting: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/dot-voting/">Link</a> (Reference: Nielsen Norman Group)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>List of Sports: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href='https://en.wikipedia.org/wiki/List_of_sports'>Link</a> (Reference: Wikipedia)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>List of Paralympics Sports: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://en.wikipedia.org/wiki/Paralympic_sports#Summer_Paralympics">Link</a> (Reference: Wikipedia)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing the Lotus Blossom Method: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://thoughtegg.com/lotus-blossom-creative-technique/">Link</a> (Reference: Thought Egg)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing the Lotus Blossom Method: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.lucidmeetings.com/glossary/lotus-blossom-technique">Link</a> (Reference: Lucid Meetings)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing the KJ Method: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://sixsigmastudyguide.com/affinity-diagram/">Link</a> (Reference: Six Sigma Study Guide)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Dot Voting: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/dot-voting/">Link</a> (Reference: Nielsen Norman Group)</li>
                         </ul>
                       </div>
 
@@ -195,8 +195,8 @@ const ProjectPage = () => {
                           <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, as a group, you will look up a list of technology domains which would help drive the interaction. <br/>
                                                                               When selecting the technology domain try to understand its various functions and be specific when explaing it . Below we provide a chart that exemplifies the idea of a specific technology domain. <br/>
                                                                               Moreover it might help to select an technology that you already possess or is available to you from the university.</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>In order to facilitate this activity you can use either the <a href="https://toolkits.dss.cloud/design/method-card/lotus-blossom-2/" style={{fontFamily: "Inconsolata, monospace"}}>Lotus Blossom</a> or the <a style={{fontFamily: "Inconsolata, monospace"}} href= "https://toolkits.dss.cloud/design/method-card/the-kj-method-2/">KJ Method</a> design methods to create a list of technology domains. <br/>
-                                                                             You will then utilize the <a style={{fontFamily: "Inconsolata, monospace"}} href = "https://toolkits.dss.cloud/design/method-card/dot-voting/">Dot Voting</a> method to select the top five domains.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In order to facilitate this activity you can use either the <a target="_blank" href="https://toolkits.dss.cloud/design/method-card/lotus-blossom-2/" style={{fontFamily: "Inconsolata, monospace"}}>Lotus Blossom</a> or the <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href= "https://toolkits.dss.cloud/design/method-card/the-kj-method-2/">KJ Method</a> design methods to create a list of technology domains. <br/>
+                                                                             You will then utilize the <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href = "https://toolkits.dss.cloud/design/method-card/dot-voting/">Dot Voting</a> method to select the top five domains.</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>When in doubt approach the teaching staff with any questions you may have</li>                                                                             
                         </ul>
                         <u>Examples</u>
@@ -208,15 +208,15 @@ const ProjectPage = () => {
                           <a href={techDomainPDF} target="_blank"><img src={techDomain} /></a>
                         </div>
                         <br/>
-                        In this example the technology selected was a modular system with an <b>interactive surface</b> that detects <em>pressure differences</em> to present information using <em>LED lights</em>.
+                        <b> In this example the technology selected was a modular system with an <u>interactive surface</u> that detects <em>pressure differences</em> to present information using <em>LED lights</em>.</b>
                         <br/>
                         <br/>
                         <u>Helpful Resources</u>
                         <br/>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interaction Lab Equipment List: <a style={{fontFamily: "Inconsolata, monospace"}} href='https://utwente-interaction-lab.booqable.shop/'>Link</a></li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Smart XP Lab Equipment List: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://smartxpwiki.ewi.utwente.nl/doku.php">Link</a></li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Dot Voting: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/dot-voting/">Link</a> (Reference: Nielsen Norman Group)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interaction Lab Equipment List: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href='https://utwente-interaction-lab.booqable.shop/'>Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Smart XP Lab Equipment List: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://smartxpwiki.ewi.utwente.nl/doku.php">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Dot Voting: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/dot-voting/">Link</a> (Reference: Nielsen Norman Group)</li>
                         </ul>
                       </div>
 
@@ -230,27 +230,27 @@ const ProjectPage = () => {
                         <br/>
                         <u>Helpful Resources</u>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Cheat Sheet to Efficiently Search for Scientific Works: <a style={{fontFamily: "Inconsolata, monospace"}} href='https://s3.amazonaws.com/libapps/accounts/64602/images/Boolean_Cheat_Sheet_0.jpeg'>Link</a> (Reference: Northern Arizona University CLINE Library)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Website to Search for Similar Papers Quickly: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://inciteful.xyz/">Link</a> (Reference: Inciteful)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Google Scholar: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://scholar.google.com/">Link</a> (Reference: Google Scholar)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>ACM Library: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://dl.acm.org/">Link</a> (Reference: ACM Library)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>IEEE Library: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://ieeexplore.ieee.org/Xplore/home.jsp">Link</a> (Reference: IEEE Library)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>JSTOR Library: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://www.jstor.org/">Link</a> (Reference: JSTOR Library)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Open Research Library: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://openresearchlibrary.org/">Link</a> (Reference: Open Research Library)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Generating BibTEX Citations: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://www.doi2bib.org/">Link</a> (Reference: DOI 2 Bib)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Cheat Sheet to Efficiently Search for Scientific Works: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href='https://s3.amazonaws.com/libapps/accounts/64602/images/Boolean_Cheat_Sheet_0.jpeg'>Link</a> (Reference: Northern Arizona University CLINE Library)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Website to Search for Similar Papers Quickly: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://inciteful.xyz/">Link</a> (Reference: Inciteful)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Google Scholar: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://scholar.google.com/">Link</a> (Reference: Google Scholar)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>ACM Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://dl.acm.org/">Link</a> (Reference: ACM Library)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>IEEE Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://ieeexplore.ieee.org/Xplore/home.jsp">Link</a> (Reference: IEEE Library)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>JSTOR Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.jstor.org/">Link</a> (Reference: JSTOR Library)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Open Research Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://openresearchlibrary.org/">Link</a> (Reference: Open Research Library)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Generating BibTEX Citations: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.doi2bib.org/">Link</a> (Reference: DOI 2 Bib)</li>
                         </ul>
                       </div>
 
-                      <h4 id="matrix" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Develop the Matrix</h4>
+                      <h4 id="matrix" style={{fontWeight: "1000", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Develop the Matrix</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>After shortlisting the <b style={{fontFamily: "Inconsolata, monospace"}}>top five</b> user and technology domains form the matrix as described during the introduction.</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>After forming the moatrix, use the <a style={{fontFamily: "Inconsolata, monospace"}} href = "https://toolkits.dss.cloud/design/method-card/dot-voting/">Dot Voting </a> method once more to select the one combination of user and technology domain.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>After forming the matrix, use the <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href = "https://toolkits.dss.cloud/design/method-card/dot-voting/">Dot Voting </a> method once more to select one combination of user and technology domain.</li>
                         </ul>
                         <br/>
                         <u>Helpful Resources</u>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Dot Voting: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/dot-voting/">Link</a> (Reference: Nielsen Norman Group)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Dot Voting: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/dot-voting/">Link</a> (Reference: Nielsen Norman Group)</li>
                         </ul>
                       </div>
                     </div>
@@ -285,16 +285,16 @@ const ProjectPage = () => {
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
-                                <Link1 className='projectLink1' smooth to={"#userdom"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Further Analyse the User and Technology Domain</a></Link1>
+                                <Link1 className='projectLink1' smooth to={"#furtheremp"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Further Analyse the User and Technology Domain</a></Link1>
                               </li>
                             </ul>
                         </div>
                       </div>
-                      <h4 id="userdom" style={{fontWeight: "1000", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Further Analyse the User and Technology Domain</h4>
+                      <h4 id="furtheremp" style={{fontWeight: "1000", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Further Analyse the User and Technology Domain</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity you will conduct another round of emphatizing, but this time using another methods of design to obtain richer insights about the selected user adn technology domain.</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Below we have shortlisted few emphatize methods you could use to conduct the activity</li>                                                                      
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity you will conduct another round of emphatizing, but this time using other methods of design to obtain richer insights about the selected user and technology domain.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Below we have shortlisted few emphatize methods you could use to conduct the activity.</li>                                                                      
                         </ul>
                         <u>Design Methods: Emphatize</u> 
                         <br/>
@@ -307,14 +307,14 @@ const ProjectPage = () => {
                           <a href={"https://toolkits.dss.cloud/design/method-card/research-collage/"} target="_blank"><img style={{width: "20vh", height: "20vh", paddingRight: "10px"}} src={resCol} /></a>
                         </div>
                         <br/>
-                        It would be beneficial to use information derived from podcast/video interviews and academic work to drive this session.
+                        <b>It would be beneficial to use information derived from podcast/video interviews and academic work to drive this session.</b>
                         <br/>
                         <br/>
                         <u>Helpful Resources</u>
                         <br/>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Day in Life Method: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://dscout.com/people-nerds/day-in-the-life">Link</a> (Reference: DScout) </li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Cognitive Map Method: <a style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/cognitive-mapping-user-research/">Link</a> (Reference: Nielsen Norman Group)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Day in Life Method: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://dscout.com/people-nerds/day-in-the-life">Link</a> (Reference: DScout) </li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Cognitive Map Method: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/cognitive-mapping-user-research/">Link</a> (Reference: Nielsen Norman Group)</li>
                         </ul>
                       </div>
                     </div>
@@ -487,7 +487,7 @@ const ProjectPage = () => {
                           <span class="checkmark"></span>
                         </label>
 
-                        <label class="container">Section 2.2 Appraoch
+                        <label class="container">Section 2.2 Approach
                           <input type="checkbox"/>
                           <span class="checkmark"></span>
                         </label>

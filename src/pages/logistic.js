@@ -163,7 +163,7 @@ const LogisticPage = () => {
                             <p class="card_text" style={{fontWeight:"bold"}}>Lecturer</p>
                             <p class="card_text" style={{marginBottom: "1.25rem"}}>a.balasubramaniam@utwente.nl</p>
                             <h2 class="card_title">Expertise</h2>
-                            <p class="card_text" >Sports Interaction Technology. User Studies. Software & Hardware Integration. Qualitative Analysis of Data. Ethical Procedures. Rubber Duck for Debugging</p>
+                            <p class="card_text" >Sports Interaction Technology. User Studies. Software & Hardware Integration. Qualitative Analysis of Data. Ethical Procedures. <a href="https://www.youtube.com/watch?v=huOPVqztPdc" style={{color: "white"}}>Rubber Duck for Debugging</a></p>
                           </div>
                         </div>
                       </li>
@@ -223,7 +223,7 @@ const LogisticPage = () => {
                             <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
                             <p class="card_text" style={{marginBottom: "1.25rem"}}>r.mulder-2@student.utwente.nl</p>
                             <h2 class="card_title">Expertise</h2>
-                            <p class="card_text" >User Studies & Analysis. Ethical Procedures. Qualitative Analysis of Data. Project Management. Rubber Duck. Swimming. Prototyping</p>
+                            <p class="card_text" >User Studies & Analysis. Ethical Procedures. Qualitative Analysis of Data. Project Management. <a href="https://www.youtube.com/watch?v=huOPVqztPdc" style={{color: "white"}}>Rubber Duck for Debugging</a>. Swimming. Prototyping</p>
                           </div>
                         </div>
                       </li>
@@ -235,7 +235,7 @@ const LogisticPage = () => {
                             <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
                             <p class="card_text" style={{marginBottom: "1.25rem"}}>e.mytaros@student.utwente.nl</p>
                             <h2 class="card_title">Expertise</h2>
-                            <p class="card_text" >Literature Review. User Studies & Analysis. Statistical Analysis of Data. Rubber Duck. Project Management. Programming </p>
+                            <p class="card_text" >Literature Review. User Studies & Analysis. Statistical Analysis of Data. <a href="https://www.youtube.com/watch?v=huOPVqztPdc" style={{color: "white"}}>Rubber Duck for Debugging</a>. Project Management. Programming </p>
                           </div>
                         </div>
                       </li>
@@ -247,7 +247,7 @@ const LogisticPage = () => {
                             <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
                             <p class="card_text" style={{marginBottom: "1.25rem"}}>h.k.s.ottenschot@student.utwente.nl</p>
                             <h2 class="card_title">Expertise</h2>
-                            <p class="card_text" >Literature Review. Project Management. User Studies & Analysis. Prototyping. Rubber Duck. Gymnastics</p>
+                            <p class="card_text" >Literature Review. Project Management. User Studies & Analysis. Prototyping. <a href="https://www.youtube.com/watch?v=huOPVqztPdc" style={{color: "white"}}>Rubber Duck for Debugging</a>. Gymnastics</p>
                           </div>
                         </div>
                       </li>
