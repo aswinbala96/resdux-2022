@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/resdux-2022/static/css/main.c40f004b.css",
-    "main.js": "/resdux-2022/static/js/main.5722c68c.js",
+    "main.css": "/resdux-2022/static/css/main.7f453976.css",
+    "main.js": "/resdux-2022/static/js/main.2a80754c.js",
+    "static/media/techdomimg.PNG": "/resdux-2022/static/media/techdomimg.9db6b598cd05d751165c.PNG",
+    "static/media/userdomimg.PNG": "/resdux-2022/static/media/userdomimg.8d65211a242e9d86a2bf.PNG",
+    "static/media/tech_domain.pdf": "/resdux-2022/static/media/tech_domain.dfeacdd44fc8f3c8e515.pdf",
+    "static/media/user_domain.pdf": "/resdux-2022/static/media/user_domain.d82aac25c41b38f785c9.pdf",
     "static/media/retro-furnish.png": "/resdux-2022/static/media/retro-furnish.4078a5ddca23e03f294e.png",
+    "static/media/cog_map.PNG": "/resdux-2022/static/media/cog_map.6fb97ecb1b1bbd671af5.PNG",
+    "static/media/day_map.PNG": "/resdux-2022/static/media/day_map.863794515c0ef086c4f6.PNG",
+    "static/media/res_col.PNG": "/resdux-2022/static/media/res_col.fc94dc5dd7467b6e3193.PNG",
     "index.html": "/resdux-2022/index.html",
-    "main.c40f004b.css.map": "/resdux-2022/static/css/main.c40f004b.css.map",
-    "main.5722c68c.js.map": "/resdux-2022/static/js/main.5722c68c.js.map"
+    "main.7f453976.css.map": "/resdux-2022/static/css/main.7f453976.css.map",
+    "main.2a80754c.js.map": "/resdux-2022/static/js/main.2a80754c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c40f004b.css",
-    "static/js/main.5722c68c.js"
+    "static/css/main.7f453976.css",
+    "static/js/main.2a80754c.js"
   ]
 }
