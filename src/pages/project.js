@@ -18,6 +18,15 @@ import techDomainPDF from '../images/tech_domain.pdf';
 import cogMap from '../images/cog_map.PNG';
 import dayMap from '../images/day_map.PNG';
 import resCol from '../images/res_col.PNG';
+import aoki from '../images/aoki.png';
+import brain from '../images/brain.png';
+import kj from '../images/kj.png';
+import mind from '../images/mind.png';
+import sense from '../images/sense.png';
+import mash from '../images/mash.png';
+import dark from '../images/dark.png';
+import lotus from '../images/lotus.png';
+
 
 ReactGA.initialize('UA-247449191-1');
 
@@ -103,13 +112,13 @@ const ProjectPage = () => {
                       This is also coupled with some guiding examples and links to resources that will contribute to the progress of your report. 
                       <br/>
                     </div>
-                    <h3 id="phase1" ref={phase1}>PHASE 1: <br/> CONTEXT ANALYSIS, PRELIMINARY ANALYSIS & IDEATION</h3>
+                    <h3 id="phase1" ref={phase1}>PHASE 1: <br/> CONTEXT ANALYSIS, PRELIMINARY ANALYSIS & IDEATION (Week 1-2)</h3>
                     <div className='pro-bodytext-hex' >
                       <Hexagon1 scrollPosition={goTo} />
                       {/* <h4 value = {word} style={{display: "block"}}>{word}</h4> */}
                     </div>
                     <div className='pro-bodytext'>
-                      <h4 id="empphase1" className='sub-header'>Emphatize: Context Analysis Part 1</h4>
+                      <h4 id="empphase1" className='sub-header'>Day 1: Emphatize: Context Analysis Part 1</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -149,13 +158,10 @@ const ProjectPage = () => {
                               <li>
                                 <Link1 className='projectLink1' smooth to={"#litreview"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Conduct Literature Review</a></Link1>
                               </li>
-                              <li>
-                                <Link1 className='projectLink1' smooth to={"#matrix"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Develop the Matrix</a></Link1>
-                              </li>
                             </ul>
                         </div>
                       </div>
-                      <h4 id="userdom" style={{fontWeight: "1000", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Identify List of User Domains</h4>
+                      <h4 id="userdom" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Identify List of User Domains</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, as a group, you will look up a list of user domains for whom you would design an interactive user experience. <br/>
@@ -189,7 +195,7 @@ const ProjectPage = () => {
                         </ul>
                       </div>
 
-                      <h4 id="techdom" style={{fontWeight: "1000", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Identify List of Technology Domains</h4>
+                      <h4 id="techdom" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Activity 2: Identify List of Technology Domains</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, as a group, you will look up a list of technology domains which would help drive the interaction. <br/>
@@ -220,7 +226,7 @@ const ProjectPage = () => {
                         </ul>
                       </div>
 
-                      <h4 id="litreview" style={{fontWeight: "1000", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Conduct literature Review</h4>
+                      <h4 id="litreview" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Activity 3: Conduct literature Review</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>When searching for relevant user and technology domains you must use scientifc/academic work to justify your selection</li>
@@ -241,22 +247,11 @@ const ProjectPage = () => {
                         </ul>
                       </div>
 
-                      <h4 id="matrix" style={{fontWeight: "1000", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Develop the Matrix</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>After shortlisting the <b style={{fontFamily: "Inconsolata, monospace"}}>top five</b> user and technology domains form the matrix as described during the introduction.</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>After forming the matrix, use the <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href = "https://toolkits.dss.cloud/design/method-card/dot-voting/">Dot Voting </a> method once more to select one combination of user and technology domain.</li>
-                        </ul>
-                        <br/>
-                        <u>Helpful Resources</u>
-                        <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Dot Voting: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/dot-voting/">Link</a> (Reference: Nielsen Norman Group)</li>
-                        </ul>
-                      </div>
+                      
                     </div>
 
                     <div id="emp2phase1" className='pro-bodytext'>
-                      <h4 className='sub-header'>Emphatize: Context Analysis Part 2</h4>
+                      <h4 className='sub-header'>Day 2: Emphatize: Context Analysis Part 2</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -267,7 +262,7 @@ const ProjectPage = () => {
                         <div style={{flex: 1, paddingLeft: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
                           <ul class= 'ul-style'>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000017"}>Lazar CH 1: Introduction to HCI Research</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000017"}>Lazar CH 1: Introduction to HCI Research</a></li>
                               <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 1: Research and Design of UX</a></li>
                               <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process"}>Stages in Design Thinking Process</a></li>
                               <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_73"}>The Art of Game Design CH7: "Ideas"</a></li>
@@ -285,16 +280,37 @@ const ProjectPage = () => {
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
+                                <Link1 className='projectLink1' smooth to={"#matrix"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Develop the Matrix</a></Link1>
+                              </li>
+                              <li>
                                 <Link1 className='projectLink1' smooth to={"#furtheremp"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Further Analyse the User and Technology Domain</a></Link1>
+                              </li>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#litreview2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Literature Review</a></Link1>
                               </li>
                             </ul>
                         </div>
                       </div>
-                      <h4 id="furtheremp" style={{fontWeight: "1000", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Further Analyse the User and Technology Domain</h4>
+                      <h4 id="matrix" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Activity 1: Develop the Matrix</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity you will conduct another round of emphatizing, but this time using other methods of design to obtain richer insights about the selected user and technology domain.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>After shortlisting the <b style={{fontFamily: "Inconsolata, monospace"}}>top five</b> user and technology domains form the matrix as described during the introduction.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>After forming the matrix, use the <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href = "https://toolkits.dss.cloud/design/method-card/dot-voting/">Dot Voting </a> method once more to select one combination of user and technology domain.</li>
+                        </ul>
+                        <br/>
+                        <u>Helpful Resources</u>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Dot Voting: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/dot-voting/">Link</a> (Reference: Nielsen Norman Group)</li>
+                        </ul>
+                      </div>
+
+                      <h4 id="furtheremp" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Further Analyse the User and Technology Domain</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity you will conduct another round of emphatizing, but this time using more methods of design to obtain richer insights about the selected user and technology domain.</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Below we have shortlisted few emphatize methods you could use to conduct the activity.</li>                                                                      
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>You do not need to have a set of participants or interview users at this stage yet. 
+                          Instead make use of the framework/structure described in the design cards listed below and use existing literature and podcast/video interviews to know your users' domain.</li>                                                                      
                         </ul>
                         <u>Design Methods: Emphatize</u> 
                         <br/>
@@ -317,27 +333,45 @@ const ProjectPage = () => {
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Cognitive Map Method: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/cognitive-mapping-user-research/">Link</a> (Reference: Nielsen Norman Group)</li>
                         </ul>
                       </div>
+
+                      <h4 id="litreview2" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Activity 3: Conduct literature Review</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>When searching for relevant user and technology domains you must use scientifc/academic work to justify your selection</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In order to that you must conduct a literature review. Below we provide two useful links that will help you to search for relevant scientific literature <b style={{fontFamily: "Inconsolata, monospace"}}>efficiently</b></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>We also provide a list of academic libraries and search engines you could use to conduct your literature review</li>
+                        </ul>
+                        <br/>
+                        <u>Helpful Resources</u>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Cheat Sheet to Efficiently Search for Scientific Works: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href='https://s3.amazonaws.com/libapps/accounts/64602/images/Boolean_Cheat_Sheet_0.jpeg'>Link</a> (Reference: Northern Arizona University CLINE Library)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Website to Search for Similar Papers Quickly: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://inciteful.xyz/">Link</a> (Reference: Inciteful)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Google Scholar: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://scholar.google.com/">Link</a> (Reference: Google Scholar)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>ACM Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://dl.acm.org/">Link</a> (Reference: ACM Library)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>IEEE Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://ieeexplore.ieee.org/Xplore/home.jsp">Link</a> (Reference: IEEE Library)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>JSTOR Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.jstor.org/">Link</a> (Reference: JSTOR Library)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Open Research Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://openresearchlibrary.org/">Link</a> (Reference: Open Research Library)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Generating BibTEX Citations: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.doi2bib.org/">Link</a> (Reference: DOI 2 Bib)</li>
+                        </ul>
+                      </div>
                     </div>
                     
-                    {/* <div className='pro-bodytext'>
-                      <h4 id="defphase1" className='sub-header'>Define: Problem Definition</h4>
+                    <div className='pro-bodytext'>
+                      <h4 id="defphase1" className='sub-header'>Day 2: Define: Research Question</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                           <ul class= 'ul-style'>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>Pick one combination of technology and user domain</li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>Define your research quesitons</li>
                           </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+                        <div style={{}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
                           <ul class= 'ul-style'>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000054"}>Lazar CH 5: Surveys (Articulating Questions)</a></li>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B978012805390400008X"}>Lazar CH 8: Interviews & Focus Groups</a></li>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.coursera.org/lecture/interaction-design-capstone/participant-observation-uCubp"}>Video: Participant Observation</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000017"}>Lazar CH 1: Introduction to HCI Research</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 1: Research and Design of UX</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process"}>Stages in Design Thinking Process</a></li>
                           </ul>
                         </div>
                       </div>
@@ -349,69 +383,96 @@ const ProjectPage = () => {
                             </ul>
                         </div>
                         <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
+                                <Link1 className='projectLink1' smooth to={"#choosing"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Choosing the cell (user + tech) that you like best</a></Link1>
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
+                                <Link1 className='projectLink1' smooth to={"#furtheremp"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Defining Research Questions</a></Link1>
                               </li>
                             </ul>
                         </div>
                       </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
+                      <h4 id = "choosing" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Choosing the cell (user + tech) that you like best</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, based on the information gathered for user ann technology domain you will select a combination you will focus on</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In order to facilitate this activity you can use the <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href = "https://toolkits.dss.cloud/design/method-card/dot-voting/">Dot Voting</a> method again.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Discuss with the lecturers/TA about your selection before proceeding</li>                                                                             
+                        </ul>
+                        <br/>
                         <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Implementing Dot Voting: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/dot-voting/">Link</a> (Reference: Nielsen Norman Group)</li>
+                        </ul>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
+                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Activity 2: Defining Research Questions</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>If you have not, conduct an in depth literature review of the final user domain. </li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>You should define RQ’s (based on related literature) and redefine it again based on more literature review. This is an iterative process.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>At the end of this activity you should have a number of well defined RQs, plus initial inventory of literature for each RQ (you must add more, later, in your own time)</li>                                                                             
+                        </ul>
+                        <u>Helpful Tips</u>
+                        <br/>
+                        <br/>
+                        You can have various types of research questions. Some of the types that will be relevant to you and for this course include: Knowledge Questions, Design Questions, and Evaluation Questions.
+                        <br/>
+                        <br/>
+                        Below we give examples how each of these types of question may look like:
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Knowledge Question</li>
+                          <ul class= 'ul-style'> 
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>Q: What are typical activities and experiences in a museum setting? </li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>A: Based on observation of …., papers by …., application of comparable commercial work such as … , and interviews with…. We found the following activities and experiences: … </li>
+                          </ul>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Design Question</li>
+                          <ul class= 'ul-style'> 
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>Q: What is a good product for persuading people to practice their rowing movement execution in the right way? </li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>A1: the one I just made, because…</li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>A2: NOT the one I just made, because…</li>
+                          </ul>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Evaluation Question</li>
+                          <ul class= 'ul-style'> 
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>Q: What is the technical performance of my product? </li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>A: It can run uninterrupted without breaking for X hours consecutively, and it fails in the following conditions: …</li>
+                          </ul>
+                        </ul>
+                        <br/>
+                        <u>Examples</u>                         
+                        <br/>
+                        An example of a good research question is:
+                        <ul class= 'ul-style'>                      
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>“to what extent can we improve [problem] of [user group] with [your technology]? </li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>To what extent can the motivation of professional cyclists be improved though an interactive indoor cycling setup?</li>
+                        </ul>
+                        <br/>
                         <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>A Step-by-Step Guide to Writing Better Research Questions: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://dscout.com/people-nerds/guide-better-questions">Link</a> (Reference: DScout)</li>
+                        </ul>
                       </div>
+                    </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-                    </div> */}
-
-                    {/* <div className='pro-bodytext'>
-                      <h4 id="ideaphase1" className='sub-header'>Ideate: Product Concept</h4>
+                    <div className='pro-bodytext'>
+                      <h4 id="ideaphase1" className='sub-header'>Day 2: Ideate: Product Concept</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                           <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Generate 50 Ideas</li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+                        <div style={{}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 1: Research and Design of UX</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process"}>Stages in Design Thinking Process</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_73"}>The Art of Game Design CH7: "Ideas"</a></li>
                             </ul>
                         </div>
                       </div>
@@ -419,55 +480,43 @@ const ProjectPage = () => {
                         <div style={{paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
                           <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Ideation</li>
                             </ul>
                         </div>
                         <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
+                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
+                                <Link1 className='projectLink1' smooth to={"#ideas"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Use the Ideation Cards to Generate 50 Ideas</a></Link1>
                               </li>
                             </ul>
                         </div>
                       </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
+                      <h4 id="ideas" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Use the Ideation Cards to Generate 50 Ideas</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity you will generate 50 ideas based on your improved RQs plus what you learned from initial reading (“scanning”) of papers.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>You will utilize one of the shortlisted design cards (listed below) to conduct this activity</li>                                                                      
+                        </ul>
+                        <u>Design Methods: Ideate</u> 
+                        <br/>
+                        <br/>
+                        Click the images to learn more about the various emphatizing method!
+                        <br/>
+                        <div style={{width: "800px", display: "flex", flexDirection: "row"}}>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/the-aoki-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={aoki} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/brain-writing-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={brain} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/the-kj-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={kj} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/mind-map-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={mind} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/sensorial-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={sense} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/mash-up/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={mash} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/dark-side/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={dark} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/lotus-blossom-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={lotus} /></a>
+                        </div>
+                        <br/>
+                        <br/>
                       </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-                    </div> */}
+                    </div>
 
                     <div className='pro-bodytext'>
                       <h4 className='sub-header'>Phase 1: Deliverable Checklist</h4>
@@ -508,14 +557,14 @@ const ProjectPage = () => {
                       </div>
                     </div>
 
-                    <h3 id="phase2" ref={phase2}>PHASE 2: <br/> LO-FI PROTOTYPING & USER CONFRONTATIONS</h3>
+                    {/* <h3 id="phase2" ref={phase2}>PHASE 2: <br/> LO-FI PROTOTYPING & USER CONFRONTATIONS</h3>
                     <div style={{padding: "100px 25px 25px 25px"}} className='pro-bodytext'>
                       <em><strong><u className = "stopText" style={{color: "red", fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>STOP!</u></strong></em> <u className = "deliverText" style={{fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>Deliverable Check</u><br/>
                       <p className = "deliverText2" style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "85%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 2. If not please talk/contact the lecturers/TA</p>
                     </div>
                     <div className='pro-bodytext-hex'>
                       <Hexagon2 scrollPosition={goTo} />
-                    </div>
+                    </div> */}
                     {/* <div className='pro-bodytext'>
                       <h4 id= "empphase2" className='sub-header'>Emphatize: Observations</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
@@ -1087,14 +1136,14 @@ const ProjectPage = () => {
                       </div>
                     </div> */}
                     
-                    <h3 id="phase3" ref={phase3}>PHASE 3: <br/> HI-FI PROTOTYPING & PREPARATION OF RESEARCH STUDY</h3>
+                    {/* <h3 id="phase3" ref={phase3}>PHASE 3: <br/> HI-FI PROTOTYPING & PREPARATION OF RESEARCH STUDY</h3>
                     <div style={{padding: "100px 25px 25px 25px"}} className='pro-bodytext'>
                       <em><strong><u className = "stopText" style={{color: "red", fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>STOP!</u></strong></em> <u className = "deliverText" style={{fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>Deliverable Check</u><br/>
                       <p className = "deliverText2" style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "85%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 3. If not please talk/contact the lecturers/TA</p>
                     </div>
                     <div className='pro-bodytext-hex'>
                       <Hexagon3 scrollPosition={goTo}/>
-                    </div>
+                    </div> */}
                     {/* <div className='pro-bodytext'>
                       <h4 id = "protophase3" className='sub-header'>Prototype: Hi-Fi Prototype</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
@@ -1355,14 +1404,14 @@ const ProjectPage = () => {
                     </div> */}
 
 
-                    <h3 id="phase4" ref={phase4}>PHASE 4: <br/> FINAL DELIVERABLES & ORAL ASSESSMENT MEETING</h3>
+                    {/* <h3 id="phase4" ref={phase4}>PHASE 4: <br/> FINAL DELIVERABLES & ORAL ASSESSMENT MEETING</h3>
                     <div style={{padding: "100px 25px 25px 25px"}} className='pro-bodytext'>
                       <em><strong><u className = "stopText"  style={{color: "red", fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>STOP!</u></strong></em> <u className = "deliverText" style={{fontSize: "45px", fontFamily: "Inconsolata, monospace"}}>Deliverable Check</u><br/>
                       <p className = "deliverText2" style={{fontSize: "24px", fontFamily: "Inconsolata, monospace", width: "85%"}}>Ensure you have the things shown in the checklist before proceeding to Phase 4. If not please talk/contact the lecturers/TA</p>
                     </div>
                     <div className='pro-bodytext-hex'>
                       <Hexagon4 scrollPosition={goTo}/>
-                    </div>
+                    </div> */}
                     {/* <div className='pro-bodytext'>
                       <h4 id = "empphase4"className='sub-header'>Emphatize</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>

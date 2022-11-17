@@ -376,16 +376,21 @@ h3:before{
     cursor: pointer;
 }
 
-.phase-1:hover, .phase-2:hover, .phase-4:hover{
+/* 
+.phase-2:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+.phase-4:hover{
     transform: scale(1.04);
     transition: 0.2s ease-in-out;
 }
 
+
 .phase-3:hover{
     transform: scale(1.03);
     transition: 0.2s ease-in-out;
-}
-
+} */
 .phase-2{
     flex: 1;
     background-color: rgba(19, 162, 202, 0.37);
@@ -399,7 +404,7 @@ h3:before{
     font-family: 'Space Mono', monospace;
     margin-right: 5px;
     border-radius: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */cursor: not-allowed;
 }
 
 .phase-3{
@@ -415,7 +420,7 @@ h3:before{
     font-family: 'Space Mono', monospace;
     margin-right: 5px;
     border-radius: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */cursor: not-allowed;
 }
 
 .phase-4{
@@ -431,7 +436,7 @@ h3:before{
     font-family: 'Space Mono', monospace;
     margin-right: 5px;
     border-radius: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */cursor: not-allowed;
 }
 
 

@@ -131,46 +131,54 @@ function MainDuplicate() {
                         {/* alignItems: "center", justifyContent: "center" */}
                         <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown1 ? 'none' : 'flex'}}>
                             <div style={{display: "flex", flexDirection: "column", width: "100%", height: "80%"}}>
-                                <div className= "TTextContainer" style={{flex: 1, display: "flex", backgroundColor: "white", width: "99%", height: "100%", marginRight: "20px", paddingTop: "5px"}}>
+                            <div className= "TTextContainer" style={{flex: 1, display: "flex", backgroundColor: "white", width: "99%", height: "100%", marginRight: "20px", paddingTop: "5px"}}>
                                     <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#empphase1" className='phasetextt' style={{color: "rgb(7, 100, 44)"}}>Context Analysis: Part 1</Link1></div>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#empphase1" className='phasetextt' style={{color: "rgb(7, 100, 44)"}}>Day 1: Context Analysis: Part 1</Link1></div>
                                     </div>
                                     <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#emp2phase1" className='phasetextt' style={{color: "rgb(7, 100, 44)"}}>Context Analysis: Part 2</Link1></div>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#emp2phase1" className='phasetextt' style={{color: "rgb(7, 100, 44)"}}>Day 2: Analysis: Part 2</Link1></div>
                                     </div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#ideaphase1" className='phasetextt' style={{color: "rgb(7, 100, 44)"}}>Product Concept</Link1></div>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#ideaphase1" className='phasetextt' style={{color: "rgb(7, 100, 44)"}}>Day 2: Product Concept</Link1></div>
                                     </div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
+                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#empphase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>Observations & Interview</Link1></div>
-                                    </div>
+                                    </div> */}
                                     {/* <div class="boxes" style={{borderRight: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(19, 162, 202, 0.37)"}}></div> */}
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
+                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#ideaphase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>Refined Product Concept</Link1></div>
-                                    </div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
+                                    </div> */}
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#testphase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>User Confrontations & Testing</Link1></div>
-                                    </div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
+                                    </div> */}
+                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#fe6993"}}><Link1 smooth to="#protophase3" className='phasetextt' style={{color:"#fe6993"}}>Hi Fi Protoype</Link1></div>
-                                    </div>
+                                    </div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
+                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#fe6993"}}><Link1 smooth to="#testphase3" className='phasetextt' style={{color:"#fe6993"}}>Experimental Testing</Link1></div>
-                                    </div>
+                                    </div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
+                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#fe6993"}}><Link1 smooth to="#test2phase3" className='phasetextt' style={{color:"#fe6993"}}>User Confrontations</Link1></div>
-                                    </div>
+                                    </div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(127, 50, 215, 0.249)"}}>
+                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(127, 50, 215, 0.249)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#302aa2"}}><Link1 smooth to="#protophase4" className='phasetextt' style={{color:"#302aa2"}}>Oral Reflection</Link1></div>
-                                    </div>
+                                    </div> */}
+                                    <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxesr" style={{border: 'none'}}></div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(127, 50, 215, 0.249)"}}>
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(127, 50, 215, 0.249)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#302aa2"}}><Link1 smooth to="#test2phase4" className='phasetextt' style={{color:"#302aa2"}}>Final Document Submission</Link1></div>
-                                    </div>
+                                    </div> */}
+                                    <div class="boxes" style={{border: 'none'}}></div>
                                     
                                 </div>
                                 <div className= "TlineContainer" style={{flex: 0.2, display: "flex", backgroundColor: "white", width: "99%", height: "100%", marginRight: "20px", paddingTop: "5px"}}>
@@ -238,16 +246,18 @@ function MainDuplicate() {
                                 <div className= "BTextContainer" style={{flex: 1, display: "flex", backgroundColor: "white", width: "100%", height: "100%", marginRight: "15px", paddingTop: "5px", paddingBottom: "5px"}}>
                                     <div class="boxesl" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
-                                        <div onClick={handleClick1} className='phasetext' style={{writingMode: 'vertical-rl', alignSelf: 'start', justifyContent: 'end', fontSize: "20px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#defphase1" className='phasetextt' style={{color:"rgb(7, 100, 44)"}}>Problem Definition</Link1></div>
+                                        <div onClick={handleClick1} className='phasetext' style={{writingMode: 'vertical-rl', alignSelf: 'start', justifyContent: 'end', fontSize: "18px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#defphase1" className='phasetextt' style={{color:"rgb(7, 100, 44)"}}>Day 2: Problem Definition</Link1></div>
                                     </div>
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
                                         <div onClick={handleClick1} className='phasetext' style={{writingMode: 'vertical-rl', alignSelf: 'start', justifyContent: 'end', fontSize: "20px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#defphase2" className='phasetextt' style={{color:"rgb(7, 46, 100)"}}>Updated Challenge</Link1></div>
-                                    </div>
+                                    </div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
+                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
                                         <div onClick={handleClick1} className='phasetext' style={{writingMode: 'vertical-rl', alignSelf: 'start', justifyContent: 'end', fontSize: "20px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#protophase2" className='phasetextt' style={{color:"rgb(7, 46, 100)"}}>Lo-Fi Prototype</Link1></div>
-                                    </div>
+                                    </div> */}
+                                    <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{border: 'none'}}></div>
 
@@ -266,9 +276,10 @@ function MainDuplicate() {
                                     </div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(127, 50, 215, 0.249)"}}>
+                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(127, 50, 215, 0.249)"}}>
                                         <div onClick={handleClick1} className='phasetext' style={{writingMode: 'vertical-rl', alignSelf: 'start', justifyContent: 'end', fontSize: "20px", color: "#302aa2"}}><Link1 smooth to="#testphase4" className='phasetextt' style={{color:"#302aa2"}}>Demo Market</Link1></div>
-                                    </div>
+                                    </div> */}
+                                    <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxesr" style={{border: 'none'}}></div>
                                 </div>
                             </div>

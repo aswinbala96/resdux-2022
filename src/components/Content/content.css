@@ -114,15 +114,26 @@
     text-decoration: none !important;
 }
 
-.phase-1:hover, .phase-2:hover, .phase-4:hover{
+
+.phase-1:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+/* 
+.phase-2:hover{
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+.phase-4:hover{
     transform: scale(1.04);
     transition: 0.2s ease-in-out;
 }
 
+
 .phase-3:hover{
     transform: scale(1.03);
     transition: 0.2s ease-in-out;
-}
+} */
 
 .phase-2{
     flex: 1;
@@ -137,7 +148,7 @@
     font-family: 'Space Mono', monospace;
     margin-right: 5px;
     border-radius: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */cursor: not-allowed;
     text-decoration: none !important;
 }
 
@@ -154,7 +165,7 @@
     font-family: 'Space Mono', monospace;
     margin-right: 5px;
     border-radius: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */cursor: not-allowed;
     text-decoration: none !important;
 }
 
@@ -171,7 +182,7 @@
     font-family: 'Space Mono', monospace;
     margin-right: 5px;
     border-radius: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */cursor: not-allowed;
     text-decoration: none !important;
 }
 
@@ -371,4 +382,5 @@
     margin-right: 5px;
     margin-left: 5px;
     text-decoration: none !important;
+    
   }

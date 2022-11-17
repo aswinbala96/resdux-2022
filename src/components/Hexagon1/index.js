@@ -20,7 +20,7 @@ const Hexagon1 = (props) => {
                 <Text>Emphatize</Text>
             </Hexagon>
             <Hexagon  onClick={event => scrollTo(event, "empphase1")} q={0} r={-1} s={1} className="hexagons1">
-                <Text style={{cursor: 'pointer'}} x={-3} y={10} >Context Analysis</Text>
+                <Text style={{cursor: 'pointer'}} x={0} y={5}>Context Analysis 1 & 2</Text>
             </Hexagon>
             {/* <Hexagon q={-1} r={1} s={0} className="hexagons">
               <Text>-1, 1, 0, Theorize</Text>
@@ -29,7 +29,7 @@ const Hexagon1 = (props) => {
                 <Text>Define</Text>
             </Hexagon>
             <Hexagon onClick={event => scrollTo(event, "defphase1")}  q={1} r={0} s={-1} className="hexagons1">
-                <Text style={{cursor: 'pointer'}} x={-1} y={-8} >Problem Definition</Text>
+                <Text style={{cursor: 'pointer'}} x={-1} y={-8} >Research Question</Text>
             </Hexagon>
             <Hexagon onClick={event => scrollTo(event, "ideaphase1")} q={1} r={-1} s={0} className="hexagons1-ideate">
               <Text>Ideate</Text>
