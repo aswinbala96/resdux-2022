@@ -558,15 +558,15 @@ const ProjectPage = () => {
                         <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
-                                <Link1 className='projectLink1' smooth to={"#ideas"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Discuss Progress with Lecturers & TAs</a></Link1>                                
+                                <Link1 className='projectLink1' smooth to={"#progress"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Discuss Progress with Lecturers & TAs</a></Link1>                                
                               </li>
                               <li>
-                                <Link1 className='projectLink1' smooth to={"#ideas"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Conduct Literature Review to Refine/Develop Concept</a></Link1>
+                                <Link1 className='projectLink1' smooth to={"#litday3"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Conduct Literature Review to Refine/Develop Concept</a></Link1>
                               </li>
                             </ul>
                         </div>
                       </div>
-                      <h4 id="ideas" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Discuss Progress with Lecturers & TAs</h4>
+                      <h4 id="progress" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Discuss Progress with Lecturers & TAs</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>On <a style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/discussion_topics/174687">Canvas</a>  there will be a schedule posted for the group meetings. During this time the Lecturers and TAs will discuss your group's progress.</li>
@@ -580,14 +580,14 @@ const ProjectPage = () => {
                           </ul>
                         </ul>
                       </div>
-                      <h4 id="ideas" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Conduct Literature Review to Refine/Develop Concept</h4>
+                      <h4 id="litday3" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Conduct Literature Review to Refine/Develop Concept</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>To further understand the user and the problem defined you must use scientifc/academic work to understand the relevance of the problem.</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>In order to find relevant scientific/academic works you must conduct a literature review. Below we provide two useful links that will help you to search for relevant scientific literature <b style={{fontFamily: "Inconsolata, monospace"}}>efficiently</b></li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>We also provide a list of academic libraries and search engines you could use to conduct your literature review</li>
                         </ul>
-                        <u>Design Methods: Ideate</u> 
+                        <u>Helpful Resources for Literature Review</u> 
                         <br/>
                         <br/>
                         Click the images to learn more about the various literature review resources!
