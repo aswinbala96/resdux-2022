@@ -105,12 +105,12 @@ const CalendarPage = () => {
                             </ul>
                           </td>
                           <td>
-                          {/* Add href={""} */}
-                          <a target={"_blank"} style={{}}>Surveys, Interviews, Focus Groups, & Observations</a>
+                          {/* Add  */}
+                          <a href={"https://canvas.utwente.nl/courses/11018/files/3341713?module_item_id=368518"} target={"_blank"} style={{}}>Surveys, Interviews, Focus Groups, & Observations</a>
                             <div style={{fontSize: '0.95em'}} className='note'>21st November (Monday)</div>
                             <br/>
                             {/* Add href={""} */}
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target={"_blank"} style={{}}>Exam 1</a>
+                            <a href="https://canvas.utwente.nl/courses/11018/files/3338429?module_item_id=368192" target={"_blank"} style={{}}>Exam 1</a>
                             <div style={{fontSize: '0.95em'}} className='note'>24th November (Thursday)</div>
                             <div style={{fontSize: '0.95em'}} className='note'>Them 1 & Them 2 </div>
                           </td>
@@ -121,7 +121,7 @@ const CalendarPage = () => {
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li style={{cursor: "pointer"}}><a >Context Analysis: Literature & Related Work</a></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#empphase1"><a>Context Analysis: Literature & Related Work</a></Link1></li>
                               <li style={{cursor: "pointer"}}><a >Motivation for Product Concept</a></li>
                               <li style={{cursor: "pointer"}}><a >Relevant Approach to Elaborate on Product Concept</a></li>
                             </ul>

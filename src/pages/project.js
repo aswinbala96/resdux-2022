@@ -27,6 +27,14 @@ import mash from '../images/mash.png';
 import dark from '../images/dark.png';
 import lotus from '../images/lotus.png';
 
+import cheat from '../images/cheat.PNG';
+import incite from '../images/incite.PNG';
+import acm from '../images/acm.PNG';
+import ieee from '../images/ieee.PNG';
+import jstor from '../images/jstor.PNG';
+import doi from '../images/doi.PNG';
+import open from '../images/open.PNG';
+import scholar from '../images/scholar.PNG';
 
 ReactGA.initialize('UA-247449191-1');
 
@@ -459,7 +467,119 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 id="ideaphase1" className='sub-header'>Day 2: Ideate: Product Concept</h4>
+                      <h4 id="ideaphase1" className='sub-header'>Day 3: Ideate: Refine Product Concept</h4>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
+                          <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Discuss Progress with Lecturers & TAs</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Fine-tune User Domain/Technology Domain</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Develop Concept through Literature Research</li>
+                            </ul>
+                        </div>
+                        <div style={{}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 1: Research and Design of UX</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process"}>Stages in Design Thinking Process</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_73"}>The Art of Game Design CH7: "Ideas"</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Ideation</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Literature & Related Work</li>
+                            </ul>
+                        </div>
+                        <div style={{paddingLeft: "5vh"}}>
+                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
+                          <ul class= 'ul-style'>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#ideas"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Discuss Progress with Lecturers & TAs</a></Link1>
+                                <Link1 className='projectLink1' smooth to={"#ideas"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Conduct Literature Review to Refine/Develop Concept</a></Link1>
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h4 id="ideas" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Discuss Progress with Lecturers & TAs</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>On <a style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/discussion_topics/174687">Canvas</a>  there will be a schedule posted for the group meetings. During this time the Lecturers and TAs will discuss your group's progress.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Utilize this opportunity to ask questions and clarify any doubts you may have about where you are at this stage of the project</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>During the meeting come prepared to discuss the following:</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>What is your User Domain?</li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>What is your Technology Domain?</li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>What is your Problem Statement/Questions?</li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>What are your Initial Ideas?</li>
+                          </ul>
+                        </ul>
+                      </div>
+                      <h4 id="ideas" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Conduct Literature Review to Refine/Develop Concept</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>To further understand the user and the problem defined you must use scientifc/academic work to understand the relevance of the problem.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In order to find relevant scientific/academic works you must conduct a literature review. Below we provide two useful links that will help you to search for relevant scientific literature <b style={{fontFamily: "Inconsolata, monospace"}}>efficiently</b></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>We also provide a list of academic libraries and search engines you could use to conduct your literature review</li>
+                        </ul>
+                        <u>Design Methods: Ideate</u> 
+                        <br/>
+                        <br/>
+                        Click the images to learn more about the various literature review resources!
+                        <br/>
+                        <div style={{width: "800px", display: "flex", flexDirection: "row", padding: "5px"}}>
+                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <a href={"https://s3.amazonaws.com/libapps/accounts/64602/images/Boolean_Cheat_Sheet_0.jpeg"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={cheat} /></a>
+                            <div style={{fontSize: "10px"}}>Cheat Sheet to Efficiently Search for Scientific Works: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href='https://s3.amazonaws.com/libapps/accounts/64602/images/Boolean_Cheat_Sheet_0.jpeg'>Link</a> (Reference: Northern Arizona University CLINE Library)</div>
+                          </div>
+                          
+                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <a href={"https://inciteful.xyz/"} target="_blank"><img style={{width: "20vh", height: "10vh", paddingRight: "5px"}} src={incite} /></a>
+                            <div style={{fontSize: "10px"}}>Website to Search for Similar Papers Quickly: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://inciteful.xyz/">Link</a> (Reference: Inciteful)</div>
+                          </div>
+
+                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <a href={"https://scholar.google.com/"} target="_blank"><img style={{width: "20vh", height: "10vh", paddingRight: "5px"}} src={scholar} /></a>
+                            <div style={{fontSize: "10px"}}>Google Scholar: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://scholar.google.com/">Link</a> (Reference: Google Scholar)</div>
+                          </div>
+
+                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <a href={"https://dl.acm.org/"} target="_blank"><img style={{width: "20vh", height: "10vh", paddingRight: "5px"}} src={acm} /></a>
+                            <div style={{fontSize: "10px"}}>ACM Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://dl.acm.org/">Link</a> (Reference: ACM Library)</div>
+                          </div>
+                        </div>
+                        <br/>
+                        <div style={{width: "800px", display: "flex", flexDirection: "row", padding: "5px"}}>
+                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <a href={"https://ieeexplore.ieee.org/Xplore/home.jsp"} target="_blank"><img style={{width: "30vh", height: "10vh", paddingRight: "5px"}} src={ieee} /></a>
+                            <div style={{fontSize: "10px"}}>IEEE Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://ieeexplore.ieee.org/Xplore/home.jsp">Link</a> (Reference: IEEE Library)</div>
+                          </div>
+                          
+                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <a href={"https://www.jstor.org/"} target="_blank"><img style={{width: "30vh", height: "10vh", paddingRight: "5px"}} src={jstor} /></a>
+                            <div style={{fontSize: "10px"}}>JSTOR Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.jstor.org/">Link</a> (Reference: JSTOR Library)</div>
+                          </div>
+
+                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <a href={"https://openresearchlibrary.org/"} target="_blank"><img style={{width: "20vh", height: "10vh", paddingRight: "5px"}} src={open} /></a>
+                            <div style={{fontSize: "10px"}}>Open Research Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://openresearchlibrary.org/">Link</a> (Reference: Open Research Library)</div>
+                          </div>
+
+                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <a href={"https://www.doi2bib.org/"} target="_blank"><img style={{width: "30vh", height: "10vh", paddingRight: "5px"}} src={doi} /></a>
+                            <div style={{fontSize: "10px"}}>Generating BibTEX Citations: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.doi2bib.org/">Link</a> (Reference: DOI 2 Bib)</div>
+                          </div>
+                        </div>
+                        <br/>
+                        <br/>
+                      </div>
+                    </div>
+
+                    <div className='pro-bodytext'>
+                      <h4 id="idea2phase1" className='sub-header'>Day 2: Ideate: Product Concept</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -478,7 +598,7 @@ const ProjectPage = () => {
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
                           <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Ideation</li>
                             </ul>
@@ -501,7 +621,7 @@ const ProjectPage = () => {
                         <u>Design Methods: Ideate</u> 
                         <br/>
                         <br/>
-                        Click the images to learn more about the various emphatizing method!
+                        Click the images to learn more about the various ideation method!
                         <br/>
                         <div style={{width: "800px", display: "flex", flexDirection: "row"}}>
                           <a href={"https://toolkits.dss.cloud/design/method-card/the-aoki-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={aoki} /></a>
