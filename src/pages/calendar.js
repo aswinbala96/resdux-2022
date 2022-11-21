@@ -82,7 +82,7 @@ const CalendarPage = () => {
                           <td>
                             {/* Add href={""} */}
                             <a href= "https://canvas.utwente.nl/courses/11018/files/3334366?module_item_id=367411" target={"_blank"} style={{}}>Discovery Research/Topic Identification</a>
-                            <div style={{fontSize: '0.95em'}}  className='note'>16th (<a href={""} target={"_blank"} style={{}}>Wed</a>) & 17th (<a href={"https://canvas.utwente.nl/courses/11018/files/3334365?module_item_id=367434"} target={"_blank"} style={{}}>Thurs</a>) November </div>
+                            <div style={{fontSize: '0.95em'}}  className='note'>16th (<a href={"https://canvas.utwente.nl/courses/11018/files/3334365?module_item_id=367434"} target={"_blank"} style={{}}>Wed</a>) & 17th (<a href={"https://canvas.utwente.nl/courses/11018/files/3336111?module_item_id=367803"} target={"_blank"} style={{}}>Thurs</a>) November </div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
@@ -117,7 +117,7 @@ const CalendarPage = () => {
                           <td>
                             {/* Add href={""} */}
                             <a target={"_blank"} style={{}}>Related Work & Interview Preparation</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>21st (Mon) & 24th (Thurs) November</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>21st (<a href={"https://canvas.utwente.nl/courses/11018/files/3341720?module_item_id=368522"} target={"_blank"} style={{}}>Mon</a>) & 24th (Thurs) November</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
