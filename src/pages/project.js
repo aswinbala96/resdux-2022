@@ -498,7 +498,9 @@ const ProjectPage = () => {
                         <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
-                                <Link1 className='projectLink1' smooth to={"#ideas"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Discuss Progress with Lecturers & TAs</a></Link1>
+                                <Link1 className='projectLink1' smooth to={"#ideas"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Discuss Progress with Lecturers & TAs</a></Link1>                                
+                              </li>
+                              <li>
                                 <Link1 className='projectLink1' smooth to={"#ideas"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Conduct Literature Review to Refine/Develop Concept</a></Link1>
                               </li>
                             </ul>
