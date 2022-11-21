@@ -467,6 +467,66 @@ const ProjectPage = () => {
                     </div>
 
                     <div className='pro-bodytext'>
+                      <h4 id="idea2phase1" className='sub-header'>Day 2: Ideate: Product Concept</h4>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
+                          <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Generate 50 Ideas</li>
+                            </ul>
+                        </div>
+                        <div style={{}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 1: Research and Design of UX</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process"}>Stages in Design Thinking Process</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_73"}>The Art of Game Design CH7: "Ideas"</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
+                          <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Ideation</li>
+                            </ul>
+                        </div>
+                        <div style={{paddingLeft: "5vh"}}>
+                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
+                          <ul class= 'ul-style'>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#ideas"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Use the Ideation Cards to Generate 50 Ideas</a></Link1>
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h4 id="ideas" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Use the Ideation Cards to Generate 50 Ideas</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity you will generate 50 ideas based on your improved RQs plus what you learned from initial reading (“scanning”) of papers.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>You will utilize one of the shortlisted design cards (listed below) to conduct this activity</li>                                                                      
+                        </ul>
+                        <u>Design Methods: Ideate</u> 
+                        <br/>
+                        <br/>
+                        Click the images to learn more about the various ideation method!
+                        <br/>
+                        <div style={{width: "800px", display: "flex", flexDirection: "row"}}>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/the-aoki-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={aoki} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/brain-writing-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={brain} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/the-kj-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={kj} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/mind-map-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={mind} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/sensorial-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={sense} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/mash-up/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={mash} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/dark-side/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={dark} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/lotus-blossom-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={lotus} /></a>
+                        </div>
+                        <br/>
+                        <br/>
+                      </div>
+                    </div>
+
+                    <div className='pro-bodytext'>
                       <h4 id="ideaphase1" className='sub-header'>Day 3: Ideate: Refine Product Concept</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{}}>
@@ -574,66 +634,6 @@ const ProjectPage = () => {
                             <a href={"https://www.doi2bib.org/"} target="_blank"><img style={{width: "30vh", height: "10vh", paddingRight: "5px"}} src={doi} /></a>
                             <div style={{fontSize: "10px"}}>Generating BibTEX Citations: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.doi2bib.org/">Link</a> (Reference: DOI 2 Bib)</div>
                           </div>
-                        </div>
-                        <br/>
-                        <br/>
-                      </div>
-                    </div>
-
-                    <div className='pro-bodytext'>
-                      <h4 id="idea2phase1" className='sub-header'>Day 2: Ideate: Product Concept</h4>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Generate 50 Ideas</li>
-                            </ul>
-                        </div>
-                        <div style={{}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                            <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 1: Research and Design of UX</a></li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process"}>Stages in Design Thinking Process</a></li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_73"}>The Art of Game Design CH7: "Ideas"</a></li>
-                            </ul>
-                        </div>
-                      </div>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Ideation</li>
-                            </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
-                          <ul class= 'ul-style'>
-                              <li>
-                                <Link1 className='projectLink1' smooth to={"#ideas"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Use the Ideation Cards to Generate 50 Ideas</a></Link1>
-                              </li>
-                            </ul>
-                        </div>
-                      </div>
-                      <h4 id="ideas" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Use the Ideation Cards to Generate 50 Ideas</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity you will generate 50 ideas based on your improved RQs plus what you learned from initial reading (“scanning”) of papers.</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>You will utilize one of the shortlisted design cards (listed below) to conduct this activity</li>                                                                      
-                        </ul>
-                        <u>Design Methods: Ideate</u> 
-                        <br/>
-                        <br/>
-                        Click the images to learn more about the various ideation method!
-                        <br/>
-                        <div style={{width: "800px", display: "flex", flexDirection: "row"}}>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/the-aoki-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={aoki} /></a>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/brain-writing-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={brain} /></a>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/the-kj-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={kj} /></a>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/mind-map-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={mind} /></a>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/sensorial-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={sense} /></a>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/mash-up/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={mash} /></a>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/dark-side/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={dark} /></a>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/lotus-blossom-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={lotus} /></a>
                         </div>
                         <br/>
                         <br/>
