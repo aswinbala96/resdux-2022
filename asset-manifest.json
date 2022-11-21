@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resdux-2022/static/css/main.26e490ea.css",
-    "main.js": "/resdux-2022/static/js/main.f7b85309.js",
+    "main.js": "/resdux-2022/static/js/main.d0e790aa.js",
     "static/media/ieee.PNG": "/resdux-2022/static/media/ieee.354bea4b79ac0857c88e.PNG",
     "static/media/cheat.PNG": "/resdux-2022/static/media/cheat.c3d7c018539d4d4efbf5.PNG",
     "static/media/acm.PNG": "/resdux-2022/static/media/acm.646a15e58a882963293b.PNG",
@@ -27,10 +27,10 @@
     "static/media/res_col.PNG": "/resdux-2022/static/media/res_col.fc94dc5dd7467b6e3193.PNG",
     "index.html": "/resdux-2022/index.html",
     "main.26e490ea.css.map": "/resdux-2022/static/css/main.26e490ea.css.map",
-    "main.f7b85309.js.map": "/resdux-2022/static/js/main.f7b85309.js.map"
+    "main.d0e790aa.js.map": "/resdux-2022/static/js/main.d0e790aa.js.map"
   },
   "entrypoints": [
     "static/css/main.26e490ea.css",
-    "static/js/main.f7b85309.js"
+    "static/js/main.d0e790aa.js"
   ]
 }
