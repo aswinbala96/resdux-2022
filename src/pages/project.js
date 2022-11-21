@@ -487,14 +487,14 @@ const ProjectPage = () => {
                         </div>
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
                             <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Ideation</li>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Literature & Related Work</li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+                        <div style={{}}>
                         <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
