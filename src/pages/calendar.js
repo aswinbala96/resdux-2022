@@ -121,9 +121,9 @@ const CalendarPage = () => {
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#empphase1"><a>Context Analysis: Literature & Related Work</a></Link1></li>
-                              <li style={{cursor: "pointer"}}><a >Motivation for Product Concept</a></li>
-                              <li style={{cursor: "pointer"}}><a >Relevant Approach to Elaborate on Product Concept</a></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#ideaphase1"><a>Context Analysis: Literature & Related Work</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#ideaphase1"><a >Motivation for Product Concept</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#ideaphase1"><a >Relevant Approach to Elaborate on Product Concept</a></Link1></li>
                             </ul>
                           </td>
                           <td>
