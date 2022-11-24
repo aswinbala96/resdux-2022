@@ -327,11 +327,11 @@ const ProjectPage = () => {
                         <br/>
                         Click the images to learn more about the various emphatizing method!
                         <br/>
-                        {/* <div style={{width: "600px", display: "flex", flexDirection: "row"}}>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/day-in-the-life/"} target="_blank"><img style={{width: "20vh", height: "20vh", paddingRight: "10px"}} src={dayMap} /></a>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/cognitive-map-2/"} target="_blank"><img style={{width: "20vh", height: "20vh", paddingRight: "10px"}} src={cogMap} /></a>
-                          <a href={"https://toolkits.dss.cloud/design/method-card/research-collage/"} target="_blank"><img style={{width: "20vh", height: "20vh", paddingRight: "10px"}} src={resCol} /></a>
-                        </div> */}
+                        <div style={{width: "80vh", display: "flex", flexDirection: "row", paddingTop: "5vh", padding: "1vh"}}>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/day-in-the-life/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "10px"}} src={dayMap} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/cognitive-map-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "10px"}} src={cogMap} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/research-collage/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "10px"}} src={resCol} /></a>
+                        </div>
                         <br/>
                         <b>It would be beneficial to use information derived from podcast/video interviews and academic work to drive this session.</b>
                         <br/>
@@ -401,6 +401,9 @@ const ProjectPage = () => {
                               <li>
                                 <Link1 className='projectLink1' smooth to={"#furtheremp"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Defining Research Questions</a></Link1>
                               </li>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#planinter"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Planning for Interviews</a></Link1>
+                              </li>
                             </ul>
                         </div>
                       </div>
@@ -466,6 +469,23 @@ const ProjectPage = () => {
                           <li style={{fontFamily: "Inconsolata, monospace"}}>A Step-by-Step Guide to Writing Better Research Questions: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://dscout.com/people-nerds/guide-better-questions">Link</a> (Reference: DScout)</li>
                         </ul>
                       </div>
+
+                      <h4 id = "planinter" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 3: Planning for Interviews</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, you will start thinking about your interview plans</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Check the resources linked below to help with your interview planning activity</li>
+                        </ul>
+                        <br/>
+                        <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interview Checklist: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://github.com/18F/ux-guide/blob/main/_pages/resources/interview-checklist.md/">Link</a> (Reference: 18F UX-Guide)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Interview Questions: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://xd.adobe.com/ideas/process/user-research/user-interview-questions-ux-research/">Link</a> (Reference: Adobe XD)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Tools Map: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://global-uploads.webflow.com/59ace8427353c50001765cbd/60d20b8dbb62405deb641ba2_2021-uxr-tools-map.pdf">Link</a> (Reference: User Interviews)</li>
+                        </ul>
+                      </div>
+
                     </div>
 
                     <div className='pro-bodytext'>
@@ -513,16 +533,18 @@ const ProjectPage = () => {
                         <br/>
                         Click the images to learn more about the various ideation method!
                         <br/>
-                        {/* <div style={{width: "800px", display: "flex", flexDirection: "row"}}>
+                        <div style={{width: "80vh", display: "flex", flexDirection: "row", paddingTop: "5vh", padding: "1vh"}}>
                           <a href={"https://toolkits.dss.cloud/design/method-card/the-aoki-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={aoki} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/brain-writing-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={brain} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/the-kj-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={kj} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/mind-map-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={mind} /></a>
+                        </div>
+                        <div style={{width: "80vh", display: "flex", flexDirection: "row", paddingTop: "5vh", padding: "1vh"}}>
                           <a href={"https://toolkits.dss.cloud/design/method-card/sensorial-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={sense} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/mash-up/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={mash} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/dark-side/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={dark} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/lotus-blossom-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={lotus} /></a>
-                        </div> */}
+                        </div>
                         <br/>
                         <br/>
                       </div>
