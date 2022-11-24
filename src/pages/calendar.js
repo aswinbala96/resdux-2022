@@ -101,7 +101,9 @@ const CalendarPage = () => {
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000054"}>Lazar CH 5: Surveys (Articulating Questions)</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B978012805390400008X"}>Lazar CH 8: Interviews & Focus Groups</a></li>
+                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.coursera.org/lecture/human-computer-interaction/storyboards-paper-prototypes-and-mockups-78yeB"}>Video: Storyboards, Paper Prototypes & Mockups </a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.coursera.org/lecture/interaction-design-capstone/participant-observation-uCubp"}>Video: Participant Observation</a></li>
+                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 2: Illustration & User Confrontation</a></li>
                             </ul>
                           </td>
                           <td>
@@ -138,9 +140,7 @@ const CalendarPage = () => {
                           <td>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000157"}>Lazar CH 15: Working with Human Subjects</a></li>
-                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 2: Illustration & User Confrontation</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_479"}>The Art of Game Design CH 28: Playtesting</a></li>
-                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.coursera.org/lecture/human-computer-interaction/storyboards-paper-prototypes-and-mockups-78yeB"}>Video: Storyboards, Paper Prototypes & Mockups </a></li>
                               <li>Ethics Guidelines EEMCS</li>
                             </ul>
                           </td>
@@ -273,6 +273,7 @@ const CalendarPage = () => {
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000030"}>Lazar CH3: Experimental Design</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000042"}>Lazar CH4: Statistical Analysis</a></li>
+                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 4: Making Research</a></li>
                             </ul>
                           </td>
                           <td>
