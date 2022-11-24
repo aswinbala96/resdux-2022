@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resdux-2022/static/css/main.26e490ea.css",
-    "main.js": "/resdux-2022/static/js/main.3da55ab5.js",
+    "main.css": "/resdux-2022/static/css/main.3bcbd84b.css",
+    "main.js": "/resdux-2022/static/js/main.6941ec58.js",
     "static/media/ieee.PNG": "/resdux-2022/static/media/ieee.354bea4b79ac0857c88e.PNG",
     "static/media/cheat.PNG": "/resdux-2022/static/media/cheat.c3d7c018539d4d4efbf5.PNG",
     "static/media/acm.PNG": "/resdux-2022/static/media/acm.646a15e58a882963293b.PNG",
@@ -10,7 +10,9 @@
     "static/media/tech_domain.pdf": "/resdux-2022/static/media/tech_domain.dfeacdd44fc8f3c8e515.pdf",
     "static/media/user_domain.pdf": "/resdux-2022/static/media/user_domain.d82aac25c41b38f785c9.pdf",
     "static/media/incite.PNG": "/resdux-2022/static/media/incite.004475fa31fbd4950261.PNG",
+    "static/media/dblp.PNG": "/resdux-2022/static/media/dblp.ab4f5014386c2efb4d05.PNG",
     "static/media/jstor.PNG": "/resdux-2022/static/media/jstor.efd0e6f4cd797a9c5644.PNG",
+    "static/media/scopus.PNG": "/resdux-2022/static/media/scopus.393e1bbddff123ddfc05.PNG",
     "static/media/open.PNG": "/resdux-2022/static/media/open.6e280e31ba1e56eeecd7.PNG",
     "static/media/doi.PNG": "/resdux-2022/static/media/doi.73a057b6c85aa3f6a7a4.PNG",
     "static/media/scholar.PNG": "/resdux-2022/static/media/scholar.79b8349510fe21c04786.PNG",
@@ -26,11 +28,11 @@
     "static/media/day_map.PNG": "/resdux-2022/static/media/day_map.863794515c0ef086c4f6.PNG",
     "static/media/res_col.PNG": "/resdux-2022/static/media/res_col.fc94dc5dd7467b6e3193.PNG",
     "index.html": "/resdux-2022/index.html",
-    "main.26e490ea.css.map": "/resdux-2022/static/css/main.26e490ea.css.map",
-    "main.3da55ab5.js.map": "/resdux-2022/static/js/main.3da55ab5.js.map"
+    "main.3bcbd84b.css.map": "/resdux-2022/static/css/main.3bcbd84b.css.map",
+    "main.6941ec58.js.map": "/resdux-2022/static/js/main.6941ec58.js.map"
   },
   "entrypoints": [
-    "static/css/main.26e490ea.css",
-    "static/js/main.3da55ab5.js"
+    "static/css/main.3bcbd84b.css",
+    "static/js/main.6941ec58.js"
   ]
 }
