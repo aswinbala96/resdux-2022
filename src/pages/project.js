@@ -35,6 +35,8 @@ import jstor from '../images/jstor.PNG';
 import doi from '../images/doi.PNG';
 import open from '../images/open.PNG';
 import scholar from '../images/scholar.PNG';
+import scopus from '../images/scopus.PNG';
+import dblp from '../images/dblp.PNG';
 
 ReactGA.initialize('UA-247449191-1');
 
@@ -128,7 +130,7 @@ const ProjectPage = () => {
                     <div className='pro-bodytext'>
                       <h4 id="empphase1" className='sub-header'>Day 1: Emphatize: Context Analysis Part 1</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                             <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Understand the user domain, the activities, problems, & challenges </li>
@@ -148,13 +150,13 @@ const ProjectPage = () => {
                         </div>
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
                           <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Literature & Related Work</li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "0vh"}}>
+                        <div style={{flex: 1, paddingLeft: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
@@ -261,7 +263,7 @@ const ProjectPage = () => {
                     <div id="emp2phase1" className='pro-bodytext'>
                       <h4 className='sub-header'>Day 2: Emphatize: Context Analysis Part 2</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                             <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Further explore the selected combination of user and technology domains using any one or more of the shortlisted design method card</li>
@@ -278,13 +280,13 @@ const ProjectPage = () => {
                         </div>
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
                           <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Literature & Related Work</li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "0vh"}}>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
@@ -325,11 +327,11 @@ const ProjectPage = () => {
                         <br/>
                         Click the images to learn more about the various emphatizing method!
                         <br/>
-                        <div style={{width: "600px", display: "flex", flexDirection: "row"}}>
+                        {/* <div style={{width: "600px", display: "flex", flexDirection: "row"}}>
                           <a href={"https://toolkits.dss.cloud/design/method-card/day-in-the-life/"} target="_blank"><img style={{width: "20vh", height: "20vh", paddingRight: "10px"}} src={dayMap} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/cognitive-map-2/"} target="_blank"><img style={{width: "20vh", height: "20vh", paddingRight: "10px"}} src={cogMap} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/research-collage/"} target="_blank"><img style={{width: "20vh", height: "20vh", paddingRight: "10px"}} src={resCol} /></a>
-                        </div>
+                        </div> */}
                         <br/>
                         <b>It would be beneficial to use information derived from podcast/video interviews and academic work to drive this session.</b>
                         <br/>
@@ -367,14 +369,14 @@ const ProjectPage = () => {
                     <div className='pro-bodytext'>
                       <h4 id="defphase1" className='sub-header'>Day 2: Define: Research Question</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                           <ul class= 'ul-style'>
                             <li style={{fontFamily: "Inconsolata, monospace"}}>Pick one combination of technology and user domain</li>
                             <li style={{fontFamily: "Inconsolata, monospace"}}>Define your research quesitons</li>
                           </ul>
                         </div>
-                        <div style={{}}>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
                           <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000017"}>Lazar CH 1: Introduction to HCI Research</a></li>
@@ -384,13 +386,13 @@ const ProjectPage = () => {
                         </div>
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
                           <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Research Questions</li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
@@ -469,13 +471,13 @@ const ProjectPage = () => {
                     <div className='pro-bodytext'>
                       <h4 id="idea2phase1" className='sub-header'>Day 2: Ideate: Product Concept</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                           <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Generate 50 Ideas</li>
                             </ul>
                         </div>
-                        <div style={{}}>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
                             <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 1: Research and Design of UX</a></li>
@@ -485,13 +487,13 @@ const ProjectPage = () => {
                         </div>
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
                           <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Ideation</li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                         <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
@@ -511,7 +513,7 @@ const ProjectPage = () => {
                         <br/>
                         Click the images to learn more about the various ideation method!
                         <br/>
-                        <div style={{width: "800px", display: "flex", flexDirection: "row"}}>
+                        {/* <div style={{width: "800px", display: "flex", flexDirection: "row"}}>
                           <a href={"https://toolkits.dss.cloud/design/method-card/the-aoki-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={aoki} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/brain-writing-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={brain} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/the-kj-method-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={kj} /></a>
@@ -520,16 +522,16 @@ const ProjectPage = () => {
                           <a href={"https://toolkits.dss.cloud/design/method-card/mash-up/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={mash} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/dark-side/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={dark} /></a>
                           <a href={"https://toolkits.dss.cloud/design/method-card/lotus-blossom-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={lotus} /></a>
-                        </div>
+                        </div> */}
                         <br/>
                         <br/>
                       </div>
                     </div>
 
                     <div className='pro-bodytext'>
-                      <h4 id="ideaphase1" className='sub-header'>Day 3: Ideate: Refine Product Concept</h4>
+                      <h4 id="ideaphase1" className='sub-header'>Days 3 & 4: Ideate: Refine Product Concept</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                           <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Discuss Progress with Lecturers & TAs</li>
@@ -537,7 +539,7 @@ const ProjectPage = () => {
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Develop Concept through Literature Research</li>
                             </ul>
                         </div>
-                        <div style={{}}>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
                             <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 1: Research and Design of UX</a></li>
@@ -547,14 +549,14 @@ const ProjectPage = () => {
                         </div>
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
                             <ul class= 'ul-style'>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Ideation</li>
                               <li style={{fontFamily: "Inconsolata, monospace"}}>Literature & Related Work</li>
                             </ul>
                         </div>
-                        <div style={{}}>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                         <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
@@ -590,52 +592,85 @@ const ProjectPage = () => {
                         <u>Helpful Resources for Literature Review</u> 
                         <br/>
                         <br/>
-                        Click the images to learn more about the various literature review resources!
+                        Click the images to utilize the various literature review resources!
                         <br/>
-                        <div style={{width: "800px", display: "flex", flexDirection: "row", padding: "5px"}}>
-                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
-                            <a href={"https://s3.amazonaws.com/libapps/accounts/64602/images/Boolean_Cheat_Sheet_0.jpeg"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={cheat} /></a>
+                        <div style={{width: "70vh", display: "flex", flexDirection: "row", paddingTop: "5vh", padding: "1vh"}}>
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div className='img-txt' style={{fontSize: "15px", fontWeight: "800"}}>Cheat Sheet</div>
+                            <a href={"https://s3.amazonaws.com/libapps/accounts/64602/images/Boolean_Cheat_Sheet_0.jpeg"} target="_blank"><img style={{width: "100vh", height: "20vh", paddingRight: "5px"}} src={cheat} /></a>
                             <div style={{fontSize: "10px"}}>Cheat Sheet to Efficiently Search for Scientific Works: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href='https://s3.amazonaws.com/libapps/accounts/64602/images/Boolean_Cheat_Sheet_0.jpeg'>Link</a> (Reference: Northern Arizona University CLINE Library)</div>
                           </div>
                           
-                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
-                            <a href={"https://inciteful.xyz/"} target="_blank"><img style={{width: "20vh", height: "10vh", paddingRight: "5px"}} src={incite} /></a>
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div className='img-txt' style={{fontSize: "15px", fontWeight: "800"}}>Inciteful</div>
+                            <a href={"https://inciteful.xyz/"} target="_blank"><img style={{width: "100vh", height: "7vh", paddingRight: "5px"}} src={incite} /></a>
                             <div style={{fontSize: "10px"}}>Website to Search for Similar Papers Quickly: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://inciteful.xyz/">Link</a> (Reference: Inciteful)</div>
                           </div>
 
-                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
-                            <a href={"https://scholar.google.com/"} target="_blank"><img style={{width: "20vh", height: "10vh", paddingRight: "5px"}} src={scholar} /></a>
-                            <div style={{fontSize: "10px"}}>Google Scholar: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://scholar.google.com/">Link</a> (Reference: Google Scholar)</div>
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div className='img-txt' style={{fontSize: "15px", fontWeight: "800"}}>SCOPUS</div>
+                            <a href={"https://www.scopus.com/search/form.uri?display=basic#basic"} target="_blank"><img style={{width: "100vh", height: "7vh", paddingRight: "5px"}} src={scopus} /></a>
+                            <div style={{fontSize: "10px"}}>SCOPUS: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.scopus.com/search/form.uri?display=basic#basic">Link</a> (Reference: SCOPUS)</div>
                           </div>
 
-                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
-                            <a href={"https://dl.acm.org/"} target="_blank"><img style={{width: "20vh", height: "10vh", paddingRight: "5px"}} src={acm} /></a>
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div className='img-txt'  style={{fontSize: "15px", fontWeight: "800"}}>ACM</div>
+                            <a href={"https://dl.acm.org/"} target="_blank"><img style={{width: "20vh", height: "5vh", paddingRight: "5px"}} src={acm} /></a>
                             <div style={{fontSize: "10px"}}>ACM Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://dl.acm.org/">Link</a> (Reference: ACM Library)</div>
                           </div>
                         </div>
                         <br/>
-                        <div style={{width: "800px", display: "flex", flexDirection: "row", padding: "5px"}}>
-                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
-                            <a href={"https://ieeexplore.ieee.org/Xplore/home.jsp"} target="_blank"><img style={{width: "30vh", height: "10vh", paddingRight: "5px"}} src={ieee} /></a>
+                        <div style={{width: "70vh", display: "flex", flexDirection: "row", paddingTop: "5vh", padding: "1vh"}}>
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div style={{fontSize: "15px", fontWeight: "800"}}>IEEE</div>
+                            <a href={"https://ieeexplore.ieee.org/Xplore/home.jsp"} target="_blank"><img style={{width: "30vh", height: "6.5vh", paddingRight: "5px"}} src={ieee} /></a>
                             <div style={{fontSize: "10px"}}>IEEE Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://ieeexplore.ieee.org/Xplore/home.jsp">Link</a> (Reference: IEEE Library)</div>
                           </div>
                           
-                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
-                            <a href={"https://www.jstor.org/"} target="_blank"><img style={{width: "30vh", height: "10vh", paddingRight: "5px"}} src={jstor} /></a>
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div style={{fontSize: "15px", fontWeight: "800"}}>JSTOR</div>
+                            <a href={"https://www.jstor.org/"} target="_blank"><img style={{width: "20vh", height: "6vh", paddingRight: "5px"}} src={jstor} /></a>
                             <div style={{fontSize: "10px"}}>JSTOR Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.jstor.org/">Link</a> (Reference: JSTOR Library)</div>
                           </div>
 
-                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
-                            <a href={"https://openresearchlibrary.org/"} target="_blank"><img style={{width: "20vh", height: "10vh", paddingRight: "5px"}} src={open} /></a>
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div style={{fontSize: "15px", fontWeight: "800"}}>Open Research</div>
+                            <a href={"https://openresearchlibrary.org/"} target="_blank"><img style={{width: "15vh", height: "7vh", paddingRight: "5px"}} src={open} /></a>
                             <div style={{fontSize: "10px"}}>Open Research Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://openresearchlibrary.org/">Link</a> (Reference: Open Research Library)</div>
                           </div>
 
-                          <div style={{width: "200px", display: "flex", flexDirection: "column", alignItems: "center"}}>
-                            <a href={"https://www.doi2bib.org/"} target="_blank"><img style={{width: "30vh", height: "10vh", paddingRight: "5px"}} src={doi} /></a>
-                            <div style={{fontSize: "10px"}}>Generating BibTEX Citations: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.doi2bib.org/">Link</a> (Reference: DOI 2 Bib)</div>
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div style={{fontSize: "15px", fontWeight: "800"}}>DBLP</div>
+                            <a href={"https://dblp.org/"} target="_blank"><img style={{width: "15vh", height: "6vh", paddingRight: "5px"}} src={dblp} /></a>
+                            <div style={{fontSize: "10px"}}>DBLP Library: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://dblp.org/">Link</a> (Reference: DBLP)</div>
                           </div>
                         </div>
                         <br/>
+                        <div style={{width: "70vh", display: "flex", flexDirection: "row", paddingTop: "5vh", padding: "1vh"}}>
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div style={{fontSize: "15px", fontWeight: "800"}}>Scholar</div>
+                            <a href={"https://scholar.google.com/"} target="_blank"><img style={{width: "20vh", height: "7vh", paddingRight: "5px"}} src={scholar} /></a>
+                            <div style={{fontSize: "10px"}}>Google Scholar: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://scholar.google.com/">Link</a> (Reference: Google Scholar)</div>
+                          </div>
+                          
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div style={{fontSize: "15px", fontWeight: "800"}}>DOI2BIB</div>
+                            <a href={"https://www.doi2bib.org/"} target="_blank"><img style={{width: "30vh", height: "6vh", paddingRight: "5px"}} src={doi} /></a>
+                            <div style={{fontSize: "10px"}}>Generating BibTEX Citations: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.doi2bib.org/">Link</a> (Reference: DOI 2 Bib)</div>
+                          </div>
+
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div style={{fontSize: "15px", fontWeight: "800"}}> </div>
+                            {/* <a href={"https://www.doi2bib.org/"} target="_blank"><img style={{width: "30vh", height: "6vh", paddingRight: "5px"}} src={doi} /></a> */}
+                            {/* <div style={{fontSize: "10px"}}>Generating BibTEX Citations: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.doi2bib.org/">Link</a> (Reference: DOI 2 Bib)</div> */}
+                          </div>
+                          
+                          <div style={{width: "25vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+                            <div style={{fontSize: "15px", fontWeight: "800"}}> </div>
+                            {/* <a href={"https://www.doi2bib.org/"} target="_blank"><img style={{width: "30vh", height: "6vh", paddingRight: "5px"}} src={doi} /></a> */}
+                            {/* <div style={{fontSize: "10px"}}>Generating BibTEX Citations: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.doi2bib.org/">Link</a> (Reference: DOI 2 Bib)</div> */}
+                          </div>
+                        </div>
                         <br/>
                       </div>
                     </div>

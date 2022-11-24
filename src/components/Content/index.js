@@ -89,6 +89,7 @@ function Content() {
                         <li><Link1 smooth to="/logistic#aswin"><span class = 'highlight'>Aswin B</span></Link1></li>
                         <li><Link1 smooth to="/logistic#sander"><span class = 'highlight-ta'>Sander Dullaert (TA)</span></Link1></li>
                         <li><Link1 smooth to="/logistic#gerg"><span class = 'highlight-ta'>Gergana Dzhondzhorova (TA)</span></Link1></li>
+                        <li><Link1 smooth to="/logistic#tanja"><span class = 'highlight-ta'>Tanja Kampman (TA)</span></Link1></li>
                         <li><Link1 smooth to="/logistic#eva"><span class = 'highlight-ta'>Eva Lahuis (TA)</span></Link1></li>
                         <li><Link1 smooth to="/logistic#van"><span class = 'highlight-ta'>Vanessa Markos (TA)</span></Link1></li>
                         <li><Link1 smooth to="/logistic#ren"><span class = 'highlight-ta'>Renske Mulder (TA)</span></Link1></li>

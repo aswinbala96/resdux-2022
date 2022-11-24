@@ -191,6 +191,18 @@ const LogisticPage = () => {
                           </div>
                         </div>
                       </li>
+                      <li id = "tanja" class="cards_item">
+                        <div class="card">
+                          <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"/></div>
+                          <div class="card_content_ta">
+                            <h2 class="card_title">Tanja Kampman</h2>
+                            <p class="card_text" style={{fontWeight:"bold"}}>Teaching Assitant</p>
+                            <p class="card_text" style={{marginBottom: "1.25rem"}}>t.e.kampman@student.utwente.nl</p>
+                            <h2 class="card_title">Expertise</h2>
+                            <p class="card_text" >Literature Review. User Studies & Analysis. <a href="https://www.youtube.com/watch?v=huOPVqztPdc" style={{color: "white"}}>Rubber Duck for Debugging</a>. Project Management. Sensors. Arduino. Programming</p>
+                          </div>
+                        </div>
+                      </li>
                       <li id = "eva" class="cards_item">
                         <div class="card">
                           <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"/></div>

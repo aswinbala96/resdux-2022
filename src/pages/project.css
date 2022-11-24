@@ -266,6 +266,8 @@ h3:before{
     .stopText{font-size: 35px !important;}
     .deliverText{font-size: 35px !important;}
     .deliverText2{font-size: 19px !important;}
+    .container{font-size: 18px !important;} 
+    .img-txt{font-size: 14px !important;}
 }
 
 @media screen and (max-width: 993px) {
@@ -281,6 +283,8 @@ h3:before{
     .stopText{font-size: 30px !important;}
     .deliverText{font-size: 30px !important;}
     .deliverText2{font-size: 18px !important;}
+    .container{font-size: 16px !important;} 
+    .img-txt{font-size: 13px !important;}
 }
 
 @media screen and (max-width: 800px) {
@@ -296,6 +300,9 @@ h3:before{
     .stopText{font-size: 28px !important;}
     .deliverText{font-size: 28px !important;}
     .deliverText2{font-size: 15px !important;}
+    .container{font-size: 14px !important;} 
+    .img-txt{font-size: 12px !important;}
+
 }
 
 
@@ -312,6 +319,9 @@ h3:before{
     .stopText{font-size: 25px !important;}
     .deliverText{font-size: 25px !important;}
     .deliverText2{font-size: 13px !important;}
+    .container{font-size: 12px !important;} 
+    .img-txt{font-size: 11px !important;}
+
 }
 
 @media screen and (max-width: 500px) {
@@ -327,6 +337,9 @@ h3:before{
     .stopText{font-size: 20px !important;}
     .deliverText{font-size: 20px !important;}
     .deliverText2{font-size: 11px !important;}
+    .container{font-size: 10px !important;} 
+    .img-txt{font-size: 10px !important;}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -342,6 +355,9 @@ h3:before{
     .stopText{font-size: 15px !important;}
     .deliverText{font-size: 15px !important;}
     .deliverText2{font-size: 9px !important;}
+    .container{font-size: 8px !important;} 
+    .img-txt{font-size: 8px !important;}
+
 }
 
 .phase-bar{
