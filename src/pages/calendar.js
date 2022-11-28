@@ -108,7 +108,7 @@ const CalendarPage = () => {
                           </td>
                           <td>
                           {/* Add  */}
-                          <a href={"https://canvas.utwente.nl/courses/11018/files/3341713?module_item_id=368518"} target={"_blank"} style={{}}>Surveys, Interviews, Focus Groups, & Observations</a>
+                            <a href={"https://canvas.utwente.nl/courses/11018/files/3341713?module_item_id=368518"} target={"_blank"} style={{}}>Surveys, Interviews, Focus Groups, & Observations</a>
                             <div style={{fontSize: '0.95em'}} className='note'>21st November (Monday)</div>
                             <br/>
                             {/* Add href={""} */}
@@ -118,8 +118,8 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Related Work & Interview Preparation</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>21st (<a href={"https://canvas.utwente.nl/courses/11018/files/3341720?module_item_id=368522"} target={"_blank"} style={{}}>Mon</a>) & 24th (Thurs) November</div>
+                            Related Work & Interview Preparation
+                            <div style={{fontSize: '0.95em'}} className='note'>21st (<a href={"https://canvas.utwente.nl/courses/11018/files/3341720?module_item_id=368522"} target={"_blank"} style={{}}>Mon</a>) & 24th (<a href={"https://canvas.utwente.nl/courses/11018/files/3348260?module_item_id=369652"} target={"_blank"} style={{}}>Thurs</a>) November</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
@@ -141,12 +141,18 @@ const CalendarPage = () => {
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000157"}>Lazar CH 15: Working with Human Subjects</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_479"}>The Art of Game Design CH 28: Playtesting</a></li>
-                              <li>Ethics Guidelines EEMCS</li>
+                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.utwente.nl/en/eemcs/research/ethics/"}>Ethics Guidelines EEMCS</a></li>
                             </ul>
                           </td>
                           <td>
-                            {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Working with Human Subjects</a>
+                            {/* Add  */}
+                            <a href={"https://canvas.utwente.nl/courses/11018/files/3351335?module_item_id=369894"} target={"_blank"} style={{}}>Quiz Lecture</a>
+                            <br/>
+                            <a href={"https://canvas.utwente.nl/courses/11018/files/3354436?module_item_id=370050"} target={"_blank"} style={{}}>Working with Human Subjects: Elements of Ethics </a>
+                            <br/>
+                            <a href={"https://canvas.utwente.nl/courses/11018/files/3354436?module_item_id=370050"} target={"_blank"} style={{}}>Ethics: Edge Cases and Over the Edge</a>
+                            <br/>
+                            <a href={"https://canvas.utwente.nl/courses/11018/files/3354484?module_item_id=370056"} target={"_blank"} style={{}}>UT procedures and Working with Children-GDPR</a>
                             <div style={{fontSize: '0.95em'}} className='note'>28th November (Monday)</div>
                             {/* <br/>
                             <a href={""} target={"_blank"} style={{}}>A1 Needfinding (group)</a>
@@ -154,12 +160,12 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Interviews & Lo-Fi Preparation</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>28th November (Mon) & 1st December (Thurs)</div>
+                            Interviews & Lo-Fi Preparation
+                            <div style={{fontSize: '0.95em'}} className='note'>28th November (<a href={""} target={"_blank"} style={{}}>Mon</a>) & 1st December (<a href={""} target={"_blank"} style={{}}>Thurs</a>)</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li style={{cursor: "pointer"}}><a >Apply Theory to Formulate Interview Questions & Plans to Record Observations</a></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#empphase2"><a>Apply Theory to Formulate Interview Questions & Plans to Record Observations</a></Link1></li>
                               <li style={{cursor: "pointer"}}><a >Understand Ethical Considerations for Performing Research</a></li>
                               <li style={{cursor: "pointer"}}><a >Apply Key Ethical Considerations for Research & Draft Ethical Consent Package</a></li>
                             </ul>

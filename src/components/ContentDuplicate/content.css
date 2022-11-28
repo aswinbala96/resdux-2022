@@ -113,12 +113,12 @@
     cursor: pointer;
 }
 
-/* 
+
 .phase-2:hover{
     transform: scale(1.04);
     transition: 0.2s ease-in-out;
 }
-.phase-4:hover{
+/* .phase-4:hover{
     transform: scale(1.04);
     transition: 0.2s ease-in-out;
 }
@@ -142,7 +142,7 @@
     font-family: 'Space Mono', monospace;
     margin-right: 5px;
     border-radius: 5px;
-    /* cursor: pointer; */cursor: not-allowed;
+    cursor: pointer;
 }
 
 .phase-3{
