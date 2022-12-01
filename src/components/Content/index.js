@@ -125,16 +125,16 @@ function Content() {
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#ideaphase1" className='phasetextt' style={{color: "rgb(7, 100, 44)"}}>Days 3-4: Product Concept</Link1></div>
                                     </div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#empphase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>Day 5: Observations & Interview</Link1></div>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#empphase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>Day 5: Interview Preparation & Plan</Link1></div>
                                     </div>
-                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#ideaphase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>Day 6: Refine Problem & Concept</Link1></div>
+                                    </div>
                                     {/* <div class="boxes" style={{borderRight: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(19, 162, 202, 0.37)"}}></div> */}
+                                    {/* <div class="boxes" style={{border: 'none'}}></div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#ideaphase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>Refined Product Concept</Link1></div>
-                                    </div> */}
-                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#testphase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>User Confrontations & Testing</Link1></div>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#testphase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>Day 7: Lo-Fi Prototype</Link1></div>
                                     </div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
@@ -162,7 +162,6 @@ function Content() {
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#302aa2"}}><Link1 smooth to="#test2phase4" className='phasetextt' style={{color:"#302aa2"}}>Final Document Submission</Link1></div>
                                     </div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    
                                 </div>
                                 <div className= "TlineContainer" style={{flex: 0.2, display: "flex", backgroundColor: "white", width: "99%", height: "100%", marginRight: "20px", paddingTop: "5px"}}>
                                     <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor:'rgba(127, 220, 127, 0.37)'}}></div>
@@ -180,9 +179,8 @@ function Content() {
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(127, 50, 215, 0.249)"}}></div>
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxesr" style={{border: 'none', color: "white"}}>.</div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(127, 50, 215, 0.249)"}}></div>
-                                    
+                                    <div class="boxes" style={{border: 'none', color: "white"}}>.</div>
+                                    <div class="boxesr" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(127, 50, 215, 0.249)"}}></div>
                                 </div>
                                 <div class = 'phase-bar'>
                                     <div class = 'phase-1' onClick={handleClick1}>
@@ -233,13 +231,13 @@ function Content() {
                                         <div onClick={handleClick1} className='phasetext' style={{writingMode: 'vertical-rl', alignSelf: 'start', justifyContent: 'end', fontSize: "18px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#defphase1" className='phasetextt' style={{color:"rgb(7, 100, 44)"}}>Day 2: Research Questions</Link1></div>
                                     </div>
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
-                                        <div onClick={handleClick1} className='phasetext' style={{writingMode: 'vertical-rl', alignSelf: 'start', justifyContent: 'end', fontSize: "20px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#defphase2" className='phasetextt' style={{color:"rgb(7, 46, 100)"}}>Updated Challenge</Link1></div>
-                                    </div> */}
+                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
+                                        <div onClick={handleClick1} className='phasetext' style={{writingMode: 'vertical-rl', alignSelf: 'start', justifyContent: 'end', fontSize: "18px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#defphase2" className='phasetextt' style={{color:"rgb(7, 46, 100)"}}>Day 6: Interview Analysis</Link1></div>
+                                    </div>
+                                    {/* <div class="boxes" style={{border: 'none'}}></div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
-                                        <div onClick={handleClick1} className='phasetext' style={{writingMode: 'vertical-rl', alignSelf: 'start', justifyContent: 'end', fontSize: "20px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#protophase2" className='phasetextt' style={{color:"rgb(7, 46, 100)"}}>Lo-Fi Prototype</Link1></div>
+                                        <div onClick={handleClick1} className='phasetext' style={{writingMode: 'vertical-rl', alignSelf: 'start', justifyContent: 'end', fontSize: "18px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#protophase2" className='phasetextt' style={{color:"rgb(7, 46, 100)"}}>Day 8: User Confrontations & Testing</Link1></div>
                                     </div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{border: 'none'}}></div>

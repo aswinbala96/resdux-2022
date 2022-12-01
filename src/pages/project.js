@@ -748,7 +748,285 @@ const ProjectPage = () => {
                     </div>
                     
                     <div className='pro-bodytext'>
-                      <h4 id="empphase2" className='sub-header'>Day 5: Emphatize: Observations & Interviews</h4>
+                      <h4 id="empphase2" className='sub-header'>Day 5: Emphatize: Interview Preparation & Plan</h4>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
+                          <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Discuss Feedback on Deliverable 1 with Lecturers & TAs</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Apply Theory to Formulate Interview Questions & Plans to Record Observations</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Create a Plan to Conduct Interviews</li>
+                            </ul>
+                        </div>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000157"}>Lazar CH 15: Working with Human Subjects</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_479"}>The Art of Game Design CH 28: Playtesting</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.utwente.nl/en/eemcs/research/ethics/"}>Ethics Guidelines EEMCS</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3341713?module_item_id=368518"}>Surveys, Interviews, Focus Groups, & Observations</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3354436?module_item_id=370050"}>Working with Human Subjects: Elements of Ethics </a></li>
+                            </ul>
+                        </div>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
+                          <ul class= 'ul-style'>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#progress2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Discuss Feedback of Deliverable 1 with Lecturers & TAs</a></Link1>                                
+                              </li>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#interviewques2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Developing Interview Questions</a></Link1>
+                              </li>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#interviewplan2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Planning of the Interviews</a></Link1>
+                              </li>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#interviewmock"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Mock Interviews</a></Link1>
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h4 id="progress2" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Discuss Feedback of Deliverable 1 with Lecturers & TAs</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>On <a style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3355484?module_item_id=370126">Canvas</a>  there will be a schedule posted for the group meetings. During this time the Lecturers and TAs will provide feedback about your group's Deliverable 1.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Utilize this opportunity to ask questions and clarify any doubts you may have about where you are at this stage of the project</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>During the meeting come prepared to discuss the following:</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>What are your next steps?</li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>How do you plan on working on the feedback/comments?</li>
+                          </ul>
+                        </ul>
+                      </div>
+
+                      <h4 id = "interviewques2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Developing Interviews Questions</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, you will be formulating your interview questions</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Write down the list of research questions (sub-questions as well) you should have formulated in the previous weeks</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Based on this and any new findings you may have generate a list of interview questions you can ask your target group to arrive at the responses you will require</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Use the materials discussed in the lecture session to help formulate your questions</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Check the resources linked below to help developing interview questions</li>
+                        </ul>
+                        <br/>
+                        <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interview Checklist: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://github.com/18F/ux-guide/blob/main/_pages/resources/interview-checklist.md/">Link</a> (Reference: 18F UX-Guide)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Interview Questions: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://xd.adobe.com/ideas/process/user-research/user-interview-questions-ux-research/">Link</a> (Reference: Adobe XD)</li>
+                        </ul>
+                      </div>
+
+                      <h4 id = "interviewplan2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 3: Planning of the Interviews</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, you will start thinking about the plan you will follow on the day of the interview and the things you will need to keep in mind before and on the day of the interviews</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Make sure you contact the user you want to interview in advance so you can set an appointment</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>When contacting them ensure you provide enough information/context why you are interviewing them</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Ensure you are following the EEMCS ethical guidelines when contacting the users (Find link below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>On the day of the interview ensure you have sufficient copies of the information brocheure & consent forms printed out for the users you will be interviewing (Find links below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Determine how you will be recording the responses of the users.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>If you are recording any data that will help identify the users (Personal Identifiable Information) (like audio, video etc.) ensure you have a plan in place to anonymize their identity and let the users know about this as well.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Create a sample script that you will follow to conduct the interview. (Find resource below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>The interview responses will be analyzed in the next step, which will then be followed by another round of updating and making your user and technology domains for specific</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Ensure you have a plan in place to help with the analysis of the questions to gain more insights from your user domain</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Check the resources linked below to help with your interview planning activity</li>
+                        </ul>
+                        <br/>
+                        <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>EEMCS Ethics Guidelines: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.utwente.nl/en/eemcs/research/ethics/">Link</a> (Reference: EEMCS University of Twente)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form (English): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3342198?module_item_id=368636">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form (Dutch): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3342197?module_item_id=368635">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>More Ethics Materials and FAQ: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/pages/2022-wk-3-ethics-materials-faq-and-application-excerpt-ethics-committee-computer-and-information-science-ec-cis?module_item_id=369770">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interview Sample Script/Procedure to Follow: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://github.com/18F/ux-guide/blob/main/_pages/resources/interview-checklist.md/">Link</a> (Reference: 18F UX-Guide)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Tools Map: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://global-uploads.webflow.com/59ace8427353c50001765cbd/60d20b8dbb62405deb641ba2_2021-uxr-tools-map.pdf">Link</a> (Reference: User Interviews)</li>
+                        </ul>
+                      </div>
+
+                      <h4 id = "interviewplan2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 4: Mock Interviews</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Once you have your questions and plans in plae you will then pilot test your interview questions & procedures by trying them out on your TAs or group-mates</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>The aim of this activity is to find any potential issues with your questions and approach in interviewing your user domain</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Below you will find the steps for the activity</li>
+                        </ul>
+                        <br/>
+                        <u>Steps</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>This exercise should not take more than 30 minutes. Show ensure you plan everything accordingly</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 1: Determine the roles:</li>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>1 person will take the role of the interviewer</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>1 person will take the role of the interviewee</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>1-2 persons will take notes on the responses/feedback provided/mistakes in the procdeure followed</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Remaining will observe</li>
+                            </ul>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 2: Follow the interview plans you have devised</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 3: When asking the questions the peple observing or taking notes must keep track of questions that sound close-ended, biases, parts where a follow up question might have been missed, forced the interviwee to respond in a close-ended form etc.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 4: Discuss the issues recorded with the group</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 5: Edit your interview questions</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className='pro-bodytext'>
+                      <h4 id="emp2phase2" className='sub-header'>Day 6: Emphatize: Interview Analysis</h4>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
+                          <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Compile and Document User Responses</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Ensure the Data is Stored in Accordance with Ethical Guidelines</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Analyze the Interview Data to Gain More Insights</li>
+                            </ul>
+                        </div>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000157"}>Lazar CH 15: Working with Human Subjects</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_479"}>The Art of Game Design CH 28: Playtesting</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3341713?module_item_id=368518"}>Surveys, Interviews, Focus Groups, & Observations</a></li>
+                            </ul>
+                        </div>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
+                          <ul class= 'ul-style'>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#intqual"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Analysis of Interview Responses</a></Link1>                                
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h4 id="intqual" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Analysis of  Interview Responses</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>By now you should have a compilation of response or are still in the process conducting emphatizing interviews with your selected target group</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Most of the responses you would have collected would be related to your users' opinons on the various problems you have identified related to their associated field of expertise</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>To get meaningful insights from their responses you will have to analyze their responses, in other words conduct a qualitative analysis</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>One way to conduct a qualitative analysis of your response is to conduct a thematic coding</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>There are multiple ways you can approach a thematic coding exercise. As long as the objectives to form themes from the response is central to method the methods you use to analyze the responses can differ</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Below we have provided some resources that you can use to help you conduct your thematic coding</li>
+                        </ul>
+                        <br/>
+                        <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Example of Thematic Coding with Images: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.katiemccurdy.com/work/childrens/">Link</a> (Reference: Katie McCurdy)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Thematic Analysis: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.nngroup.com/articles/thematic-analysis/">Link</a> (Reference: NN Group)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>How to do a Thematic Analysis of User Interviews?: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.interaction-design.org/literature/article/how-to-do-a-thematic-analysis-of-user-interviews">Link</a> (Reference: Interaction Design)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Thematic Analysis for UX: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.toptal.com/designers/ux-research/thematic-analysis-for-ux">Link</a> (Reference: Toptal)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Analyze Interview Transcripts in Qualitative Research: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.rev.com/blog/transcription-blog/analyze-interview-transcripts-in-qualitative-research">Link</a> (Reference: Rev)</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className='pro-bodytext'>
+                      <h4 id="defphase2" className='sub-header'>Day 6: Define: Refined Problem</h4>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>Refine Existing Research Questions/Statments after Analyzing Interview Responses</li>
+                          </ul>
+                        </div>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000157"}>Lazar CH 15: Working with Human Subjects</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_479"}>The Art of Game Design CH 28: Playtesting</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3341713?module_item_id=368518"}>Surveys, Interviews, Focus Groups, & Observations</a></li>
+                            </ul>
+                        </div>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
+                          <ul class= 'ul-style'>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#refinedef"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Refine Research Questions</a></Link1>                                
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h4 id="refinedef" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Refine Research Questions</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Once you have conducted the thematic coding of the interview reponses, you would may have derived new insights about your user and technology domains</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Use the new found insights to further refine your research questions/sub-questions</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>If you have any questions on how to approach this approach the lecturers/TA</li>
+                        </ul>
+                      </div>                      
+                    </div>
+
+                    <div className='pro-bodytext'>
+                      <h4 id="ideaphase2" className='sub-header'>Day 6: Ideate: Refined Concept</h4>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>Refine Product Concept Based on New Insights</li>
+                          </ul>
+                        </div>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000157"}>Lazar CH 15: Working with Human Subjects</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_479"}>The Art of Game Design CH 28: Playtesting</a></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3341713?module_item_id=368518"}>Surveys, Interviews, Focus Groups, & Observations</a></li>
+                            </ul>
+                        </div>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
+                          <ul class= 'ul-style'>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#refineidea"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Refine Product Concept</a></Link1>                                
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h4 id="refineidea" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Refine Product Concept</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Once you have conducted the thematic coding and refining the research questions, it is time to refine your product concept</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>To refine your product concept, ensure you have a proper understanding of your target user domain and the problems you have identified</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Use this information and describe how your product concept will help users achieve the necessary experiences to traget the identified problems</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Also, ensure to describe the role your selected technology will play to achieve the necessary user experience</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>All of this information will help build your Lo-Fi Prototypes next week</li>
+                        </ul>
+                      </div>                
+                    </div>
+
+                    {/* <div className='pro-bodytext'>
+                      <h4 id="protophase2" className='sub-header'>Day 7: Prototype: Lo-Fi Prototype of Key Interactions</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
@@ -877,473 +1155,269 @@ const ProjectPage = () => {
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Step 5: Edit your interview questions</li>
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
 
                     {/* <div className='pro-bodytext'>
-                      <h4 id="emp2phase2" className='sub-header'>Emphatize: Interviews</h4>
+                      <h4 id="testphase2" className='sub-header'>Day 8: Test: User Confrontations</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                           <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Discuss Feedback on Deliverable 1 with Lecturers & TAs</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Apply Theory to Formulate Interview Questions & Plans to Record Observations</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Create a Plan to Conduct Interviews</li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000157"}>Lazar CH 15: Working with Human Subjects</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_479"}>The Art of Game Design CH 28: Playtesting</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.utwente.nl/en/eemcs/research/ethics/"}>Ethics Guidelines EEMCS</a></li>
                             </ul>
                         </div>
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3341713?module_item_id=368518"}>Surveys, Interviews, Focus Groups, & Observations</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3354436?module_item_id=370050"}>Working with Human Subjects: Elements of Ethics </a></li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
+                                <Link1 className='projectLink1' smooth to={"#progress2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Discuss Feedback of Deliverable 1 with Lecturers & TAs</a></Link1>                                
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
+                                <Link1 className='projectLink1' smooth to={"#interviewques2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Developing Interview Questions</a></Link1>
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
+                                <Link1 className='projectLink1' smooth to={"#interviewplan2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Planning of the Interviews</a></Link1>
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
+                                <Link1 className='projectLink1' smooth to={"#interviewmock"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Mock Interviews</a></Link1>
                               </li>
                             </ul>
                         </div>
                       </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
+                      <h4 id="progress2" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Discuss Feedback of Deliverable 1 with Lecturers & TAs</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>On <a style={{fontFamily: "Inconsolata, monospace"}} href="">Canvas</a>  there will be a schedule posted for the group meetings. During this time the Lecturers and TAs will provide feedback about your group's Deliverable 1.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Utilize this opportunity to ask questions and clarify any doubts you may have about where you are at this stage of the project</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>During the meeting come prepared to discuss the following:</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>What are your next steps?</li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>How do you plan on working on the feedback/comments?</li>
+                          </ul>
+                        </ul>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
+                      <h4 id = "interviewques2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Developing Interviews Questions</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, you will be formulating your interview questions</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Write down the list of research questions (sub-questions as well) you should have formulated in the previous weeks</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Based on this and any new findings you may have generate a list of interview questions you can ask your target group to arrive at the responses you will require</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Use the materials discussed in the lecture session to help formulate your questions</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Check the resources linked below to help developing interview questions</li>
+                        </ul>
+                        <br/>
                         <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interview Checklist: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://github.com/18F/ux-guide/blob/main/_pages/resources/interview-checklist.md/">Link</a> (Reference: 18F UX-Guide)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Interview Questions: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://xd.adobe.com/ideas/process/user-research/user-interview-questions-ux-research/">Link</a> (Reference: Adobe XD)</li>
+                        </ul>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
+                      <h4 id = "interviewplan2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 3: Planning of the Interviews</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, you will start thinking about the plan you will follow on the day of the interview and the things you will need to keep in mind before and on the day of the interviews</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Make sure you contact the user you want to interview in advance so you can set an appointment</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>When contacting them ensure you provide enough information/context why you are interviewing them</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Ensure you are following the EEMCS ethical guidelines when contacting the users (Find link below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>On the day of the interview ensure you have sufficient copies of the information brocheure & consent forms printed out for the users you will be interviewing (Find links below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Determine how you will be recording the responses of the users.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>If you are recording any data that will help identify the users (Personal Identifiable Information) (like audio, video etc.) ensure you have a plan in place to anonymize their identity and let the users know about this as well.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Create a sample script that you will follow to conduct the interview. (Find resource below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>The interview responses will be analyzed in the next step, which will then be followed by another round of updating and making your user and technology domains for specific</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Ensure you have a plan in place to help with the analysis of the questions to gain more insights from your user domain</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Check the resources linked below to help with your interview planning activity</li>
+                        </ul>
+                        <br/>
                         <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>EEMCS Ethics Guidelines: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.utwente.nl/en/eemcs/research/ethics/">Link</a> (Reference: EEMCS University of Twente)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form (English): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3342198?module_item_id=368636">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form (Dutch): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3342197?module_item_id=368635">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>More Ethics Materials and FAQ: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/pages/2022-wk-3-ethics-materials-faq-and-application-excerpt-ethics-committee-computer-and-information-science-ec-cis?module_item_id=369770">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interview Sample Script/Procedure to Follow: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://github.com/18F/ux-guide/blob/main/_pages/resources/interview-checklist.md/">Link</a> (Reference: 18F UX-Guide)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Tools Map: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://global-uploads.webflow.com/59ace8427353c50001765cbd/60d20b8dbb62405deb641ba2_2021-uxr-tools-map.pdf">Link</a> (Reference: User Interviews)</li>
+                        </ul>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
+                      <h4 id = "interviewplan2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 4: Mock Interviews</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Once you have your questions and plans in plae you will then pilot test your interview questions & procedures by trying them out on your TAs or group-mates</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>The aim of this activity is to find any potential issues with your questions and approach in interviewing your user domain</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Below you will find the steps for the activity</li>
+                        </ul>
+                        <br/>
+                        <u>Steps</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>This exercise should not take more than 30 minutes. Show ensure you plan everything accordingly</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 1: Determine the roles:</li>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>1 person will take the role of the interviewer</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>1 person will take the role of the interviewee</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>1-2 persons will take notes on the responses/feedback provided/mistakes in the procdeure followed</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Remaining will observe</li>
+                            </ul>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 2: Follow the interview plans you have devised</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 3: When asking the questions the peple observing or taking notes must keep track of questions that sound close-ended, biases, parts where a follow up question might have been missed, forced the interviwee to respond in a close-ended form etc.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 4: Discuss the issues recorded with the group</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 5: Edit your interview questions</li>
+                        </ul>
                       </div>
                     </div> */}
 
                     {/* <div className='pro-bodytext'>
-                      <h4 id="defphase2" className='sub-header'>Define: Updated Challenge</h4>
+                      <h4 id="test2phase2" className='sub-header'>Day 8: Test: Formulative Testing</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                           <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Discuss Feedback on Deliverable 1 with Lecturers & TAs</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Apply Theory to Formulate Interview Questions & Plans to Record Observations</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Create a Plan to Conduct Interviews</li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000157"}>Lazar CH 15: Working with Human Subjects</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_479"}>The Art of Game Design CH 28: Playtesting</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.utwente.nl/en/eemcs/research/ethics/"}>Ethics Guidelines EEMCS</a></li>
                             </ul>
                         </div>
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3341713?module_item_id=368518"}>Surveys, Interviews, Focus Groups, & Observations</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3354436?module_item_id=370050"}>Working with Human Subjects: Elements of Ethics </a></li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
+                                <Link1 className='projectLink1' smooth to={"#progress2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Discuss Feedback of Deliverable 1 with Lecturers & TAs</a></Link1>                                
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
+                                <Link1 className='projectLink1' smooth to={"#interviewques2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Developing Interview Questions</a></Link1>
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
+                                <Link1 className='projectLink1' smooth to={"#interviewplan2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Planning of the Interviews</a></Link1>
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
+                                <Link1 className='projectLink1' smooth to={"#interviewmock"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Mock Interviews</a></Link1>
                               </li>
                             </ul>
                         </div>
                       </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
+                      <h4 id="progress2" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Discuss Feedback of Deliverable 1 with Lecturers & TAs</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-                    </div> */}
-
-                    {/* <div className='pro-bodytext'>
-                      <h4 id="ideaphase2" className='sub-header'>Ideate: Refined Product Concept</h4>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>On <a style={{fontFamily: "Inconsolata, monospace"}} href="">Canvas</a>  there will be a schedule posted for the group meetings. During this time the Lecturers and TAs will provide feedback about your group's Deliverable 1.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Utilize this opportunity to ask questions and clarify any doubts you may have about where you are at this stage of the project</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>During the meeting come prepared to discuss the following:</li>
                           <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
-                        </div>
-                      </div>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
-                            </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
-                          <ul class= 'ul-style'>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
-                              </li>
-                            </ul>
-                        </div>
-                      </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>What are your next steps?</li>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>How do you plan on working on the feedback/comments?</li>
+                          </ul>
+                        </ul>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
+                      <h4 id = "interviewques2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Developing Interviews Questions</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, you will be formulating your interview questions</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Write down the list of research questions (sub-questions as well) you should have formulated in the previous weeks</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Based on this and any new findings you may have generate a list of interview questions you can ask your target group to arrive at the responses you will require</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Use the materials discussed in the lecture session to help formulate your questions</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Check the resources linked below to help developing interview questions</li>
+                        </ul>
+                        <br/>
                         <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interview Checklist: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://github.com/18F/ux-guide/blob/main/_pages/resources/interview-checklist.md/">Link</a> (Reference: 18F UX-Guide)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Interview Questions: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://xd.adobe.com/ideas/process/user-research/user-interview-questions-ux-research/">Link</a> (Reference: Adobe XD)</li>
+                        </ul>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
+                      <h4 id = "interviewplan2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 3: Planning of the Interviews</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, you will start thinking about the plan you will follow on the day of the interview and the things you will need to keep in mind before and on the day of the interviews</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Make sure you contact the user you want to interview in advance so you can set an appointment</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>When contacting them ensure you provide enough information/context why you are interviewing them</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Ensure you are following the EEMCS ethical guidelines when contacting the users (Find link below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>On the day of the interview ensure you have sufficient copies of the information brocheure & consent forms printed out for the users you will be interviewing (Find links below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Determine how you will be recording the responses of the users.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>If you are recording any data that will help identify the users (Personal Identifiable Information) (like audio, video etc.) ensure you have a plan in place to anonymize their identity and let the users know about this as well.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Create a sample script that you will follow to conduct the interview. (Find resource below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>The interview responses will be analyzed in the next step, which will then be followed by another round of updating and making your user and technology domains for specific</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Ensure you have a plan in place to help with the analysis of the questions to gain more insights from your user domain</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Check the resources linked below to help with your interview planning activity</li>
+                        </ul>
+                        <br/>
                         <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>EEMCS Ethics Guidelines: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.utwente.nl/en/eemcs/research/ethics/">Link</a> (Reference: EEMCS University of Twente)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form (English): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3342198?module_item_id=368636">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form (Dutch): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3342197?module_item_id=368635">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>More Ethics Materials and FAQ: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/pages/2022-wk-3-ethics-materials-faq-and-application-excerpt-ethics-committee-computer-and-information-science-ec-cis?module_item_id=369770">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interview Sample Script/Procedure to Follow: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://github.com/18F/ux-guide/blob/main/_pages/resources/interview-checklist.md/">Link</a> (Reference: 18F UX-Guide)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Tools Map: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://global-uploads.webflow.com/59ace8427353c50001765cbd/60d20b8dbb62405deb641ba2_2021-uxr-tools-map.pdf">Link</a> (Reference: User Interviews)</li>
+                        </ul>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
+                      <h4 id = "interviewplan2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 4: Mock Interviews</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-                    </div> */}
-
-                    {/* <div className='pro-bodytext'>
-                      <h4 id="protophase2"  className='sub-header'>Prototype: Lo-Fi Prototype of Key Interactions</h4>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Once you have your questions and plans in plae you will then pilot test your interview questions & procedures by trying them out on your TAs or group-mates</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>The aim of this activity is to find any potential issues with your questions and approach in interviewing your user domain</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Below you will find the steps for the activity</li>
+                        </ul>
+                        <br/>
+                        <u>Steps</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>This exercise should not take more than 30 minutes. Show ensure you plan everything accordingly</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 1: Determine the roles:</li>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>1 person will take the role of the interviewer</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>1 person will take the role of the interviewee</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>1-2 persons will take notes on the responses/feedback provided/mistakes in the procdeure followed</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Remaining will observe</li>
                             </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
-                        </div>
-                      </div>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
-                            </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
-                          <ul class= 'ul-style'>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
-                              </li>
-                            </ul>
-                        </div>
-                      </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-                    </div> */}
-
-                    {/* <div className='pro-bodytext'>
-                      <h4 id="testphase2" className='sub-header'>Test: User Confrontations</h4>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
-                        </div>
-                      </div>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
-                            </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
-                          <ul class= 'ul-style'>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
-                              </li>
-                            </ul>
-                        </div>
-                      </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-                    </div> */}
-
-                    {/* <div className='pro-bodytext'>
-                      <h4  id="test2phase2" className='sub-header'>Test: Formulative Testing</h4>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
-                        </div>
-                      </div>
-                      <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
-                            </ul>
-                        </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
-                          <ul class= 'ul-style'>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
-                              </li>
-                            </ul>
-                        </div>
-                      </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 2: Follow the interview plans you have devised</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 3: When asking the questions the peple observing or taking notes must keep track of questions that sound close-ended, biases, parts where a follow up question might have been missed, forced the interviwee to respond in a close-ended form etc.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 4: Discuss the issues recorded with the group</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 5: Edit your interview questions</li>
+                        </ul>
                       </div>
                     </div> */}
 

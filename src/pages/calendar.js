@@ -161,7 +161,7 @@ const CalendarPage = () => {
                           <td>
                             {/* Add href={""} */}
                             Interviews & Lo-Fi Preparation
-                            <div style={{fontSize: '0.95em'}} className='note'>28th November (<a href={""} target={"_blank"} style={{}}>Mon</a>) & 1st December (<a href={""} target={"_blank"} style={{}}>Thurs</a>)</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>28th November (<a href={"https://canvas.utwente.nl/courses/11018/files/3355475?module_item_id=370125"} target={"_blank"} style={{}}>Mon</a>) & 1st December (<a href={""} target={"_blank"} style={{}}>Thurs</a>)</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>

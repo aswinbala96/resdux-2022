@@ -20,7 +20,7 @@ const Hexagon2 = (props) => {
                 <Text>Emphatize</Text>
             </Hexagon>
             <Hexagon q={0} r={-1} s={1} className="hexagons2">
-                <Text x={-10} y={5}><tspan style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "empphase2")} dy="1.2em" x="-6">Observations</tspan><tspan dy="1.2em" x="-9" dx="1em"style={{cursor: 'pointer'}}  onClick={event => scrollTo(event, "emp2phase2")} >Interviews</tspan></Text>
+                <Text x={-10} y={5}><tspan style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "empphase2")} dy="1.2em" x="-9">Interviews</tspan><tspan dy="1.2em" x="-11" dx="1em"style={{cursor: 'pointer'}}  onClick={event => scrollTo(event, "emp2phase2")} >Analysis</tspan></Text>
             </Hexagon>
             {/* <Hexagon q={-1} r={1} s={0} className="hexagons">
               <Text>-1, 1, 0, Theorize</Text>
@@ -29,13 +29,13 @@ const Hexagon2 = (props) => {
                 <Text>Define</Text>
             </Hexagon>
             <Hexagon q={1} r={0} s={-1} className="hexagons2">
-                <Text style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "defphase2")} x={-1} y={-8}>Updated Challenge</Text>
+                <Text style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "defphase2")} x={-2} y={-8}>Refined Problem</Text>
             </Hexagon>
             <Hexagon onClick={event => scrollTo(event, "ideaphase2")} q={1} r={-1} s={0} className="hexagons2-ideate">
               <Text>Ideate</Text>
             </Hexagon>
             <Hexagon q={2} r={-2} s={0} className="hexagons2">
-                <Text style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "ideaphase2")} x={4} y={10}>Refined Product Concept</Text>
+                <Text style={{cursor: 'pointer'}} onClick={event => scrollTo(event, "ideaphase2")} x={-2} y={10}>Refined Concept</Text>
             </Hexagon>
             <Hexagon onClick={event => scrollTo(event, "protophase2")} q={2} r={-1} s={-1} className="hexagons2-prototype">
               <Text>Prototype</Text>
