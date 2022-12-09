@@ -132,10 +132,10 @@ function Content() {
                                     </div>
                                     {/* <div class="boxes" style={{borderRight: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(19, 162, 202, 0.37)"}}></div> */}
                                     {/* <div class="boxes" style={{border: 'none'}}></div> */}
-                                    <div class="boxes" style={{border: 'none'}}></div>
-                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#testphase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>Day 7: Lo-Fi Prototype</Link1></div>
-                                    </div> */}
+                                    {/* <div class="boxes" style={{border: 'none'}}></div> */}
+                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(19, 162, 202, 0.37)"}}>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 46, 100)"}}><Link1 smooth to="#protophase2" className='phasetextt' style={{color: "rgb(7, 46, 100)"}}>Day 7: Lo-Fi Prototype</Link1></div>
+                                    </div>
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#fe6993"}}><Link1 smooth to="#protophase3" className='phasetextt' style={{color:"#fe6993"}}>Hi Fi Protoype</Link1></div>

@@ -26,6 +26,12 @@ import sense from '../images/sense.png';
 import mash from '../images/mash.png';
 import dark from '../images/dark.png';
 import lotus from '../images/lotus.png';
+import click from '../images/click.PNG';
+import harris from '../images/harris.PNG';
+import navi from '../images/navi.PNG';
+import paper from '../images/paper.PNG';
+import story from '../images/story.PNG';
+
 
 import cheat from '../images/cheat.PNG';
 import incite from '../images/incite.PNG';
@@ -914,7 +920,7 @@ const ProjectPage = () => {
                             </ul>
                         </div>
                       </div>
-                      <h4 id="intqual" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Analysis of  Interview Responses</h4>
+                      <h4 id="intqual" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Analysis of Interview Responses</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>By now you should have a compilation of response or are still in the process conducting emphatizing interviews with your selected target group</li>
@@ -1025,137 +1031,121 @@ const ProjectPage = () => {
                       </div>                
                     </div>
 
-                    {/* <div className='pro-bodytext'>
+                    <div className='pro-bodytext'>
                       <h4 id="protophase2" className='sub-header'>Day 7: Prototype: Lo-Fi Prototype of Key Interactions</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                           <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Discuss Feedback on Deliverable 1 with Lecturers & TAs</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Apply Theory to Formulate Interview Questions & Plans to Record Observations</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Create a Plan to Conduct Interviews</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Create a Lo-Fi Prototype</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Develop a Plan for User Confrontations</li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}>Complete Ethics Checklist for Lo-Fi User Confrontation</li>
                             </ul>
                         </div>
                         <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
                             <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000157"}>Lazar CH 15: Working with Human Subjects</a></li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_479"}>The Art of Game Design CH 28: Playtesting</a></li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.utwente.nl/en/eemcs/research/ethics/"}>Ethics Guidelines EEMCS</a></li>
-                            </ul>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000108"}>Lazar CH 10: Usability Testing</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B978012805390400011X"}>Lazar CH 11: Analyzing Qualitative Data</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.youtube.com/watch?v=AjFulCZglYo"}>Video: The Power of Prototyping</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/pages/2022-wk-4-links-heuristics?module_item_id=371200"}>Heuristics Links</a></li>
+                            </ul>                            
                         </div>
                       </div>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
                         <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
                             <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3341713?module_item_id=368518"}>Surveys, Interviews, Focus Groups, & Observations</a></li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3354436?module_item_id=370050"}>Working with Human Subjects: Elements of Ethics </a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3367992?module_item_id=371501"}>Usability Testing, Prototypes, and Analyzing Qualitative Data</a></li>
                             </ul>
                         </div>
                         <div style={{flex: 1, paddingRight: "0vh"}}>
                         <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
-                                <Link1 className='projectLink1' smooth to={"#progress2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Discuss Feedback of Deliverable 1 with Lecturers & TAs</a></Link1>                                
+                                <Link1 className='projectLink1' smooth to={"#protolofi"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Creating a Lo-Fi Prototype</a></Link1>                                
                               </li>
                               <li>
-                                <Link1 className='projectLink1' smooth to={"#interviewques2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Developing Interview Questions</a></Link1>
+                                <Link1 className='projectLink1' smooth to={"#lofiplan"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Developing a Plan for User Confrontations with Lo Fi Prototype</a></Link1>
                               </li>
                               <li>
-                                <Link1 className='projectLink1' smooth to={"#interviewplan2"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Planning of the Interviews</a></Link1>
+                                <Link1 className='projectLink1' smooth to={"#ethicslofi"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Fill Out the Ethics Checklist for Lo-Fi User Confrontation</a></Link1>
                               </li>
-                              <li>
-                                <Link1 className='projectLink1' smooth to={"#interviewmock"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Mock Interviews</a></Link1>
-                              </li>
+                              
                             </ul>
                         </div>
                       </div>
-                      <h4 id="progress2" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Discuss Feedback of Deliverable 1 with Lecturers & TAs</h4>
+                      <h4 id="protolofi" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Creating a Lo-Fi Prototype</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>On <a style={{fontFamily: "Inconsolata, monospace"}} href="">Canvas</a>  there will be a schedule posted for the group meetings. During this time the Lecturers and TAs will provide feedback about your group's Deliverable 1.</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Utilize this opportunity to ask questions and clarify any doubts you may have about where you are at this stage of the project</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>During the meeting come prepared to discuss the following:</li>
-                          <ul class= 'ul-style'>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}>What are your next steps?</li>
-                            <li style={{fontFamily: "Inconsolata, monospace"}}>How do you plan on working on the feedback/comments?</li>
-                          </ul>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>At this stage of the project you should have a good foundation (background research and user interviews) regarding the problem you are trying to target for your selected user domain.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Your next step is to develop a Lo-Fi prototype that captures the essence of your final product.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>You will take this Lo-Fi prototype and interview the users once more to get insights that will help refine the user experience.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Depending on your user domain and the technology domain you plan on using, select one of the following design thinking toolkits to help you generate the necessary lo-fi prototype</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>If you have any questions/doubts reach out to one of the assigned TAs or the lecturers.</li>
                         </ul>
+                        <u>Lo-Fi Prototype Methods Cards:</u> 
+                        <br/>
+                        <br/>
+                        Click the images to learn more about the various lo-fi prototype methods!
+                        <br/>
+                        <div style={{width: "80vh", display: "flex", flexDirection: "row", paddingTop: "5vh", padding: "1vh"}}>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/clickable-prototype-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={click} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/harris-profile/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={harris} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/navigation-map-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={navi} /></a>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/paper-prototyping-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={paper} /></a>
+                        </div>
+                        <div style={{width: "80vh", display: "flex", flexDirection: "row", paddingTop: "5vh", padding: "1vh"}}>
+                          <a href={"https://toolkits.dss.cloud/design/method-card/storyboard-2/"} target="_blank"><img style={{width: "10vh", height: "10vh", paddingRight: "5px"}} src={story} /></a>
+                        </div>
+                        <br/>
+                        <br/>
                       </div>
 
-                      <h4 id = "interviewques2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Developing Interviews Questions</h4>
+                      <h4 id = "lofiplan" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Developing a Plan for User Confrontations with Lo Fi Prototype</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, you will be formulating your interview questions</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Write down the list of research questions (sub-questions as well) you should have formulated in the previous weeks</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Based on this and any new findings you may have generate a list of interview questions you can ask your target group to arrive at the responses you will require</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Use the materials discussed in the lecture session to help formulate your questions</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Check the resources linked below to help developing interview questions</li>
-                        </ul>
-                        <br/>
-                        <u>Helpful Resources</u>
-                        <br/>
-                        <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interview Checklist: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://github.com/18F/ux-guide/blob/main/_pages/resources/interview-checklist.md/">Link</a> (Reference: 18F UX-Guide)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Interview Questions: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://xd.adobe.com/ideas/process/user-research/user-interview-questions-ux-research/">Link</a> (Reference: Adobe XD)</li>
-                        </ul>
-                      </div>
-
-                      <h4 id = "interviewplan2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 3: Planning of the Interviews</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>In this activity, you will start thinking about the plan you will follow on the day of the interview and the things you will need to keep in mind before and on the day of the interviews</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Make sure you contact the user you want to interview in advance so you can set an appointment</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>When contacting them ensure you provide enough information/context why you are interviewing them</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Like creating a plan for user interviews, ensure you have a plan in place that would allow you to test your Lo-Fi prototype with users.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Make sure you contact the user you want in advance so you can set an appointment</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>When contacting them ensure you provide enough information/context why you are conducting the study with the lo-fi prototype</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Ensure you are following the EEMCS ethical guidelines when contacting the users (Find link below)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>On the day of the interview ensure you have sufficient copies of the information brocheure & consent forms printed out for the users you will be interviewing (Find links below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>On the day of the study ensure you have sufficient copies of the information brocheure & consent forms printed out for the users you will be interviewing (Find links below)</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Determine how you will be recording the responses of the users.</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>If you are recording any data that will help identify the users (Personal Identifiable Information) (like audio, video etc.) ensure you have a plan in place to anonymize their identity and let the users know about this as well.</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Create a sample script that you will follow to conduct the interview. (Find resource below)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>The interview responses will be analyzed in the next step, which will then be followed by another round of updating and making your user and technology domains for specific</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Create a sample script that you will follow to conduct the study. (Find resource below)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>The responses should be analyzed, which will then be followed by another round of updating and making your user and technology domains for specific</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Ensure you have a plan in place to help with the analysis of the questions to gain more insights from your user domain</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Check the resources linked below to help with your interview planning activity</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Check the resources linked below to help developing a plan to conduct your user confrontations.</li>
                         </ul>
                         <br/>
                         <u>Helpful Resources</u>
                         <br/>
                         <ul class= 'ul-style'>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>EEMCS Ethics Guidelines: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://www.utwente.nl/en/eemcs/research/ethics/">Link</a> (Reference: EEMCS University of Twente)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form (English): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3342198?module_item_id=368636">Link</a></li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form (Dutch): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3342197?module_item_id=368635">Link</a></li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>More Ethics Materials and FAQ: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/pages/2022-wk-3-ethics-materials-faq-and-application-excerpt-ethics-committee-computer-and-information-science-ec-cis?module_item_id=369770">Link</a></li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interview Sample Script/Procedure to Follow: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://github.com/18F/ux-guide/blob/main/_pages/resources/interview-checklist.md/">Link</a> (Reference: 18F UX-Guide)</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Tools Map: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://global-uploads.webflow.com/59ace8427353c50001765cbd/60d20b8dbb62405deb641ba2_2021-uxr-tools-map.pdf">Link</a> (Reference: User Interviews)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Interview Checklist: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://github.com/18F/ux-guide/blob/main/_pages/resources/interview-checklist.md/">Link</a> (Reference: 18F UX-Guide)</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>UX Research Interview Questions: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://xd.adobe.com/ideas/process/user-research/user-interview-questions-ux-research/">Link</a> (Reference: Adobe XD)</li>
                         </ul>
                       </div>
 
-                      <h4 id = "interviewplan2" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 4: Mock Interviews</h4>
+                      <h4 id = "ethicslofi" style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 3: Fill Out the Ethics Checklist for Lo-Fi User Confrontation</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Once you have your questions and plans in plae you will then pilot test your interview questions & procedures by trying them out on your TAs or group-mates</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>The aim of this activity is to find any potential issues with your questions and approach in interviewing your user domain</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Below you will find the steps for the activity</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Before you start your lo-fi user confrontations ensure you run your plan by either the TA assigned to you or one of the lecturers.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>After that fill out the ethics checklist (links provided below) and submit it to one of the lecturers before the start of your lo-fi study.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Once you get the approval from the lecturers you can start your lo-fi prototype study</li>
+                          
                         </ul>
                         <br/>
-                        <u>Steps</u>
+                        <u>Helpful Resources</u>
                         <br/>
                         <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>This exercise should not take more than 30 minutes. Show ensure you plan everything accordingly</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 1: Determine the roles:</li>
-                            <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>1 person will take the role of the interviewer</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>1 person will take the role of the interviewee</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>1-2 persons will take notes on the responses/feedback provided/mistakes in the procdeure followed</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Remaining will observe</li>
-                            </ul>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 2: Follow the interview plans you have devised</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 3: When asking the questions the peple observing or taking notes must keep track of questions that sound close-ended, biases, parts where a follow up question might have been missed, forced the interviwee to respond in a close-ended form etc.</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 4: Discuss the issues recorded with the group</li>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}>Step 5: Edit your interview questions</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Ethics Checklist for Lo-Fi User Confrontation: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3361749?module_item_id=370845">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form for Lo-Fi User Confrontations (English): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3361751?module_item_id=370847">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form for Lo-Fi User Confrontations (Dutch): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3361750?module_item_id=370846">Link</a></li>
                         </ul>
                       </div>
-                    </div> */}
+                    </div>
 
                     {/* <div className='pro-bodytext'>
                       <h4 id="testphase2" className='sub-header'>Day 8: Test: User Confrontations</h4>

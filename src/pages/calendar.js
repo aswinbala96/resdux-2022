@@ -161,13 +161,13 @@ const CalendarPage = () => {
                           <td>
                             {/* Add href={""} */}
                             Interviews & Lo-Fi Preparation
-                            <div style={{fontSize: '0.95em'}} className='note'>28th November (<a href={"https://canvas.utwente.nl/courses/11018/files/3355475?module_item_id=370125"} target={"_blank"} style={{}}>Mon</a>) & 1st December (<a href={""} target={"_blank"} style={{}}>Thurs</a>)</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>28th November (<a href={"https://canvas.utwente.nl/courses/11018/files/3355475?module_item_id=370125"} target={"_blank"} style={{}}>Mon</a>) & 1st December (<a href={"https://canvas.utwente.nl/courses/11018/files/3361752?module_item_id=370848"} target={"_blank"} style={{}}>Thurs</a>)</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                               <li style={{cursor: "pointer"}}><Link1 smooth to="/home#empphase2"><a>Apply Theory to Formulate Interview Questions & Plans to Record Observations</a></Link1></li>
-                              <li style={{cursor: "pointer"}}><a >Understand Ethical Considerations for Performing Research</a></li>
-                              <li style={{cursor: "pointer"}}><a >Apply Key Ethical Considerations for Research & Draft Ethical Consent Package</a></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#empphase2"><a >Understand Ethical Considerations for Performing Research</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#empphase2"><a >Apply Key Ethical Considerations for Research & Draft Ethical Consent Package</a></Link1></li>
                             </ul>
                           </td>
                           <td>
@@ -181,28 +181,28 @@ const CalendarPage = () => {
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000108"}>Lazar CH 10: Usability Testing</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B978012805390400011X"}>Lazar CH 11: Analyzing Qualitative Data</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.youtube.com/watch?v=AjFulCZglYo"}>Video: The Power of Prototyping </a></li>
+                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/pages/2022-wk-4-links-heuristics?module_item_id=371200"}>Heuristics Links</a></li>
                             </ul>
                           </td>
                           <td>
-                            {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Analyzing Qualitative Data & Usability Testing</a>
+                            <a href = {"https://canvas.utwente.nl/courses/11018/files/3367992?module_item_id=371501"} target={"_blank"} style={{}}>Analyzing Qualitative Data & Usability Testing</a>
                             <div style={{fontSize: '0.95em'}} className='note'>5th December (Monday)</div>
                             <br/>
-                            {/* Add href={""} */}
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target={"_blank"} style={{}}>Exam 2</a>
+                            <a href="https://canvas.utwente.nl/courses/11018/files/3370654?module_item_id=371797" target={"_blank"} style={{}}>Exam 2</a>
                             <div style={{fontSize: '0.95em'}} className='note'>8th December (Thursday)</div>
                             <div style={{fontSize: '0.95em'}} className='note'>Them 1 & Them 2 </div>
                           </td>
                           <td>
                             {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Lo-Fi Prototyping & User Confrontations</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>5th (Mon) & 8th (Thurs) December</div>
+                            Lo-Fi Prototyping & User Confrontations
+                            <div style={{fontSize: '0.95em'}} className='note'>5th (<a href={""} target={"_blank"} style={{}}>Mon</a>) & 8th (<a href={""} target={"_blank"} style={{}}>Thurs</a>) December</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li style={{cursor: "pointer"}}><a >Apply Theory to Identify Key-Interactions</a></li>
-                              <li style={{cursor: "pointer"}}><a >Apply Theory to Devise Meaningful Lo-Fi Prototypes</a></li>
-                              <li style={{cursor: "pointer"}}><a >Apply Theory to Perform Meaningful Playtesting</a></li>
+                            
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase2"><a>Apply Theory to Identify Key-Interactions</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase2"><a>Apply Theory to Devise Meaningful Lo-Fi Prototypes</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase2"><a>Apply Theory to Perform Meaningful Playtesting</a></Link1></li>
                               <li style={{cursor: "pointer"}}><a >Analyse and Evaluate Results from Interviews, Observations, & User Confrontations</a></li>
                             </ul>
                           </td>
