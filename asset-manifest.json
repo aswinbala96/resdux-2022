@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resdux-2022/static/css/main.cb007b71.css",
-    "main.js": "/resdux-2022/static/js/main.ec938151.js",
+    "main.css": "/resdux-2022/static/css/main.11c3ed05.css",
+    "main.js": "/resdux-2022/static/js/main.d690dee0.js",
     "static/media/ieee.PNG": "/resdux-2022/static/media/ieee.354bea4b79ac0857c88e.PNG",
     "static/media/cheat.PNG": "/resdux-2022/static/media/cheat.c3d7c018539d4d4efbf5.PNG",
     "static/media/acm.PNG": "/resdux-2022/static/media/acm.646a15e58a882963293b.PNG",
@@ -33,11 +33,11 @@
     "static/media/day_map.PNG": "/resdux-2022/static/media/day_map.863794515c0ef086c4f6.PNG",
     "static/media/res_col.PNG": "/resdux-2022/static/media/res_col.fc94dc5dd7467b6e3193.PNG",
     "index.html": "/resdux-2022/index.html",
-    "main.cb007b71.css.map": "/resdux-2022/static/css/main.cb007b71.css.map",
-    "main.ec938151.js.map": "/resdux-2022/static/js/main.ec938151.js.map"
+    "main.11c3ed05.css.map": "/resdux-2022/static/css/main.11c3ed05.css.map",
+    "main.d690dee0.js.map": "/resdux-2022/static/js/main.d690dee0.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb007b71.css",
-    "static/js/main.ec938151.js"
+    "static/css/main.11c3ed05.css",
+    "static/js/main.d690dee0.js"
   ]
 }
