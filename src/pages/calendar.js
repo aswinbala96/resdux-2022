@@ -195,15 +195,15 @@ const CalendarPage = () => {
                           <td>
                             {/* Add href={""} */}
                             Lo-Fi Prototyping & User Confrontations
-                            <div style={{fontSize: '0.95em'}} className='note'>5th (<a href={""} target={"_blank"} style={{}}>Mon</a>) & 8th (<a href={""} target={"_blank"} style={{}}>Thurs</a>) December</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>5th (<a href={"https://canvas.utwente.nl/courses/11018/files/3398582?module_item_id=374753"} target={"_blank"} style={{}}>Mon</a>) & 8th Thurs December</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
                             
                               <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase2"><a>Apply Theory to Identify Key-Interactions</a></Link1></li>
                               <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase2"><a>Apply Theory to Devise Meaningful Lo-Fi Prototypes</a></Link1></li>
-                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase2"><a>Apply Theory to Perform Meaningful Playtesting</a></Link1></li>
-                              <li style={{cursor: "pointer"}}><a >Analyse and Evaluate Results from Interviews, Observations, & User Confrontations</a></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#testphase2"><a>Apply Theory to Perform Meaningful Playtesting</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#testphase2"><a>Analyse and Evaluate Results from Interviews, Observations, & User Confrontations</a></Link1></li>
                             </ul>
                           </td>
                           <td>
@@ -219,24 +219,26 @@ const CalendarPage = () => {
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000029"}>Lazar CH2: Experimental Research</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 3: Making Research</a></li>
                               <li style={{cursor: "pointer"}}><a target={"_blank"} href={"http://ezproxy2.utwente.nl/login?url=https://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=2225867&site=ehost-live&ebv=EB&ppid=pp_549"}>The Art of Game Design CH33: Games Transform their Players</a></li>
+                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/pages/2022-wk-5-materials-two-tognazzini-sources?module_item_id=372613"}>Tognazzini Sources</a></li>
+                              <li style={{cursor: "pointer"}}><a target={"_blank"} href={"http://simonwallner.at/ext/fitts/"}>Fitts Test</a></li>
                             </ul>
                           </td>
                           <td>
-                            {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Experimental Research & Making Research</a>
+                            {/* Add */}
+                            <a href={"https://canvas.utwente.nl/courses/11018/files/3382253?module_item_id=372935"} target={"_blank"} style={{}}>Prototyping & Usability Testing</a>
                             <div style={{fontSize: '0.95em'}} className='note'>12th December (Monday)</div>
                           </td>
                           <td>
                             {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>12th (Mon) & 15th (Thur) December (Monday)</div>
+                            Hi-Fi Prototyping
+                            <div style={{fontSize: '0.95em'}} className='note'>12th (<a href={"https://canvas.utwente.nl/courses/11018/files/3398583?module_item_id=374754"} target={"_blank"} style={{}}>Mon</a>) & 15th (<a href={"https://canvas.utwente.nl/courses/11018/files/3398584?module_item_id=374755"} target={"_blank"} style={{}}>Thurs</a>) December</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li style={{cursor: "pointer"}}><a >Understand Underlying Principles, Heuristics, & Guidelines</a></li>
-                              <li style={{cursor: "pointer"}}><a >Preliminary Description of Prototype and Interaction</a></li>
-                              <li style={{cursor: "pointer"}}><a >Preliminary Diagrams of the System</a></li>
-                              <li style={{cursor: "pointer"}}><a >Preliminary Content of the Application</a></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase3"><a>Understand Underlying Principles, Heuristics, & Guidelines</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase3"><a>Preliminary Description of Prototype and Interaction</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase3"><a>Preliminary Diagrams of the System</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase3"><a>Preliminary Content of the Application</a></Link1></li>
                             </ul>
                           </td>
                           <td>
@@ -253,20 +255,20 @@ const CalendarPage = () => {
                             </ul>
                           </td>
                           <td>
-                            {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
+                            {/* Add  */}
+                            <a href={"https://canvas.utwente.nl/courses/11018/files/3394589?module_item_id=374240"} target={"_blank"} style={{}}>Video Prototyping & Experimental Research</a>
                             <div style={{fontSize: '0.95em'}} className='note'>19th December (Monday)</div>
                           </td>
                           <td>
                             {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>19th (Mon) & 22nd (Thur) December (Monday)</div>
+                            Hi-Fi Prototyping
+                            <div style={{fontSize: '0.95em'}} className='note'>19th Mon & 22nd Thurs December</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li style={{cursor: "pointer"}}><a >Updated Description of Prototype and Interaction</a></li>
-                              <li style={{cursor: "pointer"}}><a >Updated Diagrams of the System</a></li>
-                              <li style={{cursor: "pointer"}}><a >Updated Content of the Application</a></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase3"><a>Updated Description of Prototype and Interaction</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase3"><a>Updated Diagrams of the System</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#protophase3"><a>Updated Content of the Application</a></Link1></li>
                             </ul>
                           </td>
                           <td>

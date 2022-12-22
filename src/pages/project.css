@@ -436,7 +436,7 @@ h3:before{
     font-family: 'Space Mono', monospace;
     margin-right: 5px;
     border-radius: 5px;
-    /* cursor: pointer; */cursor: not-allowed;
+    cursor: pointer;
 }
 
 .phase-4{
