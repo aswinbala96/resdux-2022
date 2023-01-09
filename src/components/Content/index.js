@@ -139,14 +139,14 @@ function Content() {
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "#fe6993"}}><Link1 smooth to="#protophase3" className='phasetextt' style={{color:"#fe6993"}}>Days 9-12: Hi-Fi Protoype</Link1></div>
+                                    </div>                                    
+                                    <div class="boxes" style={{border: 'none'}}></div>
+                    
+                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "#fe6993"}}><Link1 smooth to="#testphase3" className='phasetextt' style={{color:"#fe6993"}}>Day 13: Experimental Testing</Link1></div>
                                     </div>
+                                    <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{border: 'none'}}></div> */}
-                                    <div class="boxes" style={{border: 'none'}}></div>
-                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#fe6993"}}><Link1 smooth to="#testphase3" className='phasetextt' style={{color:"#fe6993"}}>Experimental Testing</Link1></div>
-                                    </div> */}
-                                    <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#fe6993"}}><Link1 smooth to="#test2phase3" className='phasetextt' style={{color:"#fe6993"}}>User Confrontations</Link1></div>
                                     </div> */}
@@ -194,7 +194,7 @@ function Content() {
                                         </Link1> 
                                     </div>
                                     <div class = 'phase-3' onClick={handleClick1}>
-                                        <Link1 smooth to="#phase3" className='linkunder' style={{color: "#fe6993", cursor: "not-allowed"}}>
+                                        <Link1 smooth to="#phase3" className='linkunder' style={{color: "#fe6993"}}>
                                             Phase 3
                                         </Link1> 
                                     </div>

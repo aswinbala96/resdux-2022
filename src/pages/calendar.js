@@ -286,13 +286,13 @@ const CalendarPage = () => {
                           </td>
                           <td>
                             {/* Add href={""} */}
-                            <a target={"_blank"} style={{}}>Experimental Design & Statistical Analysis</a>
+                            <a href={"https://canvas.utwente.nl/courses/11018/files/3412709?module_item_id=376275"} target={"_blank"} style={{}}>Study Design, Statistics, and Measuring Success</a>
                             <div style={{fontSize: '0.95em'}} className='note'>9th January (Monday)</div>
                           </td>
                           <td>
                             {/* Add href={""} */}
                             <a target={"_blank"} style={{}}>Research Designs & Hi-Fi Prototyping</a>
-                            <div style={{fontSize: '0.95em'}} className='note'>9th (Mon) & 12th (Thur) January</div>
+                            <div style={{fontSize: '0.95em'}} className='note'>9th (<a href={"https://canvas.utwente.nl/courses/11018/files/3412393?module_item_id=376191"} target={"_blank"} style={{}}>Mon</a>) & 12th (<a href={""} target={"_blank"} style={{}}>Thurs</a>) December</div>
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>

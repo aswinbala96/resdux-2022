@@ -116,8 +116,8 @@ function MainDuplicate() {
                     </ul>
                 </SidePanel>
                 <MainPanel>
-                    <div style={{display: "flex", flexDirection: 'column', width: "100%", height: "98%"}}>
-                        <div style={{display: isShown1 ? 'block' : 'none', flexDirection: 'column', height: "90%" }}>
+                <div style={{display: "flex", flexDirection: 'column', width: "100%", height: "98%"}}>
+                        <div style={{display: isShown1 ? 'none' : 'block', flexDirection: 'column', height: "90%" }}>
                             <div style={{display: "flex"}}>
                                 <div onClick={handleClick1} style={{cursor: "pointer", flex: 1}}> 
                                     <IoIosArrowRoundBack/>
@@ -125,14 +125,14 @@ function MainDuplicate() {
                             </div>
                             <ProjectPage/>
                         </div>
-                        <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown1 ? 'none' : 'block'}}>
+                        <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown1 ? 'block' : 'none'}}>
                             Project Phase Timeline Overview (Click on Various Elements!)
                         </div>
                         {/* alignItems: "center", justifyContent: "center" */}
-                        <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown1 ? 'none' : 'flex'}}>
+                        <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown1 ? 'flex' : 'none'}}>
                             <div style={{display: "flex", flexDirection: "column", width: "100%", height: "80%"}}>
                                 <div className= "TTextContainer" style={{flex: 1, display: "flex", backgroundColor: "white", width: "99%", height: "100%", marginRight: "20px", paddingTop: "5px"}}>
-                                <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
+                                    <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#empphase1" className='phasetextt' style={{color: "rgb(7, 100, 44)"}}>Day 1: Context Analysis: Part 1</Link1></div>
                                     </div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
@@ -156,14 +156,14 @@ function MainDuplicate() {
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "#fe6993"}}><Link1 smooth to="#protophase3" className='phasetextt' style={{color:"#fe6993"}}>Days 9-12: Hi-Fi Protoype</Link1></div>
+                                    </div>                                    
+                                    <div class="boxes" style={{border: 'none'}}></div>
+                    
+                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "#fe6993"}}><Link1 smooth to="#testphase3" className='phasetextt' style={{color:"#fe6993"}}>Day 13: Experimental Testing</Link1></div>
                                     </div>
+                                    <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{border: 'none'}}></div> */}
-                                    <div class="boxes" style={{border: 'none'}}></div>
-                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#fe6993"}}><Link1 smooth to="#testphase3" className='phasetextt' style={{color:"#fe6993"}}>Experimental Testing</Link1></div>
-                                    </div> */}
-                                    <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#fe6993"}}><Link1 smooth to="#test2phase3" className='phasetextt' style={{color:"#fe6993"}}>User Confrontations</Link1></div>
                                     </div> */}
@@ -182,11 +182,12 @@ function MainDuplicate() {
                                 </div>
                                 <div className= "TlineContainer" style={{flex: 0.2, display: "flex", backgroundColor: "white", width: "99%", height: "100%", marginRight: "20px", paddingTop: "5px"}}>
                                     <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor:'rgba(127, 220, 127, 0.37)'}}></div>
-                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor:'rgba(127, 220, 127, 0.37)'}}></div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor:'rgba(127, 220, 127, 0.37)'}}></div>
                                     <div class="boxes" style={{border: 'none'}}></div>
+                                    <div class="boxes" style={{borderBottom: 'none', borderRight: 'none', borderTop: 'none', borderColor: "rgba(19, 162, 202, 0.37)"}}></div>
                                     <div class="boxes" style={{borderBottom: 'none', borderTop: 'none', borderColor: "rgba(19, 162, 202, 0.37)"}}></div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(19, 162, 202, 0.37)"}}></div>
+                                    <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none',borderColor: "rgba(254, 105, 147, 0.1)"}}></div>
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(254, 105, 147, 0.1)"}}></div>
@@ -195,9 +196,8 @@ function MainDuplicate() {
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(127, 50, 215, 0.249)"}}></div>
                                     <div class="boxes" style={{border: 'none'}}></div>
-                                    <div class="boxesr" style={{border: 'none', color: "white"}}>.</div>
-                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(127, 50, 215, 0.249)"}}></div>
-                                    
+                                    <div class="boxes" style={{border: 'none', color: "white"}}>.</div>
+                                    <div class="boxesr" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', borderColor: "rgba(127, 50, 215, 0.249)"}}></div>
                                 </div>
                                 <div class = 'phase-bar'>
                                     <div class = 'phase-1' onClick={handleClick1}>
@@ -216,7 +216,7 @@ function MainDuplicate() {
                                         </Link1> 
                                     </div>
                                     <div class = 'phase-4' onClick={handleClick1}>
-                                        <Link1 smooth to="#phase4" className='linkunder' style={{color: "#302aa2"}}>
+                                        <Link1 smooth to="#phase4" className='linkunder' style={{color: "#302aa2", cursor: "not-allowed"}}>
                                             Phase 4
                                         </Link1> 
                                     </div>

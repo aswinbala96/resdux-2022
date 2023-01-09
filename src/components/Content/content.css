@@ -127,13 +127,13 @@
 /* .phase-4:hover{
     transform: scale(1.04);
     transition: 0.2s ease-in-out;
-}
+} */
 
 
 .phase-3:hover{
     transform: scale(1.03);
     transition: 0.2s ease-in-out;
-} */
+}
 
 .phase-2{
     flex: 1;

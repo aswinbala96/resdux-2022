@@ -1287,7 +1287,9 @@ const ProjectPage = () => {
                               <li>
                                 <Link1 className='projectLink1' smooth to={"#protocontent"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Creating Content for your Application</a></Link1>
                               </li>
-                              
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#protoresources"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Browse List of Resources to Develop Hi-Fi Prototype</a></Link1>
+                              </li>
                             </ul>
                         </div>
                       </div>
@@ -1314,13 +1316,6 @@ const ProjectPage = () => {
                             <li style={{fontFamily: "Inconsolata, monospace"}}>Decription of limitations if any.</li>
                           </ul>
                         </ul>
-                        <br/>
-                        <br/>
-                        <u>Helpful Resources</u>
-                        <br/>
-                        <ul class= 'ul-style'>
-                          <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={""}>To be added soon</a></li>
-                        </ul>
                       </div>
 
                       <h4 id="protodia" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Creating Diagrams of your System</h4>
@@ -1329,13 +1324,6 @@ const ProjectPage = () => {
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Once you have created a description of all the hardware and software aspects of your prototype the next step is to create relevant diagrams of your system.</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>For hardware side of the prototype, If applicable, these could be prototype design mockups/actual images, wiring diagrams, assembly instructions, usage instructions etc.</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>For software side of the prototype, If applicable, these could be program flow charts, desgn mockup/actula images of the software interfaces etc.</li>
-                        </ul>
-                        <br/>
-                        <br/>
-                        <u>Helpful Resources</u>
-                        <br/>
-                        <ul class= 'ul-style'>
-                        <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={""}>To be added soon</a></li>
                         </ul>
                       </div>
 
@@ -1347,12 +1335,116 @@ const ProjectPage = () => {
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Once you have done that, explain in detail using images/illustrations your choices and the reasons behind those choices.</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>With that also indicate the intended effect you hope your intervention will have on your user group.</li>
                         </ul>
-                        <br/>
-                        <br/>
-                        <u>Helpful Resources</u>
-                        <br/>
+                      </div>
+
+                      <h4 id="protoresources" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 4: Browse List of Resources to Develop Hi-Fi Prototype</h4>
+                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
-                        <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={""}>To be added soon</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Android</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://developer.android.com/design/index.html"}>Android Design Guide</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>General design patterns and best practices for Android apps.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://www.google.com/design/spec/material-design/introduction.html"}>Android Material Design Language</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Walkthrough of Android's new "Material Design" style, from high-level principles to detailed examples.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.learnui.design/blog/ios-vs-android-app-ui-design-complete-guide.html"}>Android & iOS Design Guide</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Guide comparing common design patterns and best practices for both Android and iOS apps.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://developer.android.com/develop/index.html"}>Android Developers Homepage</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Tutorials, documentation, and sample code for Android developers.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://guides.codepath.com/android/Beginning-Android-Resources"}>CodePath Android Course</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>A guide to Android written by CodePath</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://guides.codepath.com/android/Beginning-Android-Resources"}>Stack Overflow - Android</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>The Android section of Stack Overflow, a popular question-and-answer platform for coders. Search and ask away!</li></ul>
+                          </ul>
+
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>iOS</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/"}>iOS UI Design Guide</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Design principles and best practices for iOS apps.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://developer.apple.com/design/tips/"}>iOS UI Design Dos and Don'ts</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Simple illustrated guide for basic iOS design principles. </li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://developer.apple.com/design/tips/"}>Apple iOS Developer Center</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Tutorials, documentation, and sample code for iOS developers.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://codewithchris.com/how-to-make-iphone-apps-with-no-programming-experience/"}>How to make iPhone apps with no programming experience</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Great beginner's guide to making iPhone apps.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://stackoverflow.com/questions/tagged/ios"}>Stack Overflow - iOS</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>The iOS section of Stack Overflow, a popular question-and-answer platform for coders. Search and ask away!</li></ul>
+                          </ul>
+
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Web</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://getbootstrap.com/"}>Bootstrap</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Popular HTML/CSS/JS framework. Offers nice, modern (but arguably generic) UI elements and animations.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://foundation.zurb.com/"}>Foundation</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Another popular front-end framework. Great for apps that need to be responsive (different layouts on different platforms).</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://www.google.com/fonts"}>Google WebFonts</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Massive collection of free fonts to download or add to your web page.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://hellohappy.org/beautiful-web-type/"}>Beautiful Web Type</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>A curation of some of the best fonts from Google WebFonts.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://d3js.org/"}>D3.js</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>A JavaScript library for manipulating webpages based on data. Popular for data visualization / interactive infographics.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://daneden.github.io/animate.css/"}>Animate.css</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Simple animations done only using CSS.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://www.codecademy.com/en/tracks/web"}>Codecademy - HTML and CSS</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Complete beginner's guide to building web pages with HTML and CSS.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://jstherightway.org/"}>JS The Right Way</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Fantastic beginner's guide to coding in JavaScript.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://nodejs.org/"}>Node.js</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Server-side JavaScript framework and runtime. Get a web server running with 6 lines of code.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://nodeschool.io/#workshoppers"}>Node School</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Interactive walkthroughs help you code your first Node.js application.</li></ul>
+                          </ul>
+
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Prototyping</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "0rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.figma.com/"}>Figma</a></li>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "0rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://www.invisionapp.com/"}>InVision</a></li>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "0em"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://proto.io/"}>Proto.io</a></li>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "0rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://fritzing.org/"}>Fritzing</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Application to test/troubeshoot your breadboard/sensor assemblies.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.4rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://dribbble.com/"}>Dribbble </a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Popular amongst designers showing snippets of their work</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.4rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://pttrns.com/"}>Pttrns </a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Catalog of screenshots showcasing the UI of released apps</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.4rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://practicaltypography.com/"}>Butterick's Practical Typography</a></li>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "0rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://www.kaikkonendesign.fi/typography/"}>Interactive Guide to Blog Typography</a></li>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "0rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://color.adobe.com/create/color-wheel/?copy=true&base=2&rule=Analogous&selected=2&name=Copy%20of%20Birdfolio%20Blues&mode=rgb&rgbvalues=0.9205880000000001,0.42626880519764604,0.6181146166454948,0.7418559462941582,0.4447903937996111,0.960588,0.44664621944518973,0.5210531384435333,0.870588,0.4447903937996111,0.912490052237982,0.960588,0.4067953288629323,0.9205880000000001,0.5680549854063908&swatchOrder=0,1,2,3,4"}>Adobe Color</a></li>
+                          </ul>
+
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Backend Server</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://firebase.google.com/docs/android/setup"}>Firebase for Android</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Guide to help get Firebase (Server to track and maintain backend related functions of application/website) setup for Android</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://getbootstrap.com/"}>Firebase for iOS</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Guide to help get Firebase setup for iOS</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://getbootstrap.com/"}>Firebase for Web</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Guide to help get Firebase setup for Webiste</li></ul>
+                          </ul>
+ 
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Hardware & Electronics</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.hackster.io/"}>Hackster IO</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Arudino Projects</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://getbootstrap.com/"}>EEVblog</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Electronics Engineering Video Blog</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.electromaker.io/blog/article/best-maker-youtube-channels-to-follow"}>Various Maker Space Blogs/Youtube Channels</a></li>
+                          </ul>
+
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Testing & Debugging</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://firebase.google.com/docs/test-lab/"}>Android Device Testing</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Test your app on devices hosted in a Google data center</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://www.browserstack.com/responsive"}>Responsive Design Testing</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Paste in a URL, generate a screenshot of your web app layout on any device or screen size.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://developer.android.com/topic/libraries/testing-support-library/index.html"}>Android Testing</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Testing your Android App using the Testing Framework</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://developer.android.com/tools/debugging/index.html"}>Android Debugging</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>How to test and debug your Android app.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://developer.apple.com/support/technical/debugging/"}>iOS Debugging</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>How to test and debug your iOS app.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://developer.chrome.com/devtools/docs/javascript-debugging"}>JavaScript Debugging in Chrome</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>How to test and debug your JavaScript in Chrome.</li></ul>
+                          </ul>
+
                         </ul>
                       </div>
                     </div>
@@ -1395,8 +1487,8 @@ const ProjectPage = () => {
                         <div style={{paddingLeft: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
                           <ul class= 'ul-style'>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
+                              <li> Dont delete this
+                                <a href={"https://www.nngroup.com/articles/quantitative-user-research-methods/"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
                               </li>
                               <li>
                                 <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
