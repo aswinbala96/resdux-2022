@@ -86,7 +86,7 @@ const CalendarPage = () => {
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#empphase1"><a >Description of target user group and domain</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/#empphase1"><a >Description of target user group and domain</a></Link1></li>
                               <li style={{cursor: "pointer"}}><Link1 smooth to="/home#defphase1"><a >Develop Research Questions</a></Link1></li>
                               <li style={{cursor: "pointer"}}><Link1 smooth to="/home#ideaphase1"><a >Develop Relevant Product Concept and Global Requirements</a></Link1></li>
                             </ul>
@@ -296,8 +296,8 @@ const CalendarPage = () => {
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li style={{cursor: "pointer"}}><a >Evaluation Plans</a></li>
-                              <li style={{cursor: "pointer"}}><a >Pilot</a></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#testphase3"><a>Evaluation Plans</a></Link1></li>
+                              <li style={{cursor: "pointer"}}><Link1 smooth to="/home#test2phase3"><a>Conduct Your Pilot Study</a></Link1></li>
                             </ul>
                           </td>
                           <td>
@@ -329,8 +329,8 @@ const CalendarPage = () => {
                             <br/>
                             <div style={{}}>Objectives</div>
                             <ul style={{fontSize: '0.95em', marginLeft: '1em', listStyle: "circle"}}>
-                              <li style={{cursor: "pointer"}}><a >Content for Introduction Section</a></li>
-                              <li style={{cursor: "pointer"}}><a >Content for Discussion Section</a></li>
+                              <li style={{cursor: "pointer"}}><a>Content for Introduction Section</a></li>
+                              <li style={{cursor: "pointer"}}><a>Content for Discussion Section</a></li>
                             </ul>
                           </td>
                           <td>

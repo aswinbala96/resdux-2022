@@ -1065,12 +1065,12 @@ const ProjectPage = () => {
                               <li>
                                 <Link1 className='projectLink1' smooth to={"#protolofi"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Creating a Lo-Fi Prototype</a></Link1>                                
                               </li>
-                              <li>
+                              {/* <li>
                                 <Link1 className='projectLink1' smooth to={"#lofiplan"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Developing a Plan for User Confrontations with Lo Fi Prototype</a></Link1>
                               </li>
                               <li>
                                 <Link1 className='projectLink1' smooth to={"#ethicslofi"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Fill Out the Ethics Checklist for Lo-Fi User Confrontation</a></Link1>
-                              </li>
+                              </li> */}
                               
                             </ul>
                         </div>
@@ -1183,7 +1183,6 @@ const ProjectPage = () => {
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Before you start your lo-fi user confrontations ensure you run your plan by either the TA assigned to you or one of the lecturers.</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>After that fill out the ethics checklist (links provided below) and submit it to one of the lecturers before the start of your lo-fi study.</li>
                           <li style={{fontFamily: "Inconsolata, monospace"}}>Once you get the approval from the lecturers you can start your lo-fi prototype study</li>
-                          
                         </ul>
                         <br/>
                         <u>Helpful Resources</u>
@@ -1276,7 +1275,7 @@ const ProjectPage = () => {
                             </ul>
                         </div>
                         <div style={{flex: 1, paddingRight: "0vh"}}>
-                        <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
                                 <Link1 className='projectLink1' smooth to={"#protodesc"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Creating the Description of Hi-Fi Prototype & Interaction</a></Link1>                                
@@ -1293,6 +1292,7 @@ const ProjectPage = () => {
                             </ul>
                         </div>
                       </div>
+
                       <h4 id="protodesc" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Creating the Description of Hi-Fi Prototype & Interaction</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
                         <ul class= 'ul-style'>
@@ -1449,186 +1449,207 @@ const ProjectPage = () => {
                       </div>
                     </div>
 
-                    {/* <div className='pro-bodytext'>
-                      <h4 id = "testphase3" className='sub-header'>Test: Experimental Testing</h4>
+                    <div className='pro-bodytext'>
+                      <h4 id = "testphase3" className='sub-header'>Day 13: Test: Experimental Testing</h4>
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                           <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>Create the Evaluation Plans for your Pilot Study/User Confrontation</li>
+                          </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000030"}>Lazar CH3: Experimental Design</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000042"}>Lazar CH4: Statistical Analysis</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 4: Making Research</a></li>
+                            </ul>                            
                         </div>
                       </div>
+
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3394589?module_item_id=374240"}>Video Prototyping & Experimental Research</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3412709?module_item_id=376275"}>Study Design, Statistics, and Measuring Success</a></li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
-                              <li> Dont delete this
-                                <a href={"https://www.nngroup.com/articles/quantitative-user-research-methods/"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
+                              <li>
+                                <Link1 className='projectLink1' smooth to={"#testplan"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Creating a Plan for Evaluating your Hi-Fi Prototype and User Experience</a></Link1>                                
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
+                                <Link1 className='projectLink1' smooth to={"#testethics"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Fill Out the Ethics Checklist for Lo-Fi User Confrontation</a></Link1>                                
                               </li>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
+                                <Link1 className='projectLink1' smooth to={"#testques"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Example List of Standardized/Scientific Questionnaires</a></Link1>
                               </li>
                             </ul>
                         </div>
                       </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
+
+                      <h4 id="testplan" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Creating a Plan for Evaluating your Hi-Fi Prototype and User Experience</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
+                      <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Like creating a plan for lo-fi prototype user confrontations, ensure you have a plan in place that would allow you to test your Hi-Fi prototype with users.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Make sure you have a working prototype beofre you conduct you user study and know exactly what you are trying to measure during the user confrontation</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Note: Ensure that your study includes questionnaire/questions that will help you evaluate the effectiveness of the system you developed. Below you will find a list of example questionnaires that might help you achieve this objective.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Refer the section <Link1 className='projectLink1' smooth to={"#lofiplan"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Developing a Plan for User Confrontations with Lo Fi Prototype</a></Link1> for remaining tips/notes.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Refer to the Design Method Toolkit (Links posted across the website and in the manual) to select an appropriate method to test/evaluate your prototype</li>
+                        </ul>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
+                      <h4 id="testplan" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 2: Fill Out the Ethics Checklist for Lo-Fi User Confrontation</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Before you start your hi-fi user confrontations ensure you run your plan by either the TA assigned to you or one of the lecturers.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>After that fill out the ethics checklist (links provided below) and submit it to one of the lecturers before the start of your hi-fi study.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Once you get the approval from the lecturers you can start your hi-fi prototype study</li>
+                        </ul>
+                        <br/>
                         <u>Helpful Resources</u>
+                        <br/>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Ethics Checklist for Hi-Fi User Confrontation: <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3361749?module_item_id=370845">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form for Hi-Fi User Confrontations (English): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3412389?module_item_id=376189">Link</a></li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Information Brocheure & Informed Consent Form for Hi-Fi User Confrontations (Dutch): <a target="_blank" style={{fontFamily: "Inconsolata, monospace"}} href="https://canvas.utwente.nl/courses/11018/files/3412388?module_item_id=376188">Link</a></li>
+                        </ul>
                       </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
+                      <h4 id="protoresources" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 3: Browse List of Resources to Develop Hi-Fi Prototype</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
+                        <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Example of Questionnaires that Evaluate User Experience</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://link.springer.com/chapter/10.1007/978-3-322-80058-9_19"}>AttrakDiff</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>AttrakDiff is a standardized test that evaluates the user’s experience.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.ueq-online.org/"}>UEQ</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Questionnaire to measure the User Experience of interactive products.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"http://mecue.de/english/home.html"}>meCUE</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Questionnaire, which focuses on the modular acquisition of user-centered reviews and their experience of interactive technical products.</li></ul>
+                            
+                          </ul>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-                    </div> */}
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Example of Questionnaires that Evaluate Usability</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html"}>SUS</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Scale for administering after usability tests.</li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://uiuxtrend.com/pssuq-post-study-system-usability-questionnaire/"}>PSSUQ</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Questionnaire to measure users’ perceived satisfaction of a website, software, system or product at the end of a study.</li></ul>
+                          </ul>
 
-                    {/* <div className='pro-bodytext'>
-                      <h4 id = "test2phase3"  className='sub-header'>Test: User Confrontations</h4>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Example of Questionnaires that Evaluate Usability</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.jstor.org/stable/30036540#metadata_info_tab_contents"}>UTAUT Model</a></li>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-0.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://uxpajournal.org/tam-formats-effect-response-labels-order/#:~:text=The%20TAM%20questionnaire%20is%20made,experience%20of%20its%20actual%20use."}>TAM</a></li>
+                          </ul>
+
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Example of Questionnaires that Evaluate Trust</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8562383/"}>Measurement of Trust in Automation: A Narrative Review and Reference Guide</a></li>
+                          </ul>
+
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Example of Other Relevant Questionnaires</li>
+                          <ul class= 'ul-style'>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://dl.acm.org/doi/10.1145/3549507"}>miniPXI</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Eleven-item measure of the popular Player Experience Inventory </li></ul>
+                            <li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://web-archive.southampton.ac.uk/cogprints.org/7026/1/Harms_04_reliability_validity_social_presence_(Biocca).pdf"}>Internal Consistency and Reliability of the Networked Minds</a></li>
+                              <ul class= 'ul-style'><li style={{fontFamily: "Inconsolata, monospace", marginTop: "-1.5rem"}}>Measure of Social Presence</li></ul>
+                          </ul>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className='pro-bodytext'>
+                      <h4 id = "test2phase3"  className='sub-header'>Day 14: Test: User Confrontations</h4>
+                      
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Objectives:</u>
                           <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
+                            <li style={{fontFamily: "Inconsolata, monospace"}}>Conduct the Pilot Study to Test the Intervention you Created</li>
+                          </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
+
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
                           <u style={{fontFamily: "Inconsolata, monospace"}}>Required Reading: </u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Item 5</li>
-                            </ul>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000030"}>Lazar CH3: Experimental Design</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://www.sciencedirect.com/science/article/pii/B9780128053904000042"}>Lazar CH4: Statistical Analysis</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3330974?module_item_id=366594"}>Reader PT 4: Making Research</a></li>
+                            </ul>                            
                         </div>
                       </div>
+
                       <div className='pro-bodytext' style={{display: "flex", width: "70%", width:"fit-content"}}>
-                        <div style={{paddingRight: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Theory:</u>
-                          <ul class= 'ul-style'>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 1</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 2</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 3</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 4</li>
-                              <li style={{fontFamily: "Inconsolata, monospace"}}>Topic 5</li>
+                        <div style={{flex: 1, paddingRight: "5vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Lecture (Reference):</u>
+                            <ul class= 'ul-style'>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3394589?module_item_id=374240"}>Video Prototyping & Experimental Research</a></li>
+                              <li style={{fontFamily: "Inconsolata, monospace"}}><a className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}} target={"_blank"} href={"https://canvas.utwente.nl/courses/11018/files/3412709?module_item_id=376275"}>Study Design, Statistics, and Measuring Success</a></li>
                             </ul>
                         </div>
-                        <div style={{paddingLeft: "5vh"}}>
-                          <u style={{fontFamily: "Inconsolata, monospace"}}>Project Things to Do!</u>
+                        <div style={{flex: 1, paddingRight: "0vh"}}>
+                          <u style={{fontFamily: "Inconsolata, monospace"}}>Activities to Do!</u>
                           <ul class= 'ul-style'>
                               <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 1</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 2</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 3</a>
-                              </li>
-                              <li>
-                                <a href={"https://www.google.com"} target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Thing 4</a>
+                                <Link1 className='projectLink1' smooth to={"#teststudy"}> <a target="_blank" className='textHover' style={{fontFamily: "Inconsolata, monospace", cursor: "pointer", color: "#1228e2"}}>Conduct Pilot Study</a></Link1>                                
                               </li>
                             </ul>
                         </div>
                       </div>
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Thing 1</h4>
+                      
+                      <h4 id="testplan" style={{fontWeight: "500", borderBottom: "1px solid darkgrey", width:"fit-content"}}>Activity 1: Conduct Pilot Study</h4>
                       <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
+                      <ul class= 'ul-style'>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Before you start your study you have a plan in place. Refer to the tips provided above and discussed during the tutorials.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Ensure your plan follows ethically validated procedures and was checked by one of the lecturers.</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Last but not the least conduct your study!</li>
+                          <li style={{fontFamily: "Inconsolata, monospace"}}>Once you have completed your study store your data securely and start the analysis of your data. Note down all your insights and discuss them in your report</li>
+                        </ul>
+                      </div>                      
+                    </div>
 
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 2</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 3</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-
-                      <h4 style={{fontWeight: "100", borderBottom: "1px solid darkgrey", width:"fit-content", paddingTop: "15px"}}>Thing 4</h4>
-                      <div style={{paddingLeft:"25px", paddingTop: "10px"}}>
-                        <u>Examples</u> <br/>
-                        <u>Helpful Resources</u>
-                      </div>
-                    </div> */}
-
-                    {/* <div className='pro-bodytext'>
+                    <div className='pro-bodytext'>
                       <h4 className='sub-header'>Phase 3: Deliverable Checklist</h4>
                       <div className='check-box'>
-                        <label class="container">One
+
+                        <label class="container">Chapter 1: Introduction (Updated)
                           <input type="checkbox"/>
                           <span class="checkmark"></span>
                         </label>
 
-                        <label class="container">Two
+                        <label class="container">Chapter 4: Design of Final Hi-Fi Prototype
                           <input type="checkbox"/>
                           <span class="checkmark"></span>
                         </label>
 
-                        <label class="container">Three
+                        <label class="container">Chapter 5: Evaluation – Plan for Experimental Research Study (
                           <input type="checkbox"/>
                           <span class="checkmark"></span>
                         </label>
 
-                        <label class="container">Four
+                        <label class="container">Section 5.1: Evaluation plans 
+                          <input type="checkbox"/>
+                          <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container">Section 5.2: Pilot Study
+                          <input type="checkbox"/>
+                          <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container">Chapter 6: Discussion 
                           <input type="checkbox"/>
                           <span class="checkmark"></span>
                         </label>
                       </div>
-                    </div> */}
+                    </div>
 
 
                     {/* <h3 id="phase4" ref={phase4}>PHASE 4: <br/> FINAL DELIVERABLES & ORAL ASSESSMENT MEETING</h3>

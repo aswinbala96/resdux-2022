@@ -102,11 +102,12 @@ function MainDuplicate() {
                     </ul>
                     <h2 class= 'side-header'>Staff Info</h2>
                     <ul class= 'ul-style-con'>
-                        <li><Link1 smooth to="/logistic#dees"><span class = 'highlight'>Dees Postma</span></Link1></li>
+                    <li><Link1 smooth to="/logistic#dees"><span class = 'highlight'>Dees Postma</span></Link1></li>
                         <li><Link1 smooth to="/logistic#champika"><span class = 'highlight'>Champika Ranasinghe</span></Link1></li>
                         <li><Link1 smooth to="/logistic#aswin"><span class = 'highlight'>Aswin B</span></Link1></li>
                         <li><Link1 smooth to="/logistic#sander"><span class = 'highlight-ta'>Sander Dullaert (TA)</span></Link1></li>
                         <li><Link1 smooth to="/logistic#gerg"><span class = 'highlight-ta'>Gergana Dzhondzhorova (TA)</span></Link1></li>
+                        <li><Link1 smooth to="/logistic#tanja"><span class = 'highlight-ta'>Tanja Kampman (TA)</span></Link1></li>
                         <li><Link1 smooth to="/logistic#eva"><span class = 'highlight-ta'>Eva Lahuis (TA)</span></Link1></li>
                         <li><Link1 smooth to="/logistic#van"><span class = 'highlight-ta'>Vanessa Markos (TA)</span></Link1></li>
                         <li><Link1 smooth to="/logistic#ren"><span class = 'highlight-ta'>Renske Mulder (TA)</span></Link1></li>
@@ -117,7 +118,7 @@ function MainDuplicate() {
                 </SidePanel>
                 <MainPanel>
                 <div style={{display: "flex", flexDirection: 'column', width: "100%", height: "98%"}}>
-                        <div style={{display: isShown1 ? 'none' : 'block', flexDirection: 'column', height: "90%" }}>
+                        <div style={{display: isShown1 ? 'block' : 'none', flexDirection: 'column', height: "90%" }}>
                             <div style={{display: "flex"}}>
                                 <div onClick={handleClick1} style={{cursor: "pointer", flex: 1}}> 
                                     <IoIosArrowRoundBack/>
@@ -125,13 +126,13 @@ function MainDuplicate() {
                             </div>
                             <ProjectPage/>
                         </div>
-                        <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown1 ? 'block' : 'none'}}>
+                        <div className = "title-con" style={{flex: 1, backgroundColor: "white", width: "100%", fontFamily: 'Space Mono', fontSize: '19px',  display: isShown1 ? 'none' : 'block'}}>
                             Project Phase Timeline Overview (Click on Various Elements!)
                         </div>
                         {/* alignItems: "center", justifyContent: "center" */}
-                        <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown1 ? 'flex' : 'none'}}>
+                        <div style={{flex: 17, backgroundColor: "transparent", width: "100%", display: "flex", display: isShown1 ? 'none' : 'flex'}}>
                             <div style={{display: "flex", flexDirection: "column", width: "100%", height: "80%"}}>
-                                <div className= "TTextContainer" style={{flex: 1, display: "flex", backgroundColor: "white", width: "99%", height: "100%", marginRight: "20px", paddingTop: "5px"}}>
+                            <div className= "TTextContainer" style={{flex: 1, display: "flex", backgroundColor: "white", width: "99%", height: "100%", marginRight: "20px", paddingTop: "5px"}}>
                                     <div class="boxesl" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor:'rgba(127, 220, 127, 0.37)'}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "rgb(7, 100, 44)"}}><Link1 smooth to="#empphase1" className='phasetextt' style={{color: "rgb(7, 100, 44)"}}>Day 1: Context Analysis: Part 1</Link1></div>
                                     </div>
@@ -164,10 +165,10 @@ function MainDuplicate() {
                                     </div>
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{border: 'none'}}></div> */}
-                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#fe6993"}}><Link1 smooth to="#test2phase3" className='phasetextt' style={{color:"#fe6993"}}>User Confrontations</Link1></div>
-                                    </div> */}
-                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "#fe6993"}}><Link1 smooth to="#test2phase3" className='phasetextt' style={{color:"#fe6993"}}>Day 14: User Confrontations</Link1></div>
+                                    </div>
+                                    {/* <div class="boxes" style={{border: 'none'}}></div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(127, 50, 215, 0.249)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#302aa2"}}><Link1 smooth to="#protophase4" className='phasetextt' style={{color:"#302aa2"}}>Oral Reflection</Link1></div>

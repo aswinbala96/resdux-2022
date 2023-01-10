@@ -147,10 +147,10 @@ function Content() {
                                     </div>
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{border: 'none'}}></div> */}
-                                    {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
-                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#fe6993"}}><Link1 smooth to="#test2phase3" className='phasetextt' style={{color:"#fe6993"}}>User Confrontations</Link1></div>
-                                    </div> */}
-                                    <div class="boxes" style={{border: 'none'}}></div>
+                                    <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(254, 105, 147, 0.1)"}}>
+                                        <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "18px", color: "#fe6993"}}><Link1 smooth to="#test2phase3" className='phasetextt' style={{color:"#fe6993"}}>Day 14: User Confrontations</Link1></div>
+                                    </div>
+                                    {/* <div class="boxes" style={{border: 'none'}}></div> */}
                                     <div class="boxes" style={{border: 'none'}}></div>
                                     {/* <div class="boxes" style={{borderLeft: 'none', borderBottom: 'none', borderTop: 'none', display: "grid", borderColor: "rgba(127, 50, 215, 0.249)"}}>
                                         <div onClick={handleClick1} className='phasetextt' style={{writingMode: 'vertical-lr', transform: 'rotate(180deg)', alignSelf: "end", justifySelf: "end", margin: "5px", fontSize: "20px", color: "#302aa2"}}><Link1 smooth to="#protophase4" className='phasetextt' style={{color:"#302aa2"}}>Oral Reflection</Link1></div>
